@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Find Opportunities — Road Beyond Roles</title>
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">ROAD <span>BEYOND</span> ROLES</a>
+  <nav><a class="active" href="jobs.html">Opportunities</a><a href="jobs.html?remote=true">Remote</a></nav>
+</header>
+<main class="listing-page">
+  <section class="listing-head"><p class="eyebrow">OPPORTUNITIES</p><h1>Find the role that fits you.</h1><p>Search by role, department, location, experience, salary and more.</p></section>
+  <div class="listing-layout">
+    <aside class="filters" aria-label="Job filters">
+      <div class="filter-head"><strong>Filters</strong><button id="clearFilters" type="button">Clear all</button></div>
+      <label>Search<input id="q" type="search" placeholder="Title, company, skill"></label>
+      <label>Department<select id="department"><option value="">All departments</option></select></label>
+      <label>Company<select id="company"><option value="">All companies</option></select></label>
+      <label>Experience<select id="experience"><option value="">All experience levels</option></select></label>
+      <label>Country<select id="country"><option value="">All countries</option></select></label>
+      <label>State / Region<select id="state"><option value="">All states</option></select></label>
+      <label>City<select id="city"><option value="">All cities</option></select></label>
+      <label>Employment type<select id="employment"><option value="">All types</option></select></label>
+      <label>Salary<select id="salary"><option value="">Any salary</option><option value="0-50000">Up to $50k</option><option value="50000-100000">$50k–$100k</option><option value="100000-150000">$100k–$150k</option><option value="150000-999999999">$150k+</option></select></label>
+      <label class="check"><input id="remote" type="checkbox"> Remote only</label>
+      <label class="check"><input id="visa" type="checkbox"> Visa sponsorship</label>
+    </aside>
+    <section class="results">
+      <div class="results-toolbar"><div><strong id="resultCount">0</strong> opportunities</div><select id="sort"><option value="newest">Newest</option><option value="salary">Highest salary</option><option value="title">Title A–Z</option></select></div>
+      <div id="jobGrid" class="job-grid"></div>
+      <div id="empty" class="empty" hidden>No opportunities match those filters.</div>
+    </section>
+  </div>
+</main>
+<footer class="site-footer"><strong>Road Beyond Roles</strong><span>Find your next opportunity with me.</span></footer>
+<script src="static/app.js"></script>
+</body>
+</html>

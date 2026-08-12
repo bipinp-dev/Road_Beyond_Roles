@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Road Beyond Roles — find your next opportunity.">
+  <title>Road Beyond Roles — Find Your Next Opportunity</title>
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">ROAD <span>BEYOND</span> ROLES</a>
+  <nav><a href="jobs.html">Find Opportunities</a><a href="jobs.html?remote=true">Remote</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <p class="eyebrow">ROAD BEYOND ROLES</p>
+    <h1>Find your next opportunity.</h1>
+    <p class="hero-copy">Jobs, internships, remote roles and career opportunities — organized so you can find what fits you.</p>
+    <form class="hero-search" action="jobs.html" method="get">
+      <input name="q" type="search" placeholder="Job title, company, skill..." aria-label="Search opportunities">
+      <button type="submit">Search opportunities</button>
+    </form>
+  </section>
+  <section class="quick-links">
+    <a href="jobs.html?department=Engineering"><strong>Engineering</strong><span>Build &amp; technology</span></a>
+    <a href="jobs.html?department=Marketing"><strong>Marketing</strong><span>Growth &amp; brand</span></a>
+    <a href="jobs.html?department=Data"><strong>Data &amp; AI</strong><span>Analytics &amp; intelligence</span></a>
+    <a href="jobs.html?remote=true"><strong>Remote</strong><span>Work from anywhere</span></a>
+  </section>
+  <section class="home-section">
+    <div class="section-heading"><div><p class="eyebrow">LATEST</p><h2>Opportunities worth checking</h2></div><a class="text-link" href="jobs.html">View all →</a></div>
+    <div id="latestJobs" class="job-grid"></div>
+  </section>
+</main>
+<footer class="site-footer"><strong>Road Beyond Roles</strong><span>Beyond Every Role Lies a New Opportunity.</span></footer>
+<script src="static/app.js"></script>
+</body>
+</html>
