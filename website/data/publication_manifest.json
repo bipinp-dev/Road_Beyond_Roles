@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-09-24T05:31:34.609763+00:00",
+  "selected": 3,
+  "changed": 0,
+  "changedIds": [],
+  "websiteData": "website\\data\\jobs.json",
+  "deploymentVerified": false,
+  "nextRequiredStage": "git commit -> push -> GitHub Pages deploy -> live verification"
+}
