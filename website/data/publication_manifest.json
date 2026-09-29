@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-09-24T05:31:34.609763+00:00",
+  "generatedAt": "2026-09-29T05:16:42.851011+00:00",
   "selected": 3,
-  "changed": 0,
-  "changedIds": [],
-  "websiteData": "website\\data\\jobs.json",
+  "changed": 3,
+  "changedIds": [
+    "630114890e36e6c9",
+    "16c5e14defe729bd",
+    "e803213844e4e1c0"
+  ],
+  "websiteData": "C:\\Users\\Bipinzzz\\Downloads\\D\\AI_Operating_System\\apps\\Road_Beyond_Roles\\website\\data\\jobs.json",
   "deploymentVerified": false,
   "nextRequiredStage": "git commit -> push -> GitHub Pages deploy -> live verification"
 }
