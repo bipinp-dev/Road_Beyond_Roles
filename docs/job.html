@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Road Beyond Roles · Opportunity</title><meta name='description' content='Helping You Build a Better Career. Road Beyond Roles brings fresh career opportunities and practical career guidance.'>
+<style>
+:root{
+  --blue:#1d61e8;
+  --blue-dark:#1247b7;
+  --navy:#08162d;
+  --ink:#101828;
+  --muted:#667085;
+  --line:#e4e7ec;
+  --soft:#f5f8ff;
+  --card:#ffffff;
+  --green:#166534;
+  --shadow:0 14px 40px rgba(16,24,40,.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#f8fafc;line-height:1.55}
+a{color:inherit}
+.container{width:min(1180px,calc(100% - 32px));margin:0 auto}
+.topbar{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.logo{width:54px;height:54px;object-fit:cover;border-radius:12px;display:block;border:1px solid #edf0f5}
+.brand-copy{line-height:1.08}.brand-name{font-size:20px;font-weight:900;letter-spacing:-.6px}.brand-name span{color:var(--blue)}
+.brand-tag{font-size:11px;color:var(--muted);margin-top:5px;white-space:nowrap}
+.navlinks{display:flex;align-items:center;gap:22px;font-size:14px;font-weight:700;color:#344054}
+.navlinks a{text-decoration:none}.navlinks a:hover{color:var(--blue)}
+.youtube{background:var(--blue);color:#fff!important;padding:10px 15px;border-radius:10px;box-shadow:0 6px 16px rgba(29,97,232,.22)}
+.hero{padding:26px 0 0}
+.hero-banner{display:block;width:100%;border-radius:20px;box-shadow:var(--shadow);border:1px solid #dfe6f3;background:#fff}
+.hero-copy{display:grid;grid-template-columns:1.3fr .7fr;gap:24px;margin:22px 0 0;align-items:stretch}
+.hero-card,.trust-card{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 8px 24px rgba(16,24,40,.05)}
+.hero-card{padding:28px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:1.4px;color:var(--blue);font-weight:900}
+h1{font-size:clamp(30px,4vw,46px);line-height:1.04;letter-spacing:-1.8px;margin:8px 0 12px}.hero-card h1 span{color:var(--blue)}
+.lead{font-size:17px;color:#475467;max-width:760px;margin:0}.trust-card{padding:24px;display:flex;flex-direction:column;justify-content:center}.trust-title{font-weight:900;font-size:17px;margin-bottom:12px}.trust-item{display:flex;gap:10px;align-items:flex-start;margin:9px 0;color:#475467;font-size:14px}.dot{width:9px;height:9px;border-radius:50%;background:var(--blue);margin-top:6px;flex:0 0 auto}
+.search-wrap{margin:24px 0 0;background:var(--navy);padding:20px;border-radius:18px;box-shadow:var(--shadow)}
+.search-label{color:#fff;font-size:14px;font-weight:800;margin-bottom:9px}.search{width:100%;border:0;border-radius:11px;padding:14px 16px;font-size:15px;outline:none;background:#fff;color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}.stat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px 16px}.stat strong{display:block;font-size:22px;letter-spacing:-.5px}.stat span{font-size:12px;color:var(--muted)}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin:30px 0 13px}.section-head h2{margin:0;font-size:24px;letter-spacing:-.7px}.section-head p{margin:0;color:var(--muted);font-size:13px}
+.skills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}.chip{display:inline-flex;align-items:center;border:1px solid #dbe3f0;background:#fff;border-radius:999px;padding:5px 10px;font-size:12px;color:#475467}.chip.m{border-color:#c9dafd;background:#f3f7ff;color:#174ea6;font-weight:700}
+.job{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:20px;margin:12px 0;box-shadow:0 5px 18px rgba(16,24,40,.04)}
+.job-top{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.rank{font-size:12px;color:var(--muted);font-weight:800}.badge{display:inline-flex;color:#fff;padding:4px 10px;border-radius:999px;font-size:11px;font-weight:800;margin-left:7px}.job-title{font-size:18px;font-weight:900;line-height:1.3;margin:7px 0 5px}.job-title a{text-decoration:none}.job-title a:hover{color:var(--blue)}.meta{font-size:13px;color:#667085}.meta strong{color:#344054}.job-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:13px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:9px 12px;border-radius:9px;text-decoration:none;font-size:12px;font-weight:800;border:1px solid #d0d5dd;background:#fff}.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}.btn:hover{transform:translateY(-1px)}
+.notice{margin:28px 0;padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:14px;color:#667085;font-size:12px}
+.footer{margin-top:42px;background:var(--navy);color:#fff;padding:28px 0}.footer-grid{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-brand{font-weight:900;font-size:17px}.footer p{margin:4px 0;color:#b9c4d6;font-size:12px}.footer a{color:#fff}.footer-yt{display:inline-flex;background:var(--blue);padding:10px 14px;border-radius:9px;text-decoration:none;font-size:12px;font-weight:800}
+.detail{padding:30px 0}.back{color:var(--blue);font-weight:800;text-decoration:none;font-size:13px}.detail-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:var(--shadow);margin-top:14px}.detail-card h1{font-size:clamp(30px,4vw,44px)}.detail-section{margin-top:25px}.detail-section h2{font-size:18px;margin-bottom:8px}.mut{color:var(--muted)}
+.archive-list{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}.archive-list a{color:var(--blue);font-weight:700}
+@media(max-width:850px){.navlinks a:not(.youtube){display:none}.hero-copy{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.container{width:min(100% - 20px,1180px)}.brand-tag{display:none}.logo{width:48px;height:48px}.nav{min-height:66px}.hero-banner{border-radius:13px}.hero-card,.trust-card{padding:20px}.stats{grid-template-columns:1fr 1fr}.job-top{display:block}.youtube{padding:9px 11px}.footer-grid{display:block}.footer-yt{margin-top:14px}}
+</style></head><body>
+<header class='topbar'>
+  <div class='container nav'>
+    <a class='brand' href='index.html'>
+      <img class='logo' src='assets/rbr-logo.jpg' alt='Road Beyond Roles logo'>
+      <div class='brand-copy'>
+        <div class='brand-name'>ROAD <span>BEYOND</span> ROLES</div>
+        <div class='brand-tag'>Helping You Build a Better Career.</div>
+      </div>
+    </a>
+    <nav class='navlinks'>
+      <a href='index.html'>Jobs</a>
+      <a href='archive/'>Archive</a>
+      <a class='youtube' href='https://www.youtube.com/@roadbeyondrole' target='_blank' rel='noopener'>YouTube ↗</a>
+    </nav>
+  </div>
+</header>
+
+<div class='detail'><div class='container'><div id='job-root' class='detail-card'><p class='mut'>Loading opportunity…</p></div></div></div>
+<script>
+const DATA_URL='data/2026-10-07.json';
+const id=new URLSearchParams(location.search).get('id');
+const esc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('\"','&quot;');
+fetch(DATA_URL).then(r=>{if(!r.ok)throw new Error('data');return r.json()}).then(jobs=>{
+ const j=jobs.find(x=>x.id===id); const root=document.getElementById('job-root');
+ if(!j){root.innerHTML='<p>Opportunity not found.</p><a class="btn primary" href="./">Back to today</a>';return;}
+ document.title=`${j.company} - ${j.title} · Road Beyond Roles`;
+ const tier={"A": ["India", "#166534"], "B": ["Worldwide remote", "#1d4ed8"], "C": ["Remote - verify", "#b45309"]}[j.tier]||["Remote - verify", "#b45309"];
+ const chips=[...(j.must||[]).map(x=>`<span class="chip m">${esc(x)}</span>`),...(j.nice||[]).map(x=>`<span class="chip">${esc(x)}</span>`)].join('');
+ root.innerHTML=`<a class="back" href="./">← Today's opportunities</a>
+ <div class="eyebrow" style="margin-top:18px">Road Beyond Roles · Opportunity</div>
+ <h1>${esc(j.title)}</h1>
+ <p class="meta"><strong>${esc(j.company)}</strong> · ${esc(j.location||'Remote')} · <span class="badge" style="background:${tier[1]}">${esc(tier[0])}</span></p>
+ <p class="mut">${esc(j.source||'')} · Posted ${esc(j.posted||'')}${j.experience?' · '+esc(j.experience):''}${j.salary?' · '+esc(j.salary):''}</p>
+ <div class="skills">${chips}</div>
+ <div class="detail-section"><h2>What the posting says</h2><p>${esc(j.description||'The source did not provide a full description.')}</p></div>
+ <div class="job-actions"><a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener nofollow">Open official posting ↗</a><a class="btn" href="https://www.youtube.com/@roadbeyondrole" target="_blank" rel="noopener">Road Beyond Roles on YouTube ↗</a></div>
+ <div class="notice"><b>Verify before applying.</b> Job details can change after publication. Use the official employer posting as the final source of truth.</div>`;
+}).catch(()=>document.getElementById('job-root').innerHTML='<p>Unable to load this opportunity right now.</p><a class="btn primary" href="./">Back to today</a>');
+</script>
+<footer class='footer'><div class='container footer-grid'>
+  <div><div class='footer-brand'>ROAD BEYOND ROLES</div><p>Helping You Build a Better Career.</p><p>Fresh opportunities · Career guidance · Growth</p></div>
+  <a class='footer-yt' href='https://www.youtube.com/@roadbeyondrole' target='_blank' rel='noopener'>Watch the YouTube channel ↗</a>
+</div></footer>
+
+<script>
+const q=document.getElementById('q');
+q?.addEventListener('input',function(){const v=this.value.toLowerCase().trim();document.querySelectorAll('.job').forEach(function(d){d.style.display=!v||d.textContent.toLowerCase().includes(v)?'':'none'})});
+</script></body></html>
