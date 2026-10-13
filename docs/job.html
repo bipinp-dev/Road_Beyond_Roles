@@ -16,6 +16,7 @@
 @media(max-width:1080px){.nav{flex-wrap:wrap;padding:12px 0;gap:12px}.navlinks{order:3;width:100%;justify-content:flex-start;overflow-x:auto;gap:18px}.navlinks a{padding:8px 0}.layout{grid-template-columns:minmax(0,1fr) 250px}.detail-columns{grid-template-columns:minmax(0,1fr) 250px}}
 @media(max-width:760px){.container{width:calc(100% - 28px)}.layout,.detail-columns{grid-template-columns:1fr}.sidecol{display:grid;grid-template-columns:1fr 1fr;gap:12px}.youtube-panel{grid-column:1/-1}.side-panel{margin-bottom:0}.detail-title-row{flex-wrap:wrap}.detail-actions{margin-left:0;width:100%}.detail-actions .btn{flex:1}.keyword-groups{grid-template-columns:1fr 1fr}.company-grid,.resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.brand-tag{display:none}.brand-name{font-size:14px}.navlinks{gap:15px}.navlinks a{font-size:11px}.searchbar{grid-template-columns:1fr}.searchbar .btn{width:100%}.page-head h1{font-size:24px}.stats{display:grid;grid-template-columns:1fr 1fr}.stat{min-width:0;border-bottom:1px solid var(--line);padding:12px}.job{grid-template-columns:34px minmax(0,1fr);padding:13px 11px;gap:9px}.company-mark{width:32px;height:32px}.job-actions{grid-column:2;flex-direction:row;min-width:0}.job-actions .btn{flex:1}.sidecol{display:block}.side-panel{margin-bottom:12px}.keyword-groups{grid-template-columns:1fr}.company-grid,.resource-grid{grid-template-columns:1fr}.detail-card h1{font-size:22px}.detail-tabs{overflow-x:auto;flex-wrap:nowrap}.detail-tabs a{white-space:nowrap}.footer-grid{align-items:flex-start;flex-direction:column}}
+ .original-description .detail-copy{white-space:normal;margin:0 0 14px;line-height:1.75}.original-description .detail-list{margin:0 0 14px}.description-subheading{font-size:1rem;line-height:1.45;margin:18px 0 8px;font-weight:700;color:var(--text,#172033)}
 </style></head><body>
 <header class='topbar'><div class='container nav'>
   <a class='brand' href='index.html'><img class='logo' src='assets/rbr-logo.jpg' alt='Road Beyond Roles'><div class='brand-copy'><div class='brand-name'>ROAD <span>BEYOND</span> ROLES</div><div class='brand-tag'>Jobs · Internships · Apprenticeships</div></div></a>
@@ -29,16 +30,30 @@ const esc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replac
 const textBlock=s=>`<p class="detail-copy">${esc(s)}</p>`;
 const listBlock=items=>`<ul class="detail-list">${items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
 const section=(heading,items,id='')=>`<section class="detail-section" id="${id}"><h2>${esc(heading)}</h2>${items.length>1?listBlock(items):textBlock(items[0]||'Not provided in the source posting.')}</section>`;
+// Render the original employer description, preserving its paragraph and list layout.
+const renderOriginalDescription=raw=>{
+ const lines=String(raw||'').replace(/\r\n?/g,'\n').split('\n');
+ const out=[]; let paragraph=[]; let bullets=[];
+ const flushParagraph=()=>{if(paragraph.length){out.push(`<p class="detail-copy">${esc(paragraph.join(' '))}</p>`);paragraph=[];}};
+ const flushBullets=()=>{if(bullets.length){out.push(`<ul class="detail-list">${bullets.map(x=>`<li>${esc(x.replace(/^•\s*/,''))}</li>`).join('')}</ul>`);bullets=[];}};
+ for(const rawLine of lines){
+  const line=rawLine.trim();
+  if(!line){flushParagraph();flushBullets();continue;}
+  if(/^•\s*/.test(line)||/^[*-]\s+/.test(line)){flushParagraph();bullets.push(line.replace(/^[*-]\s+/,''));continue;}
+  flushBullets();
+  if(line.length<100 && /:$/.test(line)){flushParagraph();out.push(`<h3 class="description-subheading">${esc(line.replace(/:$/,''))}</h3>`);continue;}
+  paragraph.push(line);
+ }
+ flushParagraph();flushBullets();
+ return out.join('')||`<p class="detail-copy">The source did not provide a full job description.</p>`;
+};
 fetch(DATA_URL).then(r=>{if(!r.ok)throw new Error('data');return r.json()}).then(jobs=>{
  const j=jobs.find(x=>x.id===id);const root=document.getElementById('job-root');
  if(!j){root.innerHTML='<a class="back" href="index.html">← Home</a><section class="detail-section"><h2>Job not found</h2><p class="detail-copy">This listing may no longer be in the current feed. Return to the job list to browse available opportunities.</p><a class="btn primary" href="jobs.html">Browse jobs</a></section>';return;}
  document.title=`${j.title} at ${j.company} · Road Beyond Roles`;
  const keywords=[...(j.must||[]),...(j.nice||[])].filter(Boolean);
  const unique=[...new Set(keywords.map(x=>String(x).trim()).filter(Boolean))];
- const stored=(j.description_sections||[]);
- const description=stored.map(x=>section(x.heading,x.items||'')).join('');
- const responsibilities=stored.filter(x=>/responsib|specifics of the role|key responsibilities/i.test(x.heading)).flatMap(x=>x.items||[]);
- const requirements=stored.filter(x=>/requirement|qualification|education|competenc/i.test(x.heading)).flatMap(x=>x.items||[]);
+ const originalDescription=renderOriginalDescription(j.description||'');
  const must=(j.must||[]).map(x=>`<span class="chip m">${esc(x)}</span>`).join('');
  const nice=(j.nice||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join('');
  const q1=`Which experience or project best demonstrates your ability to do the work described for ${j.title}?`;
@@ -58,7 +73,7 @@ fetch(DATA_URL).then(r=>{if(!r.ok)throw new Error('data');return r.json()}).then
  <header class="detail-head"><div class="detail-title-row"><div class="company-mark">${companyMark}</div><div><h1>${esc(j.title)}</h1><div class="detail-company">${esc(j.company)} · ${esc(j.location||'Location not specified')}</div></div><div class="detail-actions"><a class="btn primary" href="${esc(j.url||'#')}" target="_blank" rel="noopener nofollow">Apply on company site ↗</a></div></div>
  <div class="detail-meta"><span>${esc(j.work_mode||j.workplace_type||'Work mode not specified')}</span><span>${esc(j.employment_type||j.job_type||'Job type not specified')}</span><span>${esc(j.experience||'Experience not specified')}</span><span>Posted ${esc(j.posted||'date not provided')}</span><span>${esc(j.source||'Source not specified')}</span></div></header>
  <nav class="detail-tabs"><a href="#overview">Overview</a><a href="#keywords">Skills & Keywords</a><a href="#interview">Interview Prep</a><a href="#resume">Resume Tips</a><a href="#courses">Free Courses</a></nav>
- <div class="detail-columns"><div><section class="detail-section" id="overview"><h2>Job description</h2>${textBlock(j.description||'The source did not provide a full job description.')}${responsibilities.length?section('Responsibilities',responsibilities):''}${requirements.length?section('Requirements and qualifications',requirements):''}<p class="mut">Use the official employer page as the final source of truth. Preparation suggestions below are general role-based guidance unless explicitly identified as source-confirmed.</p></section>
+ <div class="detail-columns"><div><section class="detail-section" id="overview"><h2>Job description</h2><div class="original-description">${originalDescription}</div><p class="mut">Use the official employer page as the final source of truth. Preparation suggestions below are general role-based guidance unless explicitly identified as source-confirmed.</p></section>
  <section class="detail-section" id="keywords"><h2>Skills and resume keywords</h2><p class="detail-copy">Use these terms only where they accurately match your skills, experience or projects.</p><div class="tag-row">${must||'<span class="mut">No core keywords were extracted from this listing.</span>'} ${nice}</div></section>
  <section class="detail-section" id="interview"><h2>Interview tips and practice questions</h2><p class="mut">Role-based practice questions — not verified company interview questions.</p><ul class="question-list"><li><b>Experience:</b> ${esc(q1)}</li><li><b>Skills:</b> ${esc(q2)}</li><li><b>Problem-solving:</b> ${esc(q3)}</li></ul><p class="detail-copy" style="margin-top:10px">Prepare concise examples using the situation, task, action and result structure. Tie each answer to a requirement in the original posting.</p></section>
  <section class="detail-section" id="resume"><h2>Resume writing tips</h2><ul class="detail-list"><li>Reflect relevant terms from the requirements where they truthfully describe your experience.</li><li>Use project or work examples to demonstrate each important skill.</li><li>Start bullets with clear action verbs and include measurable outcomes only when you can substantiate them.</li><li>Prioritize the most relevant experience near the top; do not add unsupported skills.</li></ul></section>

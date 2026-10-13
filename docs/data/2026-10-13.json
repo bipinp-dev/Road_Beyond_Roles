@@ -133,48 +133,14 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 0.6655881438888889,
-  "score": 78.6,
+  "hours_old": 1.0646241822222222,
+  "score": 78.4,
   "id": "9d80596f59690734",
   "description_sections": [
    {
     "heading": "Job description",
     "items": [
-     "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actionable insights across sectors like software, AI, cloud, e-commerce, ridesharing, and payments. Our data and research teams transform raw data into strategic intelligence, delivering accurate, timely, and deeply contextualized analysis that our customers—ranging from the world’s top investment funds to Fortune 500 companies—depend on to drive high-stakes decisions. From sourcing and licensing novel datasets to rigorous analysis and expert narrative framing, our teams ensure clients get not just data, but clarity and confidence. We operate globally with offices in the US (NYC, Austin, Miami, Mountain View), APAC (Hong Kong, Shanghai, Beijing, Guangzhou, Singapore), and India. Our award-winning, people-centric culture—recognized by Inc. as a Best Workplace for three consecutive years—emphasizes transparency, ownership, and continuous mastery. What It’s Like to Work at YipitData : YipitData isn’t a place for coasting—it’s a launchpad for ambitious, impact-driven professionals. From day one, you’ll take the lead on meaningful work, accelerate your growth, and gain exposure that shapes careers. Why Top Talent Chooses YipitData : Ownership That Matters : You’ll lead high-impact projects with real business outcomes Rapid Growth : We compress years of learning into months Merit Over Titles : Trust and responsibility are earned through execution, not tenure Velocity with Purpose: We move fast, support each other, and aim high—always with purpose and intention If your ambition is matched by your work ethic—and you're hungry for a place where growth, impact, and ownership are the norm— YipitData might be the opportunity you’ve been waiting for."
-    ]
-   },
-   {
-    "heading": "About The Role",
-    "items": [
-     "We are seeking a highly skilled Data Engineer to join our dynamic Data Engineering team.",
-     "The ideal candidate possesses 4-7 years of data engineering experience.",
-     "An excellent candidate should have a solid understanding of Spark.Pyspark, and SQL, and have data pipeline experience.",
-     "Hired individuals will play a crucial role in helping to build out our data engineering team to support one of our strategic pipelines and optimize for reliability, efficiency, and performance.",
-     "Additionally, Data Engineering serves as the gold standard for all other YipitData analyst teams, building and maintaining the core pipelines and tooling that power our products.",
-     "This high-impact, high-visibility team is instrumental to the success of our rapidly growing business.",
-     "This is a unique opportunity to be the first hire in this team, with the potential to build and lead the team as their responsibilities expand.",
-     "This is a remote opportunity based in India.",
-     "During training and onboarding, we will expect several hours of overlap with US working hours.Afterward, standard IST working hours are permitted with the exception of 1-2 days per week, when you will join meetings with the US team.",
-     "As Our Data Engineer You Will: Report directly to a Manager of Data Engineering, who will provide significant, hands-on training on cutting-edge data tools and techniques.",
-     "Build and maintain end-to-end data pipelines.",
-     "Help with setting best practices for our data modeling and pipeline builds.",
-     "Create AI-ready analytical datasets designed with the structure, metadata, documentation, and business context needed for effective use by AI agents and insight-driven applications.",
-     "Become an expert at solving complex data pipeline issues using PySpark and SQL.",
-     "Collaborate with stakeholders to incorporate business logic into our central pipelines.",
-     "Deeply learn Databricks, Spark, AI, and other ETL toolings developed internally.",
-     "You Are Likely To Succeed If: You hold a Bachelor’s or Master’s degree in Computer Science, STEM, or a related technical discipline.",
-     "You have 4+ years of experience as a Data Engineer or in other technical functions.",
-     "You are excited about solving data challenges and learning new skills.",
-     "You have a great understanding of working with data or building data pipelines.",
-     "You are comfortable working with large-scale datasets using PySpark, Delta, and Databricks.",
-     "You understand business needs and the rationale behind data transformations to ensure alignment with organizational goals and data strategy.",
-     "You are eager to constantly learn new technologies.",
-     "You are a self-starter who enjoys working collaboratively with stakeholders.",
-     "You have exceptional verbal and written communication skills.",
-     "Nice to have: Experience with Airflow, dbt, Snowflake, or equivalent.",
-     "What We Offer: Our compensation package includes comprehensive benefits, perks, and a competitive salary: We care about your personal life and we mean it.",
-     "We offer vacation time, parental leave, team events, learning reimbursement, and more!",
-     "Your growth at YipitData is determined"
+     "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actionable insights across sectors like software, AI, cloud, e-commerce, ridesharing, and payments. Our data and research teams transform raw data into strategic intelligence, delivering accurate, timely, and deeply contextualized analysis that our customers—ranging from the world’s top investment funds to Fortune 500 companies—depend on to drive high-stakes decisions. From sourcing and licensing novel datasets to rigorous analysis and expert narrative framing, our teams ensure clients get not just data, but clarity and confidence. We operate globally with offices in the US (NYC, Austin, Miami, Mountain View), APAC (Hong Kong, Shanghai, Beijing, Guangzhou, Singapore), and India. Our award-winning, people-centric culture—recognized by Inc. as a Best Workplace for three consecutive years—emphasizes transparency, ownership, and continuous mastery. What It’s Like to Work at YipitData : YipitData isn’t a place for coasting—it’s a launchpad for ambitious, impact-driven professionals. From day one, you’ll take the lead on meaningful work, accelerate your growth, and gain exposure that shapes careers. Why Top Talent Chooses YipitData : Ownership That Matters : You’ll lead high-impact projects with real business outcomes Rapid Growth : We compress years of learning into months Merit Over Titles : Trust and responsibility are earned through execution, not tenure Velocity with Purpose: We move fast, support each other, and aim high—always with purpose and intention If your ambition is matched by your work ethic—and you're hungry for a place where growth, impact, and ownership are the norm— YipitData might be the opportunity you’ve been waiting for. About The Role: We are seeking a highly skilled Data Engineer to join our dynamic Data Engineering team. The ideal candidate possesses 4-7 years of data engineering experience. An excellent candidate should have a solid understanding of Spark.Pyspark, and SQL, and have data pipeline experience. Hired individuals will play a crucial role in helping to build out our data engineering team to support one of our strategic pipelines and optimize for reliability, efficiency, and performance. Additionally, Data Engineering serves as the gold standard for all other YipitData analyst teams, building and maintaining the core pipelines and tooling that power our products. This high-impact, high-visibility team is instrumental to the success of our rapidly growing business. This is a unique opportunity to be the first hire in this team, with the potential to build and lead the team as their responsibilities expand. This is a remote opportunity based in India. During training and onboarding, we will expect several hours of overlap with US working hours.Afterward, standard IST working hours are permitted with the exception of 1-2 days per week, when you will join meetings with the US team. As Our Data Engineer You Will: Report directly to a Manager of Data Engineering, who will provide significant, hands-on training on cutting-edge data tools and techniques. Build and maintain end-to-end data pipelines. Help with setting best practices for our data modeling and pipeline builds. Create AI-ready analytical datasets designed with the structure, metadata, documentation, and business context needed for effective use by AI agents and insight-driven applications. Become an expert at solving complex data pipeline issues using PySpark and SQL. Collaborate with stakeholders to incorporate business logic into our central pipelines. Deeply learn Databricks, Spark, AI, and other ETL toolings developed internally. You Are Likely To Succeed If: You hold a Bachelor’s or Master’s degree in Computer Science, STEM, or a related technical discipline. You have 4+ years of experience as a Data Engineer or in other technical functions. You are excited about solving data challenges and learning new skills. You have a great understanding of working with data or building data pipelines. You are comfortable working with large-scale datasets using PySpark, Delta, and Databricks. You understand business needs and the rationale behind data transformations to ensure alignment with organizational goals and data strategy. You are eager to constantly learn new technologies. You are a self-starter who enjoys working collaboratively with stakeholders. You have exceptional verbal and written communication skills. Nice to have: Experience with Airflow, dbt, Snowflake, or equivalent. What We Offer: Our compensation package includes comprehensive benefits, perks, and a competitive salary: We care about your personal life and we mean it. We offer vacation time, parental leave, team events, learning reimbursement, and more! Your growth at YipitData is determined"
     ]
    }
   ]
@@ -267,20 +233,14 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 3.158926744722222,
-  "score": 62.1,
+  "hours_old": 3.5579630074999997,
+  "score": 61.9,
   "id": "65feb8c367b30024",
   "description_sections": [
    {
     "heading": "Job description",
     "items": [
-     "This role within the Vehicle and Connected Cybersecurity organization is responsible for hands-on operational monitoring and incident response for connected vehicle and cloud environments. As part of the Product Security Operations Center (PSOC) team, you will triage alerts, support investigations, and help drive timely resolution across vehicle telematics, embedded systems, and cloud-native application stacks. This role contributes directly to Ford ’s continuous cybersecurity monitoring capability for connected vehicles and the cloud services that support them. Reporting to the Manager of Monitoring Operations, this role focuses on alert triage, incident support, and continuous improvement of monitoring processes. We are seeking candidates with a solid cybersecurity foundation, including API security experience, along with embedded-vehicle exposure or a demonstrated aptitude and eagerness to learn. You will partner with cloud, vehicle, enterprise, incident-response, and global PSOC teams to help ensure effective investigation and resolution of security events affecting connected vehicles and the cloud services that power them."
-    ]
-   },
-   {
-    "heading": "Source",
-    "items": [
-     "Originally posted on Himalayas"
+     "This role within the Vehicle and Connected Cybersecurity organization is responsible for hands-on operational monitoring and incident response for connected vehicle and cloud environments. As part of the Product Security Operations Center (PSOC) team, you will triage alerts, support investigations, and help drive timely resolution across vehicle telematics, embedded systems, and cloud-native application stacks. This role contributes directly to Ford ’s continuous cybersecurity monitoring capability for connected vehicles and the cloud services that support them. Reporting to the Manager of Monitoring Operations, this role focuses on alert triage, incident support, and continuous improvement of monitoring processes. We are seeking candidates with a solid cybersecurity foundation, including API security experience, along with embedded-vehicle exposure or a demonstrated aptitude and eagerness to learn. You will partner with cloud, vehicle, enterprise, incident-response, and global PSOC teams to help ensure effective investigation and resolution of security events affecting connected vehicles and the cloud services that power them. Originally posted on Himalayas"
     ]
    }
   ]
@@ -377,8 +337,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 0.6656188108333333,
-  "score": 52.6,
+  "hours_old": 1.0646593016666668,
+  "score": 52.4,
   "id": "953eeb877eac3329",
   "description_sections": [
    {
@@ -467,20 +427,14 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 0.4969878738888889,
-  "score": 45.7,
+  "hours_old": 0.8960260886111111,
+  "score": 45.5,
   "id": "66a06c1a57b97f28",
   "description_sections": [
    {
     "heading": "Job description",
     "items": [
-     "Company Overview Arnata is a forward-thinking AI company revolutionizing the logistics industry by leveraging advanced technology. Our mission is to enhance efficiency and streamline operations through cutting-edge AI solutions, empowering businesses with smarter and more effective logistics management. Job Description We are looking for a motivated Bilingual Carrier Sales Representative to join our remote team. In this role, you will play a key part in training our AI models for Carrier Sales by providing insights, analyzing industry trends, and offering structured feedback on AI performance. Your expertise will help refine our AI systems, ensuring they accurately reflect real-world sales interactions. Responsibilities Assist in training AI models for Carrier Sales by reviewing and refining AI-driven interactions. Analyze carrier sales processes and provide feedback to improve AI accuracy. Identify patterns, inconsistencies, and areas for improvement in AI-generated responses. Report issues and contribute to the ongoing enhancement of AI-driven solutions. Collaborate with internal teams to optimize AI workflows for the logistics industry. Qualifications 1+ years of experience in sales, logistics, or a related field. Fluency in Spanish and English (both written and spoken) is required. Strong verbal and written communication skills. Ability to work independently while contributing to a collaborative team environment. Detail-oriented with excellent problem-solving skills."
-    ]
-   },
-   {
-    "heading": "Source",
-    "items": [
-     "Originally posted on Himalayas"
+     "Company Overview Arnata is a forward-thinking AI company revolutionizing the logistics industry by leveraging advanced technology. Our mission is to enhance efficiency and streamline operations through cutting-edge AI solutions, empowering businesses with smarter and more effective logistics management. Job Description We are looking for a motivated Bilingual Carrier Sales Representative to join our remote team. In this role, you will play a key part in training our AI models for Carrier Sales by providing insights, analyzing industry trends, and offering structured feedback on AI performance. Your expertise will help refine our AI systems, ensuring they accurately reflect real-world sales interactions. Responsibilities Assist in training AI models for Carrier Sales by reviewing and refining AI-driven interactions. Analyze carrier sales processes and provide feedback to improve AI accuracy. Identify patterns, inconsistencies, and areas for improvement in AI-generated responses. Report issues and contribute to the ongoing enhancement of AI-driven solutions. Collaborate with internal teams to optimize AI workflows for the logistics industry. Qualifications 1+ years of experience in sales, logistics, or a related field. Fluency in Spanish and English (both written and spoken) is required. Strong verbal and written communication skills. Ability to work independently while contributing to a collaborative team environment. Detail-oriented with excellent problem-solving skills. Originally posted on Himalayas"
     ]
    }
   ]
