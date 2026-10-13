@@ -32,16 +32,34 @@ const listBlock=items=>`<ul class="detail-list">${items.map(x=>`<li>${esc(x)}</l
 const section=(heading,items,id='')=>`<section class="detail-section" id="${id}"><h2>${esc(heading)}</h2>${items.length>1?listBlock(items):textBlock(items[0]||'Not provided in the source posting.')}</section>`;
 // Render the original employer description, preserving its paragraph and list layout.
 const renderOriginalDescription=raw=>{
- const lines=String(raw||'').replace(/\r\n?/g,'\n').split('\n');
- const out=[]; let paragraph=[]; let bullets=[];
+ // Preserve source line breaks. Recover section boundaries for known employer
+ // headings when an upstream feed has flattened them into a single line.
+ let source=String(raw||'').replace(/\r\n?/g,'\n').replace(/\u00a0/g,' ');
+ const labels=[
+  'About Us','What It’s Like to Work at YipitData',"What It's Like to Work at YipitData",
+  'Why Top Talent Chooses YipitData','About The Role','About the Role',
+  'As Our Data Engineer You Will','You Are Likely To Succeed If','Nice to have',
+  'What We Offer','Job Applicant Privacy Notice'
+ ];
+ for(const label of labels){
+  source=source.replace(new RegExp('\\s*'+label+'\\s*:?', 'gi'),'\n\n'+label+':');
+ }
+ const lines=source.split('\n');
+ const out=[]; let paragraph=[]; let bullets=[]; let activeHeading='';
  const flushParagraph=()=>{if(paragraph.length){out.push(`<p class="detail-copy">${esc(paragraph.join(' '))}</p>`);paragraph=[];}};
  const flushBullets=()=>{if(bullets.length){out.push(`<ul class="detail-list">${bullets.map(x=>`<li>${esc(x.replace(/^•\s*/,''))}</li>`).join('')}</ul>`);bullets=[];}};
+ const splitSentences=value=>(value.match(/[^.!?]+[.!?]+(?:[”’'"\)\]]+)?|[^.!?]+$/g)||[value]).map(x=>x.trim()).filter(Boolean);
+ const listHeadings=/as our data engineer you will|you are likely to succeed if|nice to have|what we offer/i;
  for(const rawLine of lines){
   const line=rawLine.trim();
   if(!line){flushParagraph();flushBullets();continue;}
   if(/^•\s*/.test(line)||/^[*-]\s+/.test(line)){flushParagraph();bullets.push(line.replace(/^[*-]\s+/,''));continue;}
   flushBullets();
-  if(line.length<100 && /:$/.test(line)){flushParagraph();out.push(`<h3 class="description-subheading">${esc(line.replace(/:$/,''))}</h3>`);continue;}
+  if(line.length<100 && /:$/.test(line)){flushParagraph();activeHeading=line.replace(/:$/,'').trim();out.push(`<h3 class="description-subheading">${esc(activeHeading)}</h3>`);continue;}
+  if(listHeadings.test(activeHeading)){flushParagraph();splitSentences(line).forEach(item=>bullets.push(item));continue;}
+  // Some job-board feeds flatten all HTML paragraph tags into spaces. Break those
+  // long lines into readable paragraphs without changing or dropping the wording.
+  if(line.length>320){flushParagraph();splitSentences(line).forEach(item=>out.push(`<p class="detail-copy">${esc(item)}</p>`));continue;}
   paragraph.push(line);
  }
  flushParagraph();flushBullets();
