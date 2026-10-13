@@ -161,8 +161,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 8.949280942222222,
-  "score": 66.6,
+  "hours_old": 9.281175687222222,
+  "score": 66.4,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -303,8 +303,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 0.9652484275,
-  "score": 63.4,
+  "hours_old": 1.2971419297222222,
+  "score": 63.2,
   "work_mode": "Hybrid",
   "employment_type": "Not specified",
   "salary_type": "Not found in feed or description; market research required",
@@ -443,8 +443,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 14.25267305138889,
-  "score": 61.4,
+  "hours_old": 14.584565909166667,
+  "score": 61.2,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -629,8 +629,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 8.945877371388889,
-  "score": 59.6,
+  "hours_old": 9.27777833388889,
+  "score": 59.4,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Employer-stated (range extracted from posting text)",
@@ -762,8 +762,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 7.473637110555555,
-  "score": 59.5,
+  "hours_old": 7.8055346058333335,
+  "score": 59.3,
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -888,8 +888,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 5.499395552777778,
-  "score": 57.7,
+  "hours_old": 5.831288072777778,
+  "score": 57.5,
   "work_mode": "Not specified",
   "employment_type": "Not specified",
   "salary_type": "Not found in feed or description; market research required",
@@ -993,8 +993,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 0.45412862305555557,
-  "score": 56.7,
+  "hours_old": 0.7860215208333333,
+  "score": 56.5,
   "work_mode": "Remote",
   "employment_type": "Part-time",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1108,8 +1108,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 1.9958159166666665,
-  "score": 52.8,
+  "hours_old": 2.327712176111111,
+  "score": 52.6,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Not found in feed or description; market research required",
@@ -1251,8 +1251,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 8.945899737222222,
-  "score": 48.6,
+  "hours_old": 9.277796824166668,
+  "score": 48.4,
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1348,8 +1348,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 6.656664309722222,
-  "score": 48.0,
+  "hours_old": 6.9885666225000005,
+  "score": 47.8,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1456,8 +1456,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 8.947873948888889,
-  "score": 47.6,
+  "hours_old": 9.279765669166668,
+  "score": 47.4,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1573,8 +1573,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 8.951825967222222,
-  "score": 47.6,
+  "hours_old": 9.283717256111112,
+  "score": 47.4,
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1690,8 +1690,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 8.949293987777777,
-  "score": 46.6,
+  "hours_old": 9.281191945277778,
+  "score": 46.4,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1782,8 +1782,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 8.949308,
-  "score": 46.6,
+  "hours_old": 9.28120027138889,
+  "score": 46.4,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1876,8 +1876,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 1.694420888888889,
-  "score": 45.0,
+  "hours_old": 2.0263151980555554,
+  "score": 44.8,
   "work_mode": "Remote",
   "employment_type": "Contract",
   "salary_type": "Not found in feed or description; market research required",
@@ -1966,8 +1966,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 1.9966540236111112,
-  "score": 44.8,
+  "hours_old": 2.3285510875,
+  "score": 44.6,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Not found in feed or description; market research required",
@@ -2067,8 +2067,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 8.947856881111111,
-  "score": 41.6,
+  "hours_old": 9.279751868888889,
+  "score": 41.4,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Not found in feed or description; market research required",
