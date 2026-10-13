@@ -161,8 +161,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.0703576275,
-  "score": 70.2,
+  "hours_old": 3.5101733144444447,
+  "score": 69.9,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -301,8 +301,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 8.373769821388889,
-  "score": 65.0,
+  "hours_old": 8.813574245555555,
+  "score": 64.7,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -350,7 +350,7 @@
    "OOP"
   ],
   "experience": "6+ years",
-  "salary": "range for this role is",
+  "salary": "$170,000–$210,000 USD/year (employer lists location-specific ranges)",
   "analysis": {
    "role": "Senior Software Engineer, Identity Platform",
    "company": "Prove",
@@ -487,11 +487,11 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 3.0669028522222224,
-  "score": 63.2,
+  "hours_old": 3.506769721111111,
+  "score": 62.9,
   "work_mode": "Remote",
   "employment_type": "Not specified",
-  "salary_type": "Employer/source-stated (extracted from posting text)",
+  "salary_type": "Employer-stated (range extracted from posting text)",
   "id": "19839aeb750dc809",
   "description_sections": [
    {
@@ -620,8 +620,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 1.594654243611111,
-  "score": 63.0,
+  "hours_old": 2.0345237,
+  "score": 62.8,
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -631,6 +631,132 @@
     "heading": "Original job description",
     "items": [
      "Headquarters: Denmark\n\nURL: https://baymard.com/\n\nWe’re seeking a full-time, remote Market Research Data Analyst for our company.\n\nBaymard Institute conducts large-scale UX research studies, sharing our findings through a bespoke B2B SaaS platform (https://baymard.com/research) that serves 2,000+ retailer stores, brands, and agencies across 80+ countries — including 71% of Fortune 500 e-commerce companies. We’re fully distributed, with ~60 team members spanning America and Europe, all committed to advancing ecommerce UX.\n\nWhat You’ll Do\n\nAs our Market Research Data Analyst, you’ll own quantitative survey studies from initial research and questionnaire design through fieldwork, analysis, and publication.\n\nOur Quant Insights team conducts recurring studies (https://baymard.com/blog/quantitative-insights-launch) examining how consumers research, evaluate, and purchase products and services online across different industries and focused topics. A typical study takes approximately three months from beginning to end. Once one study is completed, you’ll begin the research cycle again in another industry or topic area.\n\nThis means the role combines variety in subject matter with consistency in research methodology. You might spend one study investigating how consumers shop for electronics and the next examining how they book flights, while following a similar end-to-end research process each time. However, a significant part of this role involves repeatedly executing and improving a structured research process.\n\nAt the same time, the process itself is not fixed.\n\nOur Quant Insights team is relatively new, and our research program continues to evolve. Team members are encouraged to challenge existing approaches, experiment with better methods, improve our tooling and workflows, and propose changes to how studies are designed or executed.\n\nIf you identify a better way to design a questionnaire, analyze our data, automate part of the workflow, structure a study, or even rethink part of our research process, we want you to make the case for it and help us improve it.\n\nYour responsibilities will include:\n\nResearch & Survey Design\n\n•\nConducting desk research to understand an industry, its consumers, and the ecommerce experiences we want to investigate.\n\n•\nTranslating research objectives into clear, testable research questions.\n\n•\nDesigning questionnaires, including question wording, response scales, survey structure, branching, and screening criteria.\n\n•\nIdentifying appropriate respondent audiences, quotas, and sample requirements.\n\n•\nReviewing pilot results and refining questionnaires before full fielding.\n\n•\nConsidering potential sources of survey bias, measurement error, and data-quality issues throughout the research process.\n\nSurvey & Fieldwork Execution\n\n•\nProgramming and QA’ing surveys (we use Alchemer), including logic, quotas, branching, and redirects.\n\n•\nCoordinating with sample providers on feasibility, targeting, and setup (we use PureSpectrum).\n\n•\nMonitoring soft launches and active fieldwork.\n\n•\nEvaluating incoming responses for data-quality issues and determining appropriate cleaning or exclusion criteria.\n\n•\nTroubleshooting issues independently.\n\nData Analysis & Synthesis\n\n•\nCleaning, structuring, and analyzing survey datasets.\n\n•\nConducting descriptive and comparative analyses across questions and respondent segments.\n\n•\nExploring relationships and meaningful differences within the data while avoiding overinterpretation of results.\n\n•\nIdentifying the most meaningful findings from large survey datasets rather than simply reporting every result.\n\n•\nSynthesizing findings across multiple questions to develop broader insights into consumer behavior.\n\n•\nCreating charts and writing analysis takeaways that communicate findings clearly.\n\n•\nTranslating quantitative findings into concise, evidence-based insights relevant to ecommerce UX professionals and decision-makers.\n\nYour role may gradually expand to include new or more complex studies, program management, or strategic initiatives, depending on your interests and Baymard’s needs.\n\nYour Daily Tasks\n\nWhile your exact workload will vary depending on where your current study is in its lifecycle, most of your time will involve activities such as:\n\n•\nResearching consumer behavior within an industry.\n\n•\nDesigning and refining survey questions.\n\n•\nProgramming and QA’ing surveys.\n\n•\nReviewing pilot data and determining what should change before launch.\n\n•\nCoordinating sampling and monitoring fieldwork.\n\n•\nCleaning and preparing survey datasets.\n\n•\nAnalyzing overall results and meaningful respondent segments.\n\n•\nInvestigating interesting or unexpected patterns in the data.\n\n•\nDetermining which findings are meaningful enough to publish.\n\n•\nCreating charts and synthesizing findings into clearly written research insights.\n\nThe remainder of your time may involve team discussions, methodology development, documentation, process improvements, tooling, cross-functional collaboration, or experimentation with new approaches.\n\nWho You Are\n\nWe’re looking for someone who:\n\n•\nEnjoys both the design and analytical sides of quantitative research.\n\n•\nLikes taking ownership of a research project from an initial question through final findings.\n\n•\nEnjoys working with structured processes and becoming better and more efficient at executing them over time, while offering ideas and initiative to improve and streamline them as needed.\n\n•\nIs naturally detail-oriented and methodical in their work.\n\n•\nIs comfortable troubleshooting and resolving field issues independently, but knows when to escalate larger problems for discussion or review\n\n•\nCommunicates clearly and asks precise questions when clarifying requirements.\n\n•\nEnjoys cross-functional work and being involved in the early stages of a program.\n\nWhat You’ll Need\n\nWe’re looking for the following qualifications for this role:\n\n•\n2–3+ years of professional experience in quantitative research, market research, survey research, consumer insights, or a closely related field.\n\n•\nHands-on experience designing questionnaires and conducting online survey research.\n\n•\nExperience analyzing survey datasets and synthesizing quantitative findings into meaningful conclusions.\n\n•\nA solid understanding of survey design fundamentals, including question wording, response scales, questionnaire structure, screening, and common sources of bias.\n\n•\nExperience working with survey platforms such as Alchemer, Qualtrics, SurveyMonkey, or similar.\n\n•\nExperience using Excel, Google Sheets, statistical software, or other analytical tools to explore and analyze quantitative data.\n\n•\nComfort interpreting percentages, distributions, cross-tabulations, and differences between respondent groups.\n\n•\nAbility to communicate findings clearly, in writing, to audiences who may not have a research background.\n\n•\nStrong communication skills and a disciplined, detail-oriented working style.\n\nYou’ll be part of our growing Quant Insights team and will work closely with the Research, Product, Engineering, and Commercial Operations teams, making collaboration essential.\n\nPractical Details\n\n•\nLocation: This is a remote, full-time position from the UK, Ireland, or the EU. Baymard is a registered employer in the UK, IE, and DK.\n\n•\nLanguage: We expect you to be fully proficient in written English. Written English is critical to this role, and you will have to submit your application/cover letter in English.\n\n•\nSalary: Based on qualifications and country average.\n\n•\nStart date: As soon as possible.\n\n•\nTravel: Is limited; expect only 1-2 weeks of travel each year (often only in connection with the company-wide meetup).\n\n•\nCompany: Learn more about Baymard’s work culture and values here (https://baymard.com/jobs). Also, consider reading this article (https://baymard.com/blog/quantitative-insights-launch) about our Quantitative Insights work.\n\nHow to Apply\n\nIf you’re interested in this position, please apply by sending all of the following documents:\n\n•\nA cover letter written in English (PDF format; 1-2 pages) describing how you fit the role and qualifications. (Required.)\n\n•\nA CV/resume (PDF format) or a link to your LinkedIn profile. (Required.)\n\nSend the above to quant2026@baymard.com.\n(All applications and materials are treated confidentially.)\n\nDeadline is November 15th, 2026 (end of day).\n\nSincerely,\nRichard Lam, Quant Insights Lead at Baymard Institute\n\nReferral Bonus: If this job isn’t you, but you know someone who’ll be the perfect fit, please send them the link to this page. If we end up hiring the person you referred, we’ll give you 12 months of access to a Baymard Expansion (https://baymard.com/research) plan (normally $4,200/year).\n\nTo apply: https://weworkremotely.com/remote-jobs/baymard-institute-market-research-data-analyst"
+    ]
+   }
+  ]
+ },
+ {
+  "tier": "A",
+  "title": "Strategy and Analytics Business Partner",
+  "company": "Stripe",
+  "location": "Bangalore",
+  "url": "https://stripe.com/jobs/search?gh_jid=8245230",
+  "source": "Greenhouse",
+  "note": "India location",
+  "remote": null,
+  "posted": "2026-10-13T06:57:47-04:00",
+  "description": "Who we are\n\nAbout Stripe\n\nStripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.\n\nAbout the team\n\nThe Strategy & Analytics Internal Systems and SDC team aspires to supercharge the Internal Systems and SDC organization with analytics and insights. The Internal Systems and SDC org creates the engineering infrastructure and runs the internal operations that enables Stripe to succeed. We deliver data-driven insights that inform business decisions, drive measurable operational improvements, and guide strategy. We are not just data analysts, we are a mix of strategic business partners, deeply strategic and/or technical operational executors. We ensure timely, reliable, high-quality data for not just Internal Systems and SDC, but for stakeholders across Stripe.\n\nWhat you’ll do\n\nIn this role, you’ll be the go-to expert for your business area. You’ll partner directly with leaders within the SDC and be their go-to for all things data, insights, and strategy. You’ll be hands-on and responsible for delivering critical insights, ensuring data driven decision making is at the core of what we do. You’ll partner with leadership to drive business strategy, planning, goal-setting and performance tracking. You may also scope and lead mission critical projects and execute on strategic initiatives.\n\nResponsibilities\n\n• Metrics & Insights: Wrangle large, highly complex datasets using SQL into actionable insights and become the data expert for your business area. Develop metrics and large-scale dashboards to track the health of our user-facing and internal teams. Perform analyses (using SQL & other analytical tools/languages), identify trends, conduct research, build models, all to deliver objective, critical insights that can inform leadership of opportunities, risks, and strategic priorities.\n\n• Communicate with executives: Create narratives and documents that tell the story of your business area to influence senior Operations leadership and Stripe executive team decision making. Own executive-facing weekly, monthly or quarterly reporting.\n\n• Stakeholder management: Influence and drive cross-functional change by partnering with stakeholders across a wide internal network of globally distributed teams, including Ops, Finance, Data Science, Product/Engineering, and more\n\n• Drive operational excellence: Design, optimize and drive operational reviews and rhythm of the business. Guide the planning and goal-setting process for your business area, as well as progress checks throughout the year. Bring and consistently apply a ROI lens to all operational decisions, so we can make better-informed trade-offs\n\n• Conduct internal knowledge sharing sessions to strengthen the team\n\nWho you are\n\nYou’re passionate about solving business problems and making a direct impact on business. You thrive in environments with many moving parts and quickly pick up new domain knowledge and technologies (e.g. AI). We’re seeking someone with excellent communication and advanced SQL/analytics abilities. Strong background in Accounting/Finance or prior AI experience is highly preferred, though these can also be developed on the job.\n\nMinimum requirements\n\n• Bachelor's degree in STEM major (i.e. Computer Science, Math, Stat, Engineering, etc.) and 4+ years of prior working experience in data analysis fields\n\n• Strong analytical ability, proficiency with SQL (minimum of 3 years advanced SQL) and strong understanding of data relationships\n\n• Experience working with extremely large datasets\n\n• Experience with AI tools (Claude Code, etc.) and have demonstrated measurable impact from AI in your role or in others’ around you.\n\n• Outstanding communication, presentation skills & stakeholder management skills\n\n• Experience working in or with Financial Services, Accounting, GTM/Sales, Operations\n\n• Expertise working cross-functionally and with globally distributed teams to drive business and operational goals using data\n\n• Ability to connect the big picture to minute details, toggling between them to set and operationalize strategy\n\nPreferred qualifications\n\n• Experience working in fast-paced environments (e.g. high-growth fintech/tech company, management consulting)\n\n• Experience working with Product Manager and Engineering teams\n\n• Experience with visualization tools",
+  "must": [
+   "SQL"
+  ],
+  "nice": [],
+  "soft": [
+   "Stakeholder Management",
+   "Cross-functional Collaboration"
+  ],
+  "experience": "4+ years",
+  "salary": "",
+  "analysis": {
+   "role": "Strategy and Analytics Business Partner",
+   "company": "Stripe",
+   "location": "Bangalore",
+   "posted_at": "2026-10-13T06:57:47-04:00",
+   "eligibility": "A",
+   "experience": "4+ years",
+   "experience_level": "lead",
+   "education": [
+    "be the go-to expert for your business area",
+    "be their go-to for all things data, insights, and strategy",
+    "be hands-on and responsible for delivering critical insights, ensuring data driven decision making is at the core of what we do",
+    "be developed on the job",
+    "Bachelor's degree in STEM major (i"
+   ],
+   "responsibilities": [
+    "Metrics & Insights: Wrangle large, highly complex datasets using SQL into actionable insights and become the data expert for your business area. Develop metrics and large-scale dashboards to track the health of our user-facing and internal teams. Perform analyses (using SQL & other analytical tools/languages), identify trends, conduct research, build models, all to deliver objective, critical insights that can inform leadership of opportunities, risks, and strategic priorities.",
+    "Communicate with executives: Create narratives and documents that tell the story of your business area to influence senior Operations leadership and Stripe executive team decision making. Own executive-facing weekly, monthly or quarterly reporting.",
+    "Stakeholder management: Influence and drive cross-functional change by partnering with stakeholders across a wide internal network of globally distributed teams, including Ops, Finance, Data Science, Product/Engineering, and more",
+    "Drive operational excellence: Design, optimize and drive operational reviews and rhythm of the business. Guide the planning and goal-setting process for your business area, as well as progress checks throughout the year. Bring and consistently apply a ROI lens to all operational decisions, so we can make better-informed trade-offs",
+    "Conduct internal knowledge sharing sessions to strengthen the team",
+    "Bachelor's degree in STEM major (i.e. Computer Science, Math, Stat, Engineering, etc.) and 4+ years of prior working experience in data analysis fields",
+    "Strong analytical ability, proficiency with SQL (minimum of 3 years advanced SQL) and strong understanding of data relationships",
+    "Experience working with extremely large datasets",
+    "Experience with AI tools (Claude Code, etc.) and have demonstrated measurable impact from AI in your role or in others’ around you.",
+    "Outstanding communication, presentation skills & stakeholder management skills",
+    "Experience working in or with Financial Services, Accounting, GTM/Sales, Operations",
+    "Expertise working cross-functionally and with globally distributed teams to drive business and operational goals using data"
+   ],
+   "ideal_candidate": {
+    "summary": [
+     "Metrics & Insights: Wrangle large, highly complex datasets using SQL into actionable insights and become the data expert for your business area. Develop metrics and large-scale dashboards to track the health of our user-facing and internal teams. Perform analyses (using SQL & other analytical tools/languages), identify trends, conduct research, build models, all to deliver objective, critical insights that can inform leadership of opportunities, risks, and strategic priorities.",
+     "Communicate with executives: Create narratives and documents that tell the story of your business area to influence senior Operations leadership and Stripe executive team decision making. Own executive-facing weekly, monthly or quarterly reporting.",
+     "Stakeholder management: Influence and drive cross-functional change by partnering with stakeholders across a wide internal network of globally distributed teams, including Ops, Finance, Data Science, Product/Engineering, and more"
+    ],
+    "required_skills": [
+     "SQL"
+    ],
+    "preferred_skills": []
+   },
+   "required_skills": [
+    "SQL"
+   ],
+   "preferred_skills": [],
+   "ats_keywords": [
+    "SQL",
+    "Stakeholder Managemen",
+    "Cross-functional Collaboration",
+    "Strategy and Analytics Business Partner",
+    "Stripe"
+   ],
+   "tools_and_technologies": [
+    "SQL"
+   ],
+   "salary": "",
+   "assessment": {
+    "found": false,
+    "details": [],
+    "source": "not_found_in_job_posting",
+    "confidence": "none"
+   },
+   "interview": {
+    "process": [],
+    "questions": [
+     "How would you approach the most important responsibilities of a Strategy and Analytics Business Partner?",
+     "How have you used SQL in a real project or work situation?"
+    ],
+    "source": "role_based_inference",
+    "confidence": "inferred"
+   },
+   "indian_candidate_prep": [
+    "Verify that the posting explicitly accepts applicants from India before applying.",
+    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
+    "Prepare concrete project/work examples demonstrating: SQL.",
+    "Check that your education matches the stated qualification requirements.",
+    "Prepare examples that demonstrate the stated experience level: 4+ years.",
+    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
+   ],
+   "content_angles": [
+    "What this Strategy and Analytics Business Partner role actually requires",
+    "Resume keywords an applicant should use",
+    "What to prepare before applying",
+    "Assessment and interview preparation"
+   ],
+   "evidence": {
+    "job_posting": "primary source",
+    "assessment": "not_found_in_job_posting",
+    "interview": "role_based_inference"
+   }
+  },
+  "hours_old": 0.06031643055555556,
+  "score": 61.0,
+  "work_mode": "Not specified",
+  "employment_type": "Not specified",
+  "salary_type": "Not found in feed or description; market research required",
+  "id": "af07ee00568f2493",
+  "description_sections": [
+   {
+    "heading": "Original job description",
+    "items": [
+     "Who we are\n\nAbout Stripe\n\nStripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.\n\nAbout the team\n\nThe Strategy & Analytics Internal Systems and SDC team aspires to supercharge the Internal Systems and SDC organization with analytics and insights. The Internal Systems and SDC org creates the engineering infrastructure and runs the internal operations that enables Stripe to succeed. We deliver data-driven insights that inform business decisions, drive measurable operational improvements, and guide strategy. We are not just data analysts, we are a mix of strategic business partners, deeply strategic and/or technical operational executors. We ensure timely, reliable, high-quality data for not just Internal Systems and SDC, but for stakeholders across Stripe.\n\nWhat you’ll do\n\nIn this role, you’ll be the go-to expert for your business area. You’ll partner directly with leaders within the SDC and be their go-to for all things data, insights, and strategy. You’ll be hands-on and responsible for delivering critical insights, ensuring data driven decision making is at the core of what we do. You’ll partner with leadership to drive business strategy, planning, goal-setting and performance tracking. You may also scope and lead mission critical projects and execute on strategic initiatives.\n\nResponsibilities\n\n• Metrics & Insights: Wrangle large, highly complex datasets using SQL into actionable insights and become the data expert for your business area. Develop metrics and large-scale dashboards to track the health of our user-facing and internal teams. Perform analyses (using SQL & other analytical tools/languages), identify trends, conduct research, build models, all to deliver objective, critical insights that can inform leadership of opportunities, risks, and strategic priorities.\n\n• Communicate with executives: Create narratives and documents that tell the story of your business area to influence senior Operations leadership and Stripe executive team decision making. Own executive-facing weekly, monthly or quarterly reporting.\n\n• Stakeholder management: Influence and drive cross-functional change by partnering with stakeholders across a wide internal network of globally distributed teams, including Ops, Finance, Data Science, Product/Engineering, and more\n\n• Drive operational excellence: Design, optimize and drive operational reviews and rhythm of the business. Guide the planning and goal-setting process for your business area, as well as progress checks throughout the year. Bring and consistently apply a ROI lens to all operational decisions, so we can make better-informed trade-offs\n\n• Conduct internal knowledge sharing sessions to strengthen the team\n\nWho you are\n\nYou’re passionate about solving business problems and making a direct impact on business. You thrive in environments with many moving parts and quickly pick up new domain knowledge and technologies (e.g. AI). We’re seeking someone with excellent communication and advanced SQL/analytics abilities. Strong background in Accounting/Finance or prior AI experience is highly preferred, though these can also be developed on the job.\n\nMinimum requirements\n\n• Bachelor's degree in STEM major (i.e. Computer Science, Math, Stat, Engineering, etc.) and 4+ years of prior working experience in data analysis fields\n\n• Strong analytical ability, proficiency with SQL (minimum of 3 years advanced SQL) and strong understanding of data relationships\n\n• Experience working with extremely large datasets\n\n• Experience with AI tools (Claude Code, etc.) and have demonstrated measurable impact from AI in your role or in others’ around you.\n\n• Outstanding communication, presentation skills & stakeholder management skills\n\n• Experience working in or with Financial Services, Accounting, GTM/Sales, Operations\n\n• Expertise working cross-functionally and with globally distributed teams to drive business and operational goals using data\n\n• Ability to connect the big picture to minute details, toggling between them to set and operationalize strategy\n\nPreferred qualifications\n\n• Experience working in fast-paced environments (e.g. high-growth fintech/tech company, management consulting)\n\n• Experience working with Product Manager and Engineering teams\n\n• Experience with visualization tools"
     ]
    }
   ]
@@ -763,8 +889,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.0669321344444445,
-  "score": 52.2,
+  "hours_old": 3.5067908955555556,
+  "score": 51.9,
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -871,8 +997,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.068935520833333,
-  "score": 51.2,
+  "hours_old": 3.508763645833333,
+  "score": 50.9,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -988,8 +1114,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.0729158302777777,
-  "score": 51.2,
+  "hours_old": 3.5127228080555555,
+  "score": 50.9,
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1138,8 +1264,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 1.0293545133333335,
-  "score": 50.4,
+  "hours_old": 1.4692206244444443,
+  "score": 50.1,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Not found in feed or description; market research required",
@@ -1255,8 +1381,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.07037548,
-  "score": 50.2,
+  "hours_old": 3.510184466666667,
+  "score": 49.9,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1347,8 +1473,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.0703878819444443,
-  "score": 50.2,
+  "hours_old": 3.510201021944445,
+  "score": 49.9,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1448,8 +1574,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 3.0688968166666664,
-  "score": 45.2,
+  "hours_old": 3.508747345833333,
+  "score": 44.9,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Not found in feed or description; market research required",
@@ -1552,8 +1678,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 8.50129431388889,
-  "score": 40.9,
+  "hours_old": 8.941098482500001,
+  "score": 40.6,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Not found in feed or description; market research required",
@@ -1563,116 +1689,6 @@
     "heading": "Original job description",
     "items": [
      "AI at Zapier (https://jobicy.com/company/zapier)\n\nAt Zapier (https://zapier.com/about), we build and use automation every day to make work more efficient, creative, and human. So if you’re using AI tools while applying here - that’s great! We just ask that you use them responsibly and transparently.\n\nCheck out our guidance on How to Collaborate with AI During Zapier’s Hiring Process (https://zapier.com/l/jobs/ai-at-zapier), including how to use AI tools like ChatGPT, Claude, Gemini, or others during our hiring process - and when not to.\n\nAI Fluency Assessment (https://ai-fluency-hub.vercel.app)\nTake our 10 minute AI Fluency Assessment by clicking the link above. See how your skills stack up against our sales bar, get a personalized tier, and walk away with actionable next steps to level up your AI skills.\n\nJob Posted: June 2026\n\nLocation: India\n\nHi there!\n\nWe’re looking for a new Sales-Assist Representative to join the Sales-Assist Motion at Zapier.\n\nZapier’s on a mission to make everyone more productive at work. We are in search of individuals who are not just looking for a job, but are committed to building a rewarding career in sales. Ideal candidates will possess a genuine passion for sales, a desire to continually learn and improve, and the drive to achieve excellence within the industry.\n\nZapier has helped millions of people build businesses through the power of automation. The Sales Assist group serves customers as they evaluate and buy Zapier’s offers, through a high-velocity sales motion. We help customers primarily through live chat conversations through Zendesk, and some inbound demos over Zoom. We inspire deep automation use-cases pertaining to their role, and address any questions through their procurement and buying process. Ultimately, success here looks like removing friction from the purchase and adoption process through qualifying or converting leads.\n\nIf you want to advance your career at a fast-growing, profitable, impact-driven company, read on…\n\n•\nOur Commitment to Applicants (https://zapier.com/jobs/our-commitment-to-applicants/)\n\n•\nCulture and Values at Zapier (https://zapier.com/jobs/culture-and-values-at-zapier/)\n\n•\nZapier Guide to Remote Work (https://zapier.com/learn/remote-work/)\n\n•\nZapier Code of Conduct (https://zapier.com/jobs/zapier-code-of-conduct/)\n\n•\nDiversity and Inclusivity at Zapier (https://zapier.com/jobs/working-on-diversity-and-inclusivity/)\n\nAbout You\n\n•\nYou are located in India and able to work within the hours of ~9:00 pm - 7:00 am IST.\n\n•\n4+ years of experience, with a track record as a solutions engineer, technical account manager moving to sales, or a very technical quota-carrying salesperson with experience in a SaaS environment, especially across technical product-led companies with both self-serve and sales GTM) with exposure to international markets.\n\n•\nAble to work a high velocity sales queue for prolonged periods of time in your day (Live Chat)\n\n•\nYou're naturally curious about AI and regularly experiment with different AI tools to drive efficiency in your day-to-day work or personal life.\n\n•\nYou’re experimental and have the ability to test our ideas rapidly and contribute to multiple sales projects.\n\n•\nYou’re comfortable getting into the technicalities of our product, API offerings and curious about building solutions with these tools.\n\n•\nSelf-managing and a high degree of agency to manage your calendar, pipeline and hit quotas\n\n•\nEffective cross-cultural communicator — able to communicate clearly with both customers and a distributed international team. Advanced working English comprehension.\n\n•\nYou use AI in your work today — not occasionally, but as part of how you operate at a high level. You can point to workflows you’ve built, how your approach has evolved through iteration, and the impact on quality, efficiency, and experience — while intentionally applying AI for the right outcomes, setting a high bar for outputs, and taking ownership of what ships.\n\nThings You’ll Do\n\nAs a Sales-Assist Representative, you will have 3 main responsibilities:\n\n•\nShowcase Zapier as a potential solution for teams and businesses through multiple mediums - On a daily basis, most of your time will be on live chat (4+ hours) with customers through Zendesk. With the rest split between calls and emails. You’ll lead demos virtually to model a wide range of use-cases in which Zapier can help drive ROI for our customers. You’ll educate the user on use-cases to help inspire more ways they can automate within their business. You’ll lead them from interest, to learning more about our product to purchase. Success here is measured by our ability to qualify leads for other teams and convert customers yourself.\n\n•\nCreate a Sales Pipeline for multiple motions- through live chat queues and product qualified lead (PQL) emails, you’ll drive an influenced revenue metric with qualified leads to be handed to other teams and members.\n\n•\nMaintain feedback loops back into the rest of the organization - Identifying learnings from your customer demos and passing them along as a feedback loop is critical in this role. This looks like tagging your call recordings with product feedback opportunities, or identifying areas where improved collateral may have accelerated the sales-process. To do so, you’ll need to be excellent at written communication.\n\nYou’ll work closely with numerous senior stakeholders and will be a part of several cross-functional steering committees as well.\n\nHow to Apply\n\nAt Zapier, we believe that diverse perspectives and experiences make us better, which is why we have a non-standard application process designed to promote inclusion and equity. We're looking for the best fit for each of our roles, regardless of the type of companies in your background, so we encourage you to apply even if your skills and experiences don’t exactly match the job description. All we ask is that you answer a few in-depth questions in our application that would typically be asked at the start of an interview process. This helps speed things up by letting us get to know you and your skillset a bit better right out of the gate. Please be sure to answer each question; the resume and CV fields are optional.\n\nEducation is not a requirement for our roles; however, if you receive an offer, you will need to include your most recent educational experience as part of our background check process.\n\nAfter you apply, you are going to hear back from us—even if we don’t see an immediate fit with our team. In fact, throughout the process, we strive to never go more than seven days without letting you know the status of your application. We know we’ll make mistakes from time to time, so if you ever have questions about where you stand or about the process, just ask your recruiter!\n\nZapier is an equal-opportunity employer and we're excited to work with talented and empathetic people of all identities. Zapier does not discriminate based on someone's identity in any aspect of hiring or employment as required by law and in line with our commitment to Diversity, Inclusion, Belonging and Equity. Our code of conduct (https://zapier.com/jobs/zapier-code-of-conduct) provides a beacon for the kind of company we strive to be, and we celebrate our differences because those differences are what allow us to make a product that serves a global user base. Zapier will consider all qualified applicants, including those with criminal histories, consistent with applicable laws.\n\nZapier prioritizes the security of our customers' information and is dedicated to adhering to all applicable data privacy laws. You can review our privacy policy here (https://zapier.com/legal/data-privacy).\n\nZapier is committed to inclusion. As part of this commitment, Zapier welcomes applications from individuals with disabilities and will work to provide reasonable accommodations. If reasonable accommodations are needed to participate in the job application or interview process, please contact jobs@zapier.com.\n\nApplication Deadline:\n\nThe anticipated application window is 30 days from the date job is posted, unless the number of applicants requires it to close sooner or later, or if the position is filled.\n\nEven though we’re an all-remote company, we still need to be thoughtful about where we have Zapiens working. Check outthis resource (https://docs.google.com/spreadsheets/d/1_lXQvKwuU4xXEbye7EW_En8iv1ZIMlQNmT7B2Mzbo24/edit?gid=0#gid=0) for a list of countries where we currently cannot have Zapiens permanently working."
-    ]
-   }
-  ]
- },
- {
-  "tier": "A",
-  "title": "Social Media Marketing Intern",
-  "company": "Snezzi",
-  "location": "India",
-  "url": "https://himalayas.app/companies/snezzi/jobs/social-media-marketing-intern",
-  "source": "Himalayas",
-  "note": "India location",
-  "remote": true,
-  "posted": "2026-10-13T06:58:16+00:00",
-  "description": "About the Role\n\nWe’re looking for a creative, curious, and highly engaged social media enthusiast who genuinely enjoys spending time on platforms like X, Instagram, LinkedIn, and Reddit. If you stay on top of trends, enjoy experimenting with content, and like building online communities, this role could be a great fit.\n\nWhat You’ll Do\n\n• Create short, engaging content across X, Instagram, LinkedIn, and Reddit.\n\n• Spot emerging trends and adapt them for Snezzi (https://himalayas.app/companies/snezzi) in a natural, platform-native way.\n\n• Help grow our social accounts through consistent posting and thoughtful community engagement.\n\n• Participate in relevant Reddit communities and online discussions to build brand presence authentically.\n\n• Collaborate with the founders to create memes, short videos, carousels, and micro-content.\n\n• Support creator collaborations, experiments, and small campaigns.\n\nYou’re a Great Fit If You\n\n• Are highly active on social media and understand how different platforms work.\n\n• Have grown your own or a brand’s Instagram or X account in the past.\n\n• Participate in Reddit communities and know how to contribute value without spamming.\n\n• Understand how brands can join conversations in a contextual and engaging way.\n\n• Enjoy experimenting, learning quickly, and iterating based on feedback.\n\n• Have strong communication skills and a good sense of humor.\n\nBonus Points\n\n• You have experience editing videos or reels.\n\n• You can design basic graphics or carousels.\n\n• You’ve worked with a startup, creator, or online brand before.\n\nWhat You’ll Get\n\n• Hands-on experience building social presence for a fast-growing AI startup.\n\n• Direct collaboration with the founding team and real ownership over content initiatives.\n\n• Opportunities to experiment, learn, and build a strong portfolio.\n\n• Remote work with flexible hours.\n\nOriginally posted on Himalayas (https://himalayas.app)",
-  "must": [],
-  "nice": [],
-  "soft": [
-   "Communication Skills",
-   "End-to-End Ownership"
-  ],
-  "experience": "",
-  "salary": "",
-  "analysis": {
-   "role": "Social Media Marketing Intern",
-   "company": "Snezzi",
-   "location": "India",
-   "posted_at": "2026-10-13T06:58:16+00:00",
-   "eligibility": "A",
-   "experience": "",
-   "experience_level": "intern",
-   "education": [
-    "be a great fi"
-   ],
-   "responsibilities": [
-    "Create short, engaging content across X, Instagram, LinkedIn, and Reddit.",
-    "Spot emerging trends and adapt them for Snezzi (https://himalayas.app/companies/snezzi) in a natural, platform-native way.",
-    "Help grow our social accounts through consistent posting and thoughtful community engagement.",
-    "Participate in relevant Reddit communities and online discussions to build brand presence authentically.",
-    "Collaborate with the founders to create memes, short videos, carousels, and micro-content.",
-    "Support creator collaborations, experiments, and small campaigns.",
-    "Are highly active on social media and understand how different platforms work.",
-    "Have grown your own or a brand’s Instagram or X account in the past.",
-    "Participate in Reddit communities and know how to contribute value without spamming.",
-    "Understand how brands can join conversations in a contextual and engaging way.",
-    "Enjoy experimenting, learning quickly, and iterating based on feedback.",
-    "Have strong communication skills and a good sense of humor."
-   ],
-   "ideal_candidate": {
-    "summary": [
-     "Create short, engaging content across X, Instagram, LinkedIn, and Reddit.",
-     "Spot emerging trends and adapt them for Snezzi (https://himalayas.app/companies/snezzi) in a natural, platform-native way.",
-     "Help grow our social accounts through consistent posting and thoughtful community engagement."
-    ],
-    "required_skills": [],
-    "preferred_skills": []
-   },
-   "required_skills": [],
-   "preferred_skills": [],
-   "ats_keywords": [
-    "Communication Skills",
-    "End-to-End Ownership",
-    "Social Media Marketing Intern",
-    "Snezzi"
-   ],
-   "tools_and_technologies": [],
-   "salary": "",
-   "assessment": {
-    "found": false,
-    "details": [],
-    "source": "not_found_in_job_posting",
-    "confidence": "none"
-   },
-   "interview": {
-    "process": [],
-    "questions": [
-     "How would you approach the most important responsibilities of a Social Media Marketing Intern?"
-    ],
-    "source": "role_based_inference",
-    "confidence": "inferred"
-   },
-   "indian_candidate_prep": [
-    "Verify that the posting explicitly accepts applicants from India before applying.",
-    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
-    "Check that your education matches the stated qualification requirements.",
-    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
-   ],
-   "content_angles": [
-    "What this Social Media Marketing Intern role actually requires",
-    "Resume keywords an applicant should use",
-    "What to prepare before applying",
-    "Assessment and interview preparation"
-   ],
-   "evidence": {
-    "job_posting": "primary source",
-    "assessment": "not_found_in_job_posting",
-    "interview": "role_based_inference"
-   }
-  },
-  "hours_old": 3.61239629,
-  "score": 25.8,
-  "work_mode": "Remote",
-  "employment_type": "Internship",
-  "salary_type": "Not found in feed or description; market research required",
-  "id": "93e89c2a096affd3",
-  "description_sections": [
-   {
-    "heading": "Original job description",
-    "items": [
-     "About the Role\n\nWe’re looking for a creative, curious, and highly engaged social media enthusiast who genuinely enjoys spending time on platforms like X, Instagram, LinkedIn, and Reddit. If you stay on top of trends, enjoy experimenting with content, and like building online communities, this role could be a great fit.\n\nWhat You’ll Do\n\n• Create short, engaging content across X, Instagram, LinkedIn, and Reddit.\n\n• Spot emerging trends and adapt them for Snezzi (https://himalayas.app/companies/snezzi) in a natural, platform-native way.\n\n• Help grow our social accounts through consistent posting and thoughtful community engagement.\n\n• Participate in relevant Reddit communities and online discussions to build brand presence authentically.\n\n• Collaborate with the founders to create memes, short videos, carousels, and micro-content.\n\n• Support creator collaborations, experiments, and small campaigns.\n\nYou’re a Great Fit If You\n\n• Are highly active on social media and understand how different platforms work.\n\n• Have grown your own or a brand’s Instagram or X account in the past.\n\n• Participate in Reddit communities and know how to contribute value without spamming.\n\n• Understand how brands can join conversations in a contextual and engaging way.\n\n• Enjoy experimenting, learning quickly, and iterating based on feedback.\n\n• Have strong communication skills and a good sense of humor.\n\nBonus Points\n\n• You have experience editing videos or reels.\n\n• You can design basic graphics or carousels.\n\n• You’ve worked with a startup, creator, or online brand before.\n\nWhat You’ll Get\n\n• Hands-on experience building social presence for a fast-growing AI startup.\n\n• Direct collaboration with the founding team and real ownership over content initiatives.\n\n• Opportunities to experiment, learn, and build a strong portfolio.\n\n• Remote work with flexible hours.\n\nOriginally posted on Himalayas (https://himalayas.app)"
     ]
    }
   ]
