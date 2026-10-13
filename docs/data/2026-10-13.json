@@ -161,8 +161,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.5101733144444447,
-  "score": 69.9,
+  "hours_old": 8.949280942222222,
+  "score": 66.6,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -172,6 +172,148 @@
     "heading": "Original job description",
     "items": [
      "Headquarters: United States - Remote\n\nTebra only initiates contact with candidates via email from an official Tebra email address (@tebra.com (http://tebra.com/), @patientpop.com (http://patientpop.com/), or @kareo.com (http://kareo.com/)) or through our applicant tracking system, Greenhouse. We will only ask you to provide sensitive personal information through our official application portal — not via social media or text message. We do not conduct interviews via instant messaging.\n\nAbout the Role\n\nAs a Data Engineer focused on AI/ML, you’ll build, maintain, and optimize the data infrastructure that powers Tebra’s intelligent features. You’ll partner closely with Machine Learning Engineers, Data Scientists, and Software Engineers to transform complex healthcare data into high-quality datasets and real-time features that enable machine learning models.\n\nThis is a hands-on engineering role where you’ll contribute to scalable data pipelines, improve data quality, and help ensure our AI systems are powered by reliable, performant, and well-governed data. You’ll work on modern data platforms and gain experience building solutions that support both model training and production inference.\n\nYour Area of Focus\n\n• Design, build, and maintain scalable data pipelines for feature extraction, training data generation, and model monitoring.\n\n• Develop and enhance data systems that support analytics and machine learning workloads, including data lakehouse and feature store technologies.\n\n• Monitor production data pipelines, identify data quality issues or pipeline failures, and implement improvements to ensure reliability and freshness.\n\n• Participate in engineering design discussions and contribute to technical decisions around data architecture and pipeline implementation.\n\n• Build reusable data engineering components, including automated data quality checks, schema validation, and testing frameworks.\n\n• Translate business requirements into scalable data solutions that enable analytics and machine learning use cases.\n\n• Optimize SQL queries, Spark workloads, and data processing pipelines to improve performance and scalability.\n\n• Collaborate with ML Engineers and cross-functional partners to support MLOps best practices, including data versioning, lineage, and reproducibility.\n\n• Break down technical work into manageable tasks and deliver high-quality solutions within an agile team.\n\nYour Professional Qualifications\n\n• 3+ years of professional experience in Data Engineering, Software Engineering, or a related field.\n\n• 2+ years of hands-on experience building and maintaining production data pipelines supporting analytics, reporting, or machine learning workloads.\n\n• Strong proficiency in Python and SQL with experience developing production-quality data pipelines.\n\n• Experience with modern data processing technologies such as Spark, Airflow, Kafka, or similar distributed data platforms.\n\n• Experience working with cloud-based data platforms such as Databricks, Snowflake, Delta Lake, or equivalent lakehouse technologies.\n\n• Understanding of data modeling, data warehousing, and data governance best practices.\n\n• Familiarity with machine learning data workflows, including training datasets, feature engineering, and data quality concepts.\n\n• Experience deploying and supporting production data pipelines with monitoring, testing, and CI/CD practices.\n\n• Strong problem-solving skills, attention to detail, and the ability to collaborate effectively across engineering and product teams.\n\n• Excellent communication skills and a desire to continuously learn new technologies and engineering practices.\n\n#LI-SS1 #LI-Remote\n\nWe are dedicated to attracting and retaining top talent with competitive and fair compensation. For this position, this range reflects our Zone 1 (National Average) pay band. Your specific compensation is thoughtfully determined by your experience, qualifications, the specific requirements of the role, and your Geo Zone. Our geo-zone system ensures your pay is competitive for your location, recognizing varying costs of labor across regions.\n\nOur four geo zones are designed to reflect this:\nZone 1: National Average\nZone 2: Moderately Higher Cost Regions\nZone 3: High-Cost Regions\nZone 4: Lower-Cost Regions\n\nBeyond base compensation, Tebra offers eligible employees the opportunity for variable pay and a robust benefits package, reflecting our commitment to your overall well-being. In compliance with California pay transparency laws, the specific compensation range applicable to your Geo Zone will be shared during your initial talent screen.\n\nZone 1 (National Average)\n\n$128,000—$145,200 USD\n\nAbout Tebra\n\nTebra is the only all-in-one EHR+ platform built exclusively for independent healthcare practices. Designed to replace the clunky, fragmented tools built for corporate systems, Tebra connects EHR software, billing, automation, telehealth solution, and marketing — so providers can spend less time on admin and more time with patients. More than 42,000 private practices trust Tebra to streamline operations, increase revenue, and reduce burnout — helping clinicians leave work on time and rediscover their purpose. Learn more at www.tebra.com (http://www.tebra.com/).\n\nOur Values\n\nStart with the Customer\n\nWe get to know our customers - and their patients - and look at the world through their lens.\n\nKeep It Simple\n\nHealthcare is too complex. We aim to simplify it for everyone.\n\nStay Entrepreneurial\n\nWe reject the status quo and solve problems with creativity, perseverance, and a bias to action.\n\nBetter Together\n\nWe are diverse, humble, and collaborative. We put the team first and win together.\n\nCelebrate Success\n\nLife is short and joy is underrated. We take time to have fun and celebrate success.\n\nPerks & Benefits\n\nUnited States: In addition to our healthcare benefits, we also offer amazing perks! Need work from home basics? We offer a discount through Dell! We also offer a number of resources to help you keep your mind and body healthy. Check out Gympass for a great workout, or TelusEmployee Assistance Program to find mental health resources, along with other resources for everyday occurrences.\n\nCosta Rica: To assist with all of life’s needs, Tebra also offers a wellness and childcare subsidy and a University/Education discount! We also offer a number of resources to help you keep your mind and body healthy. Check out Gympass for access to health and fitness apps, or Telus Employee Assistance Program to find mental health resources, along with other resources for everyday occurrences.\n\nCompliance & Privacy Disclosures\n\nNOTE: Tebra is an equal opportunity employer. All applicants will be considered for employment without attention to age, race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status.\n\nCalifornia residents who apply or are recruited for a job with us: please carefully review our California-specific Privacy Notice under the California Consumer Protection Act here: https://www.tebra.com/privacy-policy/california-supplemental-notice/\n\nIf you would like to report a fraudulent Tebra job posting, please contact us at talentacquisition@tebra.com and consider reporting your experience to the FBI's Internet Crime Complaint Center or the Better Business Bureau to help keep others safe online, too.\n\nAs part of our commitment to a fair and efficient hiring process, Tebra utilizes BrightHire, an interview intelligence platform, for our phone and video screenings. This technology records and transcribes interviews to help us ensure consistency, reduce bias, and make more informed hiring decisions. By applying for this position, you acknowledge that your interview may be recorded.\n\nTo apply: https://weworkremotely.com/remote-jobs/tebra-data-engineer"
+    ]
+   }
+  ]
+ },
+ {
+  "tier": "B",
+  "title": "Senior Software Engineer",
+  "company": "SeQura",
+  "location": "Worldwide",
+  "url": "https://himalayas.app/companies/sequra/jobs/senior-software-engineer",
+  "source": "Himalayas",
+  "note": "Worldwide / APAC remote",
+  "remote": true,
+  "posted": "2026-10-13T15:29:50+00:00",
+  "description": "About seQura\n\nseQura provides innovative, flexible and easy-to-use payment technologies that help merchants acquire, convert and retain more customers.\n\nWe make a difference in sales performance by tailoring our solutions to different sectors, to address their unique pain points and deliver superior results in Retail, Education, Eyewear, Repairs and Travel.\nWe also empower smart shopping to consumers who seek more value, convenience, and flexibility in their shopping, with new payment experiences that allow them to save, access interest-free credit, or pay in small, comfortable instalments of up to 24 months.\n\nBorn in Barcelona, seQura is a privately-owned fintech, currently expanding throughout southern Europe and Latin America, growing above 50% CAGR and approaching 100 million in Annual Recurring Revenue.\nOver 5000 businesses, almost 2 million shoppers, and almost 400 employees continue to rate us as one of the most loved and trusted fintechs out there, with an NPS of 87%, a Trustpilot rating of 4.7/5, and a Glassdoor rating of 4.7/5.\n\nAbout the role 🤓\n\nWe have an exciting opening for a Senior Software Engineer who is able to see the big picture and balance the search for software quality with a pragmatic approach to help us scale the company. If you're a proactive, creative, and hands-on person who wants to help improve SeQura (https://himalayas.app/companies/sequra)'s product, having ownership and exposure to work hand in hand with seasoned professionals in a collaborative environment, this is the perfect place for you.\n\nWe have different projects to carry out our amazing product’s development, you’ll have the possibility to join us to help us grow by contributing to technical and architectural decisions and even creating new teams.\n\nRequirements\n\nWhat challenges you'll be solving 🚀\n\n• Be passionate in the pursuit of writing simple, clean, and efficient code.\n\n• Be proactive, accountable, analytical, and pragmatic.\n\n• Contribute with close attention to detail/product ownership.\n\n• Work as a strong team player and communicator.\n\n• Arrive with motivation to learn and grow.\n\n• Be passionate about driving change and efficiency with partners from different disciplines.\n\nWhat we offer 😎\n\nWe have a strong and sustainable foundation, where we provide a secure and reliable workplace. You have the freedom and trust to make the best contribution possible.\n\nOne of our most valued strengths by our employees is our fellowship and supportive culture, which fosters a sense of belonging by working closely with our values. With us, you will have challenging projects to work on and push your skills and knowledge.\n\nIn addition, we are very proud of the unique office we have, which offers a comfortable and inspiring environment to work in with everything you need.\n\n• 23 vacation days + 2 days of free disposal per year.\n\n• Flexible compensation plan for transportation, restaurants, and kindergarten with Cobee.\n\n• Health insurance discounts with Sanitas and DKV.\n\n• Flexible working hours.\n\n• A personal budget for professional development.\n\n• Office workshops and meet-ups to encourage community participation and career growth.\n\n• Hybrid or remote work (up to 2 hours difference from GMT+2).\n\nMoreover, we have a Wellness Programthat embraces a holistic approach by covering 6 areas (occupational, physical, financial, emotional, social, and environmental consciousness). Each area will include a variety of activities, and you'll be able to choose from 34 different activities that best meet your needs to configure a plan that best works for you.\n\nWhat you’ll need 🤝\n\n• 7+ years of experience working as a Software Engineer.\n\n• Experience in the full-stack development, deployment, and maintenance of web-based technology applications with Ruby on Rails or the ability and interest in working with it (JavaScript, Elixir, Kotlin, Java, and Python experience is also very valued).\n\n• Solid knowledge of OOP, clean coding, TDD, and agile.\n\n• English proficiency.\n\nWhich are the next steps? 🙌\n\n• Interview with People Team\n\n• Technical take-home assessment (async)\n\n• Live Peer review of the assessment\n\n• Meet the team\n\nWe kindly ask that you submit your CV in English, as it is the official language of our community.\n\nWe promote equal opportunity to all, regardless of age, color, gender identity, medical condition, physical or mental disability, race, religion, sexual orientation, or any other characteristic. We have an inclusive environment, and respect is above all.\n\nDo you want to be part of the change? Join us!👇\n\nOriginally posted on Himalayas (https://himalayas.app)",
+  "must": [
+   "Ruby",
+   "Python",
+   "Java",
+   "JavaScript",
+   "Kotlin",
+   "Agile"
+  ],
+  "nice": [],
+  "soft": [
+   "End-to-End Ownership",
+   "OOP"
+  ],
+  "experience": "7+ years",
+  "salary": "",
+  "analysis": {
+   "role": "Senior Software Engineer",
+   "company": "SeQura",
+   "location": "Worldwide",
+   "posted_at": "2026-10-13T15:29:50+00:00",
+   "eligibility": "B",
+   "experience": "7+ years",
+   "experience_level": "senior",
+   "education": [
+    "be solving 🚀",
+    "Be passionate in the pursuit of writing simple, clean, and efficient code",
+    "Be proactive, accountable, analytical, and pragmatic",
+    "Be passionate about driving change and efficiency with partners from different disciplines",
+    "be able to choose from 34 different activities that best meet your needs to configure a plan that best works for you"
+   ],
+   "responsibilities": [],
+   "ideal_candidate": {
+    "summary": [
+     "About seQura\n\nseQura provides innovative, flexible and easy-to-use payment technologies that help merchants acquire, convert and retain more customers.\n\nWe make a difference in sales performance by tailoring our solutions to different sectors, to address their unique pain points and deliver superior results in Retail, Education, Eyewear, Repairs and Travel.\nWe also empower smart shopping to consumers who seek more value, convenience, and flexibility in their shopping, with new payment experiences that allow them to save, access interest-free credit, or pay in small, comfortable instalments of up to 24 months.\n\nBorn in Barcelona, seQura is a privately-owned fintech, currently expanding throughout southern Europe and Latin America, growing above 50% CAGR and approaching 100 million in Annual Recurring Revenue.\nOver 5000 businesses, almost 2 million shoppers, and almost 400 employees continue to rate us as one of the most loved and trusted fintechs out there, with an NPS of 87%, a Trustpilot rating of 4.7/5, and a Glassdoor rating of 4.7/5.\n\nAbout the role 🤓\n\nWe have an exciting opening for a Senior Software Engineer who is able to see the big picture and balance the search for software quality with a pragmatic approach to help us scale the company. If you're a proactive, creative, and hands-on person who wants to help improve SeQura (https://himalayas.app/companies/sequra)'s product, having ownership and exposure to work hand in hand with seasoned professionals in a collaborative environment, this is the perfect place for you.\n\nWe have different projects to carry out our amazing product’s development, you’ll have the possibility to join us to help us grow by contributing to technical and architectural decisions and even creating new teams.\n\nRequirements\n\nWhat challenges you'll be solving 🚀\n\n• Be passionate in the pursuit of writing simple, clean, and efficient code.\n\n• Be proactive, accountable, analytical, and pragmatic.\n\n• Contribute with close attention to detail/product ownership.\n\n• Work as a strong team player and communicator.\n\n• Arrive with motivation to learn and grow.\n\n• Be passionate about driving change and efficiency with partners from different disciplines.\n\nWhat we offer 😎\n\nWe have a strong and sustainable foundation, where we provide a secure and reliable workplace. You have the freedom and trust to make the best contribution possible.\n\nOne of our most valued strengths by our employees is our fellowship and supportive culture, which fosters a sense of belonging by working closely with our values. With us, you will have challenging projects to work on and push your skills and knowledge.\n\nIn addition, we are very proud of the unique office we have, which offers a comfortable and inspiring environment to work in with everything you need.\n\n• 23 vacation days + 2 days of free disposal per year.\n\n• Flexible compensation plan for transportation, restaurants, and kindergarten with Cobee.\n\n• Health insurance discounts with Sanitas and DKV.\n\n• Flexible working hours.\n\n• A personal budget for professional development.\n\n• Office workshops and meet-ups to encourage community participation and career growth.\n\n• Hybrid or remote work (up to 2 hours difference from GMT+2).\n\nMoreover, we have a Wellness Programthat embraces a holistic approach by covering 6 areas (occupational, physical, financial, emotional, social, and environmental consciousness). Each area will include a variety of activities, and you'll be able to choose from 34 different activities that best meet your needs to configure a plan that best works for you.\n\nWhat you’ll need 🤝\n\n• 7+ years of experience working as a Software Engineer.\n\n• Experience in the full-stack development, deployment, and maintenance of web-based technology applications with Ruby on Rails or the ability and interest in working with it (JavaScript, Elixir, Kotlin, Java, and Python experience is also very valued).\n\n• Solid knowledge of OOP, clean coding, TDD, and agile.\n\n• English proficiency.\n\nWhich are the next steps? 🙌\n\n• Interview with People Team\n\n• Technical take-home assessment (async)\n\n• Live Peer review of the assessment\n\n• Meet the team\n\nWe kindly ask that you submit your CV in English, as it is the official language of our community.\n\nWe promote equal opportunity to all, regardless of age, color, gender identity, medical condition, physical or mental disability, race, religion, sexual orientation, or any other characteristic. We have an inclusive environment, and respect is above all.\n\nDo you want to be part of the change? Join us!👇\n\nOriginally posted on Himalayas (https://himalayas.app)"
+    ],
+    "required_skills": [
+     "Ruby",
+     "Python",
+     "Java",
+     "JavaScript",
+     "Kotlin",
+     "Agile"
+    ],
+    "preferred_skills": []
+   },
+   "required_skills": [
+    "Ruby",
+    "Python",
+    "Java",
+    "JavaScript",
+    "Kotlin",
+    "Agile"
+   ],
+   "preferred_skills": [],
+   "ats_keywords": [
+    "Ruby",
+    "Python",
+    "Java",
+    "JavaScrip",
+    "Kotlin",
+    "Agile",
+    "End-to-End Ownership",
+    "OOP",
+    "Senior Software Engineer",
+    "SeQura"
+   ],
+   "tools_and_technologies": [
+    "Ruby",
+    "Python",
+    "Java",
+    "JavaScrip",
+    "Kotlin",
+    "Agile"
+   ],
+   "salary": "",
+   "assessment": {
+    "found": true,
+    "details": [
+     "ake-home assessment (async)\n\n• Live Peer review of the assessment\n\n• Meet the team\n\nWe kindly ask that you submit your CV in English, as it is the official language of our community.\n\nWe promote equal opportunity to all, regardless of age, color, gender identity, medical condition, physical or mental disability, race, religion, sexual orientation, or any other characteristic. We have an inclusive environment, and respect is above all.\n\nDo you want to be part of the change? Join us!👇\n\nOriginally posted o"
+    ],
+    "source": "job_posting",
+    "confidence": "high"
+   },
+   "interview": {
+    "process": [
+     "Interview with People Team\n\n• Technical take-home assessment (async)\n\n• Live Peer review of the assessment\n\n• Meet the team\n\nWe kindly ask that you submit your CV in English, as it is the official language of our community.\n\nWe promote equal opportunity to all, regardless of age, color, gender identity, medical condition, physical or mental disability, race, religion, sexual orientation, or any other characteristic. We have an inclusive environment, and respect is above all.\n\nDo you want to be part of the change? Join us!👇\n\nOriginally posted on Himalayas (https://himalayas.app)"
+    ],
+    "questions": [
+     "How have you used Ruby in a real project or work situation?",
+     "How have you used Python in a real project or work situation?",
+     "How have you used Java in a real project or work situation?",
+     "How have you used JavaScript in a real project or work situation?"
+    ],
+    "source": "job_posting",
+    "confidence": "high"
+   },
+   "indian_candidate_prep": [
+    "Verify that the posting explicitly accepts applicants from India before applying.",
+    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
+    "Prepare concrete project/work examples demonstrating: Ruby, Python, Java, JavaScript, Kotlin.",
+    "Check that your education matches the stated qualification requirements.",
+    "Prepare examples that demonstrate the stated experience level: 7+ years.",
+    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
+   ],
+   "content_angles": [
+    "What this Senior Software Engineer role actually requires",
+    "Resume keywords an applicant should use",
+    "What to prepare before applying",
+    "Assessment and interview preparation"
+   ],
+   "evidence": {
+    "job_posting": "primary source",
+    "assessment": "job_posting",
+    "interview": "job_posting"
+   }
+  },
+  "hours_old": 0.9652484275,
+  "score": 63.4,
+  "work_mode": "Hybrid",
+  "employment_type": "Not specified",
+  "salary_type": "Not found in feed or description; market research required",
+  "id": "82017fde565495cf",
+  "description_sections": [
+   {
+    "heading": "Original job description",
+    "items": [
+     "About seQura\n\nseQura provides innovative, flexible and easy-to-use payment technologies that help merchants acquire, convert and retain more customers.\n\nWe make a difference in sales performance by tailoring our solutions to different sectors, to address their unique pain points and deliver superior results in Retail, Education, Eyewear, Repairs and Travel.\nWe also empower smart shopping to consumers who seek more value, convenience, and flexibility in their shopping, with new payment experiences that allow them to save, access interest-free credit, or pay in small, comfortable instalments of up to 24 months.\n\nBorn in Barcelona, seQura is a privately-owned fintech, currently expanding throughout southern Europe and Latin America, growing above 50% CAGR and approaching 100 million in Annual Recurring Revenue.\nOver 5000 businesses, almost 2 million shoppers, and almost 400 employees continue to rate us as one of the most loved and trusted fintechs out there, with an NPS of 87%, a Trustpilot rating of 4.7/5, and a Glassdoor rating of 4.7/5.\n\nAbout the role 🤓\n\nWe have an exciting opening for a Senior Software Engineer who is able to see the big picture and balance the search for software quality with a pragmatic approach to help us scale the company. If you're a proactive, creative, and hands-on person who wants to help improve SeQura (https://himalayas.app/companies/sequra)'s product, having ownership and exposure to work hand in hand with seasoned professionals in a collaborative environment, this is the perfect place for you.\n\nWe have different projects to carry out our amazing product’s development, you’ll have the possibility to join us to help us grow by contributing to technical and architectural decisions and even creating new teams.\n\nRequirements\n\nWhat challenges you'll be solving 🚀\n\n• Be passionate in the pursuit of writing simple, clean, and efficient code.\n\n• Be proactive, accountable, analytical, and pragmatic.\n\n• Contribute with close attention to detail/product ownership.\n\n• Work as a strong team player and communicator.\n\n• Arrive with motivation to learn and grow.\n\n• Be passionate about driving change and efficiency with partners from different disciplines.\n\nWhat we offer 😎\n\nWe have a strong and sustainable foundation, where we provide a secure and reliable workplace. You have the freedom and trust to make the best contribution possible.\n\nOne of our most valued strengths by our employees is our fellowship and supportive culture, which fosters a sense of belonging by working closely with our values. With us, you will have challenging projects to work on and push your skills and knowledge.\n\nIn addition, we are very proud of the unique office we have, which offers a comfortable and inspiring environment to work in with everything you need.\n\n• 23 vacation days + 2 days of free disposal per year.\n\n• Flexible compensation plan for transportation, restaurants, and kindergarten with Cobee.\n\n• Health insurance discounts with Sanitas and DKV.\n\n• Flexible working hours.\n\n• A personal budget for professional development.\n\n• Office workshops and meet-ups to encourage community participation and career growth.\n\n• Hybrid or remote work (up to 2 hours difference from GMT+2).\n\nMoreover, we have a Wellness Programthat embraces a holistic approach by covering 6 areas (occupational, physical, financial, emotional, social, and environmental consciousness). Each area will include a variety of activities, and you'll be able to choose from 34 different activities that best meet your needs to configure a plan that best works for you.\n\nWhat you’ll need 🤝\n\n• 7+ years of experience working as a Software Engineer.\n\n• Experience in the full-stack development, deployment, and maintenance of web-based technology applications with Ruby on Rails or the ability and interest in working with it (JavaScript, Elixir, Kotlin, Java, and Python experience is also very valued).\n\n• Solid knowledge of OOP, clean coding, TDD, and agile.\n\n• English proficiency.\n\nWhich are the next steps? 🙌\n\n• Interview with People Team\n\n• Technical take-home assessment (async)\n\n• Live Peer review of the assessment\n\n• Meet the team\n\nWe kindly ask that you submit your CV in English, as it is the official language of our community.\n\nWe promote equal opportunity to all, regardless of age, color, gender identity, medical condition, physical or mental disability, race, religion, sexual orientation, or any other characteristic. We have an inclusive environment, and respect is above all.\n\nDo you want to be part of the change? Join us!👇\n\nOriginally posted on Himalayas (https://himalayas.app)"
     ]
    }
   ]
@@ -301,8 +443,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 8.813574245555555,
-  "score": 64.7,
+  "hours_old": 14.25267305138889,
+  "score": 61.4,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -487,8 +629,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 3.506769721111111,
-  "score": 62.9,
+  "hours_old": 8.945877371388889,
+  "score": 59.6,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Employer-stated (range extracted from posting text)",
@@ -620,8 +762,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 2.0345237,
-  "score": 62.8,
+  "hours_old": 7.473637110555555,
+  "score": 59.5,
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -746,8 +888,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 0.06031643055555556,
-  "score": 61.0,
+  "hours_old": 5.499395552777778,
+  "score": 57.7,
   "work_mode": "Not specified",
   "employment_type": "Not specified",
   "salary_type": "Not found in feed or description; market research required",
@@ -757,6 +899,226 @@
     "heading": "Original job description",
     "items": [
      "Who we are\n\nAbout Stripe\n\nStripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.\n\nAbout the team\n\nThe Strategy & Analytics Internal Systems and SDC team aspires to supercharge the Internal Systems and SDC organization with analytics and insights. The Internal Systems and SDC org creates the engineering infrastructure and runs the internal operations that enables Stripe to succeed. We deliver data-driven insights that inform business decisions, drive measurable operational improvements, and guide strategy. We are not just data analysts, we are a mix of strategic business partners, deeply strategic and/or technical operational executors. We ensure timely, reliable, high-quality data for not just Internal Systems and SDC, but for stakeholders across Stripe.\n\nWhat you’ll do\n\nIn this role, you’ll be the go-to expert for your business area. You’ll partner directly with leaders within the SDC and be their go-to for all things data, insights, and strategy. You’ll be hands-on and responsible for delivering critical insights, ensuring data driven decision making is at the core of what we do. You’ll partner with leadership to drive business strategy, planning, goal-setting and performance tracking. You may also scope and lead mission critical projects and execute on strategic initiatives.\n\nResponsibilities\n\n• Metrics & Insights: Wrangle large, highly complex datasets using SQL into actionable insights and become the data expert for your business area. Develop metrics and large-scale dashboards to track the health of our user-facing and internal teams. Perform analyses (using SQL & other analytical tools/languages), identify trends, conduct research, build models, all to deliver objective, critical insights that can inform leadership of opportunities, risks, and strategic priorities.\n\n• Communicate with executives: Create narratives and documents that tell the story of your business area to influence senior Operations leadership and Stripe executive team decision making. Own executive-facing weekly, monthly or quarterly reporting.\n\n• Stakeholder management: Influence and drive cross-functional change by partnering with stakeholders across a wide internal network of globally distributed teams, including Ops, Finance, Data Science, Product/Engineering, and more\n\n• Drive operational excellence: Design, optimize and drive operational reviews and rhythm of the business. Guide the planning and goal-setting process for your business area, as well as progress checks throughout the year. Bring and consistently apply a ROI lens to all operational decisions, so we can make better-informed trade-offs\n\n• Conduct internal knowledge sharing sessions to strengthen the team\n\nWho you are\n\nYou’re passionate about solving business problems and making a direct impact on business. You thrive in environments with many moving parts and quickly pick up new domain knowledge and technologies (e.g. AI). We’re seeking someone with excellent communication and advanced SQL/analytics abilities. Strong background in Accounting/Finance or prior AI experience is highly preferred, though these can also be developed on the job.\n\nMinimum requirements\n\n• Bachelor's degree in STEM major (i.e. Computer Science, Math, Stat, Engineering, etc.) and 4+ years of prior working experience in data analysis fields\n\n• Strong analytical ability, proficiency with SQL (minimum of 3 years advanced SQL) and strong understanding of data relationships\n\n• Experience working with extremely large datasets\n\n• Experience with AI tools (Claude Code, etc.) and have demonstrated measurable impact from AI in your role or in others’ around you.\n\n• Outstanding communication, presentation skills & stakeholder management skills\n\n• Experience working in or with Financial Services, Accounting, GTM/Sales, Operations\n\n• Expertise working cross-functionally and with globally distributed teams to drive business and operational goals using data\n\n• Ability to connect the big picture to minute details, toggling between them to set and operationalize strategy\n\nPreferred qualifications\n\n• Experience working in fast-paced environments (e.g. high-growth fintech/tech company, management consulting)\n\n• Experience working with Product Manager and Engineering teams\n\n• Experience with visualization tools"
+    ]
+   }
+  ]
+ },
+ {
+  "tier": "B",
+  "title": "PART-TIME Remote Database & CRM Specialist",
+  "company": "Paragon Planners",
+  "location": "Anywhere in the World",
+  "url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-database-crm-specialist",
+  "source": "WeWorkRemotely",
+  "note": "Worldwide / APAC remote",
+  "remote": true,
+  "posted": "2026-10-13T16:00:30+00:00",
+  "description": "Headquarters: Oregon\n\nURL: https://paragonplanners.com/employment/\n\nPart-Time Remote Database & CRM Specialist (Training Provided)\n\nParagon Planners | Remote, U.S. | $20–$23 per hour\n\nAbout Paragon Planners\n\nAt Paragon Planners, we provide administrative and operational support to professionals in the financial services industry. We're a fully remote team that values accuracy, dependability, communication, and people who take pride in doing great work.\n\nWe're looking for a Database & CRM Specialist to join our team and help keep the information behind our operations organized, accurate, and running smoothly.\n\nThis is a great opportunity for someone who enjoys working with spreadsheets, learning new systems, solving problems, and digging into the details. You'll receive training on our processes and work closely with our Database & IT Director as you grow into the role.\n\nWhat You'll Be Doing\n\n•\nOrganizing, cleaning, and maintaining Excel spreadsheets and databases\n\n•\nIdentifying duplicate records, formatting issues, and data inconsistencies\n\n•\nPreparing, reviewing, and validating information for CRM uploads\n\n•\nAssisting with territory mapping, travel zones, and geographic data organization\n\n•\nHelping analyze advisor rankings, territory information, and other operational data\n\n•\nGenerating CRM reports and maintaining accurate records\n\n•\nTracking projects, deadlines, and assigned tasks\n\n•\nMaintaining accurate billing-related documentation\n\n•\nProtecting confidential information and ensuring data integrity\n\n•\nLearning new systems and supporting additional database projects as needed\n\nWhat We're Looking For\n\n•\nStrong attention to detail and a commitment to accuracy\n\n•\nExperience working with Microsoft Excel and organizing data\n\n•\nComfort learning new software and navigating multiple applications\n\n•\nStrong organizational and problem-solving skills\n\n•\nAbility to manage assignments independently while communicating progress and asking questions when needed\n\n•\nDependability, professionalism, and good time management\n\n•\nExperience with Microsoft Office, Google Docs/Sheets, and Outlook\n\n•\nHigh school diploma or GED and at least one year of related experience or training; two or more years preferred\n\nExperience with CRM systems, database maintenance, or data analysis is helpful, but you do not need to know our specific systems. We're happy to train the right person!\n\nPosition Details\n\n•\nFully remote, part-time opportunity\n\n•\nStarting pay: $20–$23 per hour, depending on experience and location\n\n•\nTraining provided\n\n•\nReports to the Database & IT Director\n\n•\nRequires a reliable internet connection, a quiet home workspace, and a compatible Windows computer\n\nEligible Hiring States\n\nWe are currently only hiring in the following states:\n\nAL, AZ, FL, GA, ID, KY, LA, MI, MO, NC, OH, OR, SC, TN, TX, UT, and WY.\n\nAs Paragon Planners is not currently able to employ individuals in every state, continued employment following a relocation depends on your new location and cannot be guaranteed.\n\nHow to Apply\n\nIf you enjoy working with data, have strong organizational skills, and are excited about learning new systems, we'd love to hear from you!\n\nPlease submit your resume and a cover letter explaining your interest in the position, your experience with spreadsheets or database systems, and how your skills would help you succeed in this role.\n\nClick Here To Apply! (https://paragonplanners.com/employment/)\n\nApplication Timeline: We'll begin contacting selected applicants regarding next steps by October 23, 2026.\n\nParagon Planners is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, national origin, sex, age, disability, or any other legally protected status. All qualified applicants are encouraged to apply.\n\nTo apply: https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-database-crm-specialist",
+  "must": [
+   "Excel"
+  ],
+  "nice": [],
+  "soft": [
+   "Problem Solving"
+  ],
+  "experience": "",
+  "salary": "$20–$23",
+  "analysis": {
+   "role": "PART-TIME Remote Database & CRM Specialist",
+   "company": "Paragon Planners",
+   "location": "Anywhere in the World",
+   "posted_at": "2026-10-13T16:00:30+00:00",
+   "eligibility": "B",
+   "experience": "",
+   "experience_level": "director",
+   "education": [
+    "Be Doing",
+    "diploma or GED and at least one year of related experience or training; two or more years preferred",
+    "be guaranteed"
+   ],
+   "responsibilities": [],
+   "ideal_candidate": {
+    "summary": [
+     "Headquarters: Oregon\n\nURL: https://paragonplanners.com/employment/\n\nPart-Time Remote Database & CRM Specialist (Training Provided)\n\nParagon Planners | Remote, U.S. | $20–$23 per hour\n\nAbout Paragon Planners\n\nAt Paragon Planners, we provide administrative and operational support to professionals in the financial services industry. We're a fully remote team that values accuracy, dependability, communication, and people who take pride in doing great work.\n\nWe're looking for a Database & CRM Specialist to join our team and help keep the information behind our operations organized, accurate, and running smoothly.\n\nThis is a great opportunity for someone who enjoys working with spreadsheets, learning new systems, solving problems, and digging into the details. You'll receive training on our processes and work closely with our Database & IT Director as you grow into the role.\n\nWhat You'll Be Doing\n\n•\nOrganizing, cleaning, and maintaining Excel spreadsheets and databases\n\n•\nIdentifying duplicate records, formatting issues, and data inconsistencies\n\n•\nPreparing, reviewing, and validating information for CRM uploads\n\n•\nAssisting with territory mapping, travel zones, and geographic data organization\n\n•\nHelping analyze advisor rankings, territory information, and other operational data\n\n•\nGenerating CRM reports and maintaining accurate records\n\n•\nTracking projects, deadlines, and assigned tasks\n\n•\nMaintaining accurate billing-related documentation\n\n•\nProtecting confidential information and ensuring data integrity\n\n•\nLearning new systems and supporting additional database projects as needed\n\nWhat We're Looking For\n\n•\nStrong attention to detail and a commitment to accuracy\n\n•\nExperience working with Microsoft Excel and organizing data\n\n•\nComfort learning new software and navigating multiple applications\n\n•\nStrong organizational and problem-solving skills\n\n•\nAbility to manage assignments independently while communicating progress and asking questions when needed\n\n•\nDependability, professionalism, and good time management\n\n•\nExperience with Microsoft Office, Google Docs/Sheets, and Outlook\n\n•\nHigh school diploma or GED and at least one year of related experience or training; two or more years preferred\n\nExperience with CRM systems, database maintenance, or data analysis is helpful, but you do not need to know our specific systems. We're happy to train the right person!\n\nPosition Details\n\n•\nFully remote, part-time opportunity\n\n•\nStarting pay: $20–$23 per hour, depending on experience and location\n\n•\nTraining provided\n\n•\nReports to the Database & IT Director\n\n•\nRequires a reliable internet connection, a quiet home workspace, and a compatible Windows computer\n\nEligible Hiring States\n\nWe are currently only hiring in the following states:\n\nAL, AZ, FL, GA, ID, KY, LA, MI, MO, NC, OH, OR, SC, TN, TX, UT, and WY.\n\nAs Paragon Planners is not currently able to employ individuals in every state, continued employment following a relocation depends on your new location and cannot be guaranteed.\n\nHow to Apply\n\nIf you enjoy working with data, have strong organizational skills, and are excited about learning new systems, we'd love to hear from you!\n\nPlease submit your resume and a cover letter explaining your interest in the position, your experience with spreadsheets or database systems, and how your skills would help you succeed in this role.\n\nClick Here To Apply! (https://paragonplanners.com/employment/)\n\nApplication Timeline: We'll begin contacting selected applicants regarding next steps by October 23, 2026.\n\nParagon Planners is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, national origin, sex, age, disability, or any other legally protected status. All qualified applicants are encouraged to apply.\n\nTo apply: https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-database-crm-specialis"
+    ],
+    "required_skills": [
+     "Excel"
+    ],
+    "preferred_skills": []
+   },
+   "required_skills": [
+    "Excel"
+   ],
+   "preferred_skills": [],
+   "ats_keywords": [
+    "Excel",
+    "Problem Solving",
+    "PART-TIME Remote Database & CRM Specialis",
+    "Paragon Planners"
+   ],
+   "tools_and_technologies": [
+    "Excel"
+   ],
+   "salary": "$20–$23",
+   "assessment": {
+    "found": false,
+    "details": [],
+    "source": "not_found_in_job_posting",
+    "confidence": "none"
+   },
+   "interview": {
+    "process": [],
+    "questions": [
+     "How have you used Excel in a real project or work situation?"
+    ],
+    "source": "role_based_inference",
+    "confidence": "inferred"
+   },
+   "indian_candidate_prep": [
+    "Verify that the posting explicitly accepts applicants from India before applying.",
+    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
+    "Prepare concrete project/work examples demonstrating: Excel.",
+    "Check that your education matches the stated qualification requirements.",
+    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
+   ],
+   "content_angles": [
+    "What this PART-TIME Remote Database & CRM Specialist role actually requires",
+    "Resume keywords an applicant should use",
+    "What to prepare before applying",
+    "Assessment and interview preparation"
+   ],
+   "evidence": {
+    "job_posting": "primary source",
+    "assessment": "not_found_in_job_posting",
+    "interview": "role_based_inference"
+   }
+  },
+  "hours_old": 0.45412862305555557,
+  "score": 56.7,
+  "work_mode": "Remote",
+  "employment_type": "Part-time",
+  "salary_type": "Source/feed value — verify against employer posting",
+  "id": "fee2738838a783dd",
+  "description_sections": [
+   {
+    "heading": "Original job description",
+    "items": [
+     "Headquarters: Oregon\n\nURL: https://paragonplanners.com/employment/\n\nPart-Time Remote Database & CRM Specialist (Training Provided)\n\nParagon Planners | Remote, U.S. | $20–$23 per hour\n\nAbout Paragon Planners\n\nAt Paragon Planners, we provide administrative and operational support to professionals in the financial services industry. We're a fully remote team that values accuracy, dependability, communication, and people who take pride in doing great work.\n\nWe're looking for a Database & CRM Specialist to join our team and help keep the information behind our operations organized, accurate, and running smoothly.\n\nThis is a great opportunity for someone who enjoys working with spreadsheets, learning new systems, solving problems, and digging into the details. You'll receive training on our processes and work closely with our Database & IT Director as you grow into the role.\n\nWhat You'll Be Doing\n\n•\nOrganizing, cleaning, and maintaining Excel spreadsheets and databases\n\n•\nIdentifying duplicate records, formatting issues, and data inconsistencies\n\n•\nPreparing, reviewing, and validating information for CRM uploads\n\n•\nAssisting with territory mapping, travel zones, and geographic data organization\n\n•\nHelping analyze advisor rankings, territory information, and other operational data\n\n•\nGenerating CRM reports and maintaining accurate records\n\n•\nTracking projects, deadlines, and assigned tasks\n\n•\nMaintaining accurate billing-related documentation\n\n•\nProtecting confidential information and ensuring data integrity\n\n•\nLearning new systems and supporting additional database projects as needed\n\nWhat We're Looking For\n\n•\nStrong attention to detail and a commitment to accuracy\n\n•\nExperience working with Microsoft Excel and organizing data\n\n•\nComfort learning new software and navigating multiple applications\n\n•\nStrong organizational and problem-solving skills\n\n•\nAbility to manage assignments independently while communicating progress and asking questions when needed\n\n•\nDependability, professionalism, and good time management\n\n•\nExperience with Microsoft Office, Google Docs/Sheets, and Outlook\n\n•\nHigh school diploma or GED and at least one year of related experience or training; two or more years preferred\n\nExperience with CRM systems, database maintenance, or data analysis is helpful, but you do not need to know our specific systems. We're happy to train the right person!\n\nPosition Details\n\n•\nFully remote, part-time opportunity\n\n•\nStarting pay: $20–$23 per hour, depending on experience and location\n\n•\nTraining provided\n\n•\nReports to the Database & IT Director\n\n•\nRequires a reliable internet connection, a quiet home workspace, and a compatible Windows computer\n\nEligible Hiring States\n\nWe are currently only hiring in the following states:\n\nAL, AZ, FL, GA, ID, KY, LA, MI, MO, NC, OH, OR, SC, TN, TX, UT, and WY.\n\nAs Paragon Planners is not currently able to employ individuals in every state, continued employment following a relocation depends on your new location and cannot be guaranteed.\n\nHow to Apply\n\nIf you enjoy working with data, have strong organizational skills, and are excited about learning new systems, we'd love to hear from you!\n\nPlease submit your resume and a cover letter explaining your interest in the position, your experience with spreadsheets or database systems, and how your skills would help you succeed in this role.\n\nClick Here To Apply! (https://paragonplanners.com/employment/)\n\nApplication Timeline: We'll begin contacting selected applicants regarding next steps by October 23, 2026.\n\nParagon Planners is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, national origin, sex, age, disability, or any other legally protected status. All qualified applicants are encouraged to apply.\n\nTo apply: https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-database-crm-specialist"
+    ]
+   }
+  ]
+ },
+ {
+  "tier": "B",
+  "title": "Senior Data Engineer",
+  "company": "Deep DSG",
+  "location": "Worldwide",
+  "url": "https://himalayas.app/companies/deep-dsg/jobs/senior-data-engineer-4732374981",
+  "source": "Himalayas",
+  "note": "Worldwide / APAC remote",
+  "remote": true,
+  "posted": "2026-10-13T14:28:00+00:00",
+  "description": "Deep Digital are seeking a highly skilled and experienced Senior Data Engineer with a proven track record in successfully implementing, optimizing, and maintaining the data integration and historian systems.\n\nThe ideal candidate will possess in-depth knowledge of industrial processes, data historian best practices, and a strong ability to lead and mentor junior team members. This role involves advanced technical responsibilities and collaboration with cross-functional teams to ensure the seamless operation of data integration and historian systems.\n\nResponsibilities\n\n• Lead the design, implementation, and optimization of data historian solutions.\n\n• Lead efforts to integrate historian systems with various control systems and third-party applications.\n\n• Conduct performance analysis and implement strategies for continuous improvement.\n\n• Design and configure complex data tags to meet specific project requirements\n\n• Develop custom interfaces and connectors to enhance data integration capabilities\n\n• Develop and implement advanced security measures to protect historical data.\n\n• Ensure compliance with industry standards and regulations, taking a lead role in audits and assessments\n\n• Investigate and resolve complex issues related to data collection, storage, and retrieval.\n\n• Provide technical leadership and mentorship to junior engineers in the team\n\n• Maintain comprehensive documentation for all configurations, installations, and troubleshooting procedures.\n\n• Comply with Deep Digitals Quality Management System requirements i.e. perform your work according to your process documents, procedures and maintaining document information/completing department forms/records as required.\n\nJob benefits:\n\n• Remote working\n\n• 22 days Annual leave\n\n• Company pension\n\n• Medical insurance\n\n• Employee Assistance Program\n\n• Income Protection\n\n• Life Insurance\n\n• Sports an Social Club\n\n• Paid sick leave\n\n• Bike to work scheme\n\n• Professional development\n\nRequirements\n\n• Bachelors degree in Software Engineering, Computer Science, Information Technology or related field\n\n• Between 3 and 5 years of hands-on experience with design, implementation and leadership in projects, comprising of the following systems: AVEVA PI, AspenTech IP.21, AspenTech Inmation, Inductive Automation Ignition, PTC Kepware.\n\n• In-depth knowledge of data integration and historian system architecture and components.\n\n• Strong understanding of industrial processes and automation systems.\n\n• Expertise with data contextualisation, visualisation and reporting platforms.\n\n• Proficiency in scripting languages (e.g., PowerShell) for automation tasks.\n\n• Previous experience in mentoring and leading a technical team\n\n• Good communication skills\n\nHighlights\n\nIf you are a talented Data Engineer looking to contribute to cutting-edge projects in a dynamic environment, we encourage you to apply.\n\nOriginally posted on Himalayas (https://himalayas.app)",
+  "must": [],
+  "nice": [],
+  "soft": [
+   "Mentoring",
+   "Cross-functional Collaboration",
+   "Communication Skills",
+   "Debugging"
+  ],
+  "experience": "5 years",
+  "salary": "",
+  "analysis": {
+   "role": "Senior Data Engineer",
+   "company": "Deep DSG",
+   "location": "Worldwide",
+   "posted_at": "2026-10-13T14:28:00+00:00",
+   "eligibility": "B",
+   "experience": "5 years",
+   "experience_level": "senior",
+   "education": [
+    "degree in Software Engineering, Computer Science, Information Technology or related field"
+   ],
+   "responsibilities": [
+    "Lead the design, implementation, and optimization of data historian solutions.",
+    "Lead efforts to integrate historian systems with various control systems and third-party applications.",
+    "Conduct performance analysis and implement strategies for continuous improvement.",
+    "Design and configure complex data tags to meet specific project requirements",
+    "Develop custom interfaces and connectors to enhance data integration capabilities",
+    "Develop and implement advanced security measures to protect historical data.",
+    "Ensure compliance with industry standards and regulations, taking a lead role in audits and assessments",
+    "Investigate and resolve complex issues related to data collection, storage, and retrieval.",
+    "Provide technical leadership and mentorship to junior engineers in the team",
+    "Maintain comprehensive documentation for all configurations, installations, and troubleshooting procedures.",
+    "Comply with Deep Digitals Quality Management System requirements i.e. perform your work according to your process documents, procedures and maintaining document information/completing department forms/records as required.",
+    "Remote working"
+   ],
+   "ideal_candidate": {
+    "summary": [
+     "Lead the design, implementation, and optimization of data historian solutions.",
+     "Lead efforts to integrate historian systems with various control systems and third-party applications.",
+     "Conduct performance analysis and implement strategies for continuous improvement."
+    ],
+    "required_skills": [],
+    "preferred_skills": []
+   },
+   "required_skills": [],
+   "preferred_skills": [],
+   "ats_keywords": [
+    "Mentoring",
+    "Cross-functional Collaboration",
+    "Communication Skills",
+    "Debugging",
+    "Senior Data Engineer",
+    "Deep DSG"
+   ],
+   "tools_and_technologies": [],
+   "salary": "",
+   "assessment": {
+    "found": false,
+    "details": [],
+    "source": "not_found_in_job_posting",
+    "confidence": "none"
+   },
+   "interview": {
+    "process": [],
+    "questions": [
+     "How would you approach the most important responsibilities of a Senior Data Engineer?"
+    ],
+    "source": "role_based_inference",
+    "confidence": "inferred"
+   },
+   "indian_candidate_prep": [
+    "Verify that the posting explicitly accepts applicants from India before applying.",
+    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
+    "Check that your education matches the stated qualification requirements.",
+    "Prepare examples that demonstrate the stated experience level: 5 years.",
+    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
+   ],
+   "content_angles": [
+    "What this Senior Data Engineer role actually requires",
+    "Resume keywords an applicant should use",
+    "What to prepare before applying",
+    "Assessment and interview preparation"
+   ],
+   "evidence": {
+    "job_posting": "primary source",
+    "assessment": "not_found_in_job_posting",
+    "interview": "role_based_inference"
+   }
+  },
+  "hours_old": 1.9958159166666665,
+  "score": 52.8,
+  "work_mode": "Remote",
+  "employment_type": "Not specified",
+  "salary_type": "Not found in feed or description; market research required",
+  "id": "54c3fc52d0fab4e5",
+  "description_sections": [
+   {
+    "heading": "Original job description",
+    "items": [
+     "Deep Digital are seeking a highly skilled and experienced Senior Data Engineer with a proven track record in successfully implementing, optimizing, and maintaining the data integration and historian systems.\n\nThe ideal candidate will possess in-depth knowledge of industrial processes, data historian best practices, and a strong ability to lead and mentor junior team members. This role involves advanced technical responsibilities and collaboration with cross-functional teams to ensure the seamless operation of data integration and historian systems.\n\nResponsibilities\n\n• Lead the design, implementation, and optimization of data historian solutions.\n\n• Lead efforts to integrate historian systems with various control systems and third-party applications.\n\n• Conduct performance analysis and implement strategies for continuous improvement.\n\n• Design and configure complex data tags to meet specific project requirements\n\n• Develop custom interfaces and connectors to enhance data integration capabilities\n\n• Develop and implement advanced security measures to protect historical data.\n\n• Ensure compliance with industry standards and regulations, taking a lead role in audits and assessments\n\n• Investigate and resolve complex issues related to data collection, storage, and retrieval.\n\n• Provide technical leadership and mentorship to junior engineers in the team\n\n• Maintain comprehensive documentation for all configurations, installations, and troubleshooting procedures.\n\n• Comply with Deep Digitals Quality Management System requirements i.e. perform your work according to your process documents, procedures and maintaining document information/completing department forms/records as required.\n\nJob benefits:\n\n• Remote working\n\n• 22 days Annual leave\n\n• Company pension\n\n• Medical insurance\n\n• Employee Assistance Program\n\n• Income Protection\n\n• Life Insurance\n\n• Sports an Social Club\n\n• Paid sick leave\n\n• Bike to work scheme\n\n• Professional development\n\nRequirements\n\n• Bachelors degree in Software Engineering, Computer Science, Information Technology or related field\n\n• Between 3 and 5 years of hands-on experience with design, implementation and leadership in projects, comprising of the following systems: AVEVA PI, AspenTech IP.21, AspenTech Inmation, Inductive Automation Ignition, PTC Kepware.\n\n• In-depth knowledge of data integration and historian system architecture and components.\n\n• Strong understanding of industrial processes and automation systems.\n\n• Expertise with data contextualisation, visualisation and reporting platforms.\n\n• Proficiency in scripting languages (e.g., PowerShell) for automation tasks.\n\n• Previous experience in mentoring and leading a technical team\n\n• Good communication skills\n\nHighlights\n\nIf you are a talented Data Engineer looking to contribute to cutting-edge projects in a dynamic environment, we encourage you to apply.\n\nOriginally posted on Himalayas (https://himalayas.app)"
     ]
    }
   ]
@@ -889,8 +1251,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.5067908955555556,
-  "score": 51.9,
+  "hours_old": 8.945899737222222,
+  "score": 48.6,
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -900,6 +1262,103 @@
     "heading": "Original job description",
     "items": [
      "Headquarters: Remote - US\n\nWho We Are\n\nOportun (Nasdaq: OPRT) is a mission-driven financial services company that puts its members' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Oportun empowers members with the confidence to build a better financial future. Since inception, Oportun has provided more than $22.7 billion in responsible and affordable credit, saved its members more than $2.5 billion in interest and fees, and helped its members set aside an average of more than $1,800 annually.\n\nThe Opportunity\n\nWe’re looking for a Principal Product Manager to lead the strategy, roadmap, and execution for Oportun’s flagship, AI-powered Savings product. Savings is an important driver of member growth and retention, giving this role significant influence over the future of our financial health platform and how we help members build stronger financial futures.\n\nYou’ll lead the ideation, development, launch, and scaling of new products and features while partnering closely with Engineering, Design, Data, Marketing, Legal, and Customer Support. This role reports to the Vice President & General Manager for Savings and Mobile. Candidates located in Central or Eastern time zones are strongly preferred to support team and stakeholder collaboration.\n\nAt Oportun, we move fast and we hold each other to a high bar. If you care about doing your best work while actually moving the needle for real people, you'll fit right in.\n\nWhat You'll Do\n\nYour day-to-day\n\n• You’ll lead the long-term product strategy and roadmap for Oportun’s Savings product in partnership with leadership and cross-functional stakeholders.\n\n• You’ll scope and lead the development of new products and features designed to improve members’ financial health and strengthen growth and retention.\n\n• You’ll use customer research, experimentation, data, and product metrics to build a deep understanding of member needs and behaviors and translate those insights into product decisions.\n\n• You’ll lead a high-performing cross-functional product team across Engineering, Design, Data, Marketing, Legal, and Customer Support to bring new capabilities to market.\n\n• You’ll drive alignment across teams and leadership through clear communication, thoughtful documentation, and strong product judgment.\n\n• You’ll navigate complex legal and regulatory considerations while keeping the team focused on member outcomes and execution.\n\n• You’ll bring ideas for how we can do things better, proactively, not just when asked.\n\n• You’ll look for ways to use AI tools thoughtfully to accelerate product discovery, improve decision-making, reduce manual work, and create stronger member experiences.\n\nWho You Are\n\nThe right fit looks like this\n\nYou’re a curious and creative product leader who enjoys solving ambiguous problems and turning customer needs into clear product strategies. You combine strong product judgment with data, move comfortably between strategy and execution, and build trust across a wide range of partners.\n\nYou’re customer-focused, solution-oriented, and comfortable navigating complexity without waiting for perfect information. You communicate clearly, build alignment, and keep teams moving toward meaningful outcomes.\n\nWhat You Bring\n\nSkills & experience\n\nRequired\n\n• 7+ years of product management experience, including experience building and scaling products in high-growth environments.\n\n• A strong track record of defining product strategy, building roadmaps, and shipping products that deliver measurable customer and business outcomes.\n\n• Strong customer orientation and a passion for building products that improve financial health.\n\n• Strong analytical and problem-solving skills, including experience with experimentation, product metrics, data analysis, and data-informed decision-making.\n\n• Demonstrated success leading cross-functional product teams and building alignment across Engineering, Design, Data, Marketing, Legal, Customer Support, and senior leadership.\n\n• Strong written and verbal communication skills, including the ability to communicate complex product decisions clearly and concisely.\n\n• Experience navigating ambiguity, removing blockers, and driving execution across complex product initiatives.\n\nNice to Have\n\n• Experience in financial services, fintech, digital banking, or another highly regulated industry.\n\n• Experience launching products within complex legal or regulatory frameworks.\n\n• Experience using SQL or similar tools to support product analysis and decision-making.\n\n• Experience working with globally distributed or multinational teams.\n\n• Experience using AI tools such as ChatGPT, Copilot, or similar tools to improve product discovery, analysis, or productivity.\n\nOur AI Mindset\n\nWe build with AI. We lead with judgment.\n\nAI isn't a feature here. It's how we work.\n\nWe're excited about what AI makes possible, and we're looking for people who share that curiosity. You don't need to be an expert. You need to be open to experimenting, willing to learn, and able to apply new tools in ways that actually move the needle.\n\nIn this role, you'll be encouraged to explore AI tools, find practical use cases for your function, and bring ideas for working smarter. We believe the best outcomes come when human judgment and AI capability work together.\n\nWhy Oportun\n\nWhat's in it for you\n\nOportun offers a competitive compensation and benefits package designed to support your physical, financial, and professional well-being. Benefits vary by country of employment.\n\nSome of the benefits available to eligible employees include:\n\nUS Benefits:\n\n• Medical, Dental & Vision Insurance\n\n• 401(k) including company match\n\n• Flexible PTO and Parental Leave\n\n• Company-paid Life & Disability Insurance\n\nEligibility and plan details vary by location and employment status. To learn more about Oportun and our benefits, visit oportun.com/careers\n\nThe US salary range for this full-time position is $ 148,100 - $ 237,000\n\nOur salary ranges are determined by role, level, and location. The range displayed on each job posting reflects a national minimum and maximum range for new hire salaries for this position.\n\nWithin this range, individual pay is determined by work location and additional factors, such as job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range that meets your criteria during the hiring process.\n\nPlease note that the compensation range listed in this posting reflects only the base salary for this position and does not include other compensation elements or benefits. R1 #LI-REMOTE #LI-R\n\nWe are proud to be an Equal Opportunity Employer and consider all qualified applicants for employment opportunities without regard to race, age, color, religion, gender, national origin, disability, sexual orientation, veteran status or any other category protected by the laws or regulations in the locations where we operate.\n\nCalifornia applicants can find a copy of Oportun's CCPA Notice here:  https://oportun.com/privacy/california-privacy-notice/.\n\nWe will never request personal identifiable information (bank, credit card, etc.) before you are hired. We do not charge you for pre-employment fees such as background checks, training, or equipment. If you think you have been a victim of fraud by someone posing as us, please report your experience to the FBI’s Internet Crime Complaint Center (IC3).\n\nTo apply: https://weworkremotely.com/remote-jobs/oportun-principal-product-manager-savings-r13997"
+    ]
+   }
+  ]
+ },
+ {
+  "tier": "B",
+  "title": "Video Editor",
+  "company": "Kalshi",
+  "location": "Anywhere",
+  "url": "https://jobicy.com/jobs/155198-video-editor",
+  "source": "Jobicy",
+  "note": "Remote - anywhere",
+  "remote": true,
+  "posted": "2026-10-13T09:48:21+00:00",
+  "description": "Kalshi (https://jobicy.com/company/kalshi) is defining a new category\n\nKalshi has defined a new category: prediction markets. Kalshi allows people to trade on the outcome of any events and turn any question about the future into a financial asset. Kalshi fought for years and legalized prediction markets in the US for the first time in history. Kalshi is currently the fastest growing financial market in America, and has thousands of markets across politics, economics, financials, weather, tech, AI, culture and more.\n\nWe believe prediction markets have the potential to be the largest financial market because they turn anything into a financial position.\n\n• Our vision: well… build the largest financial market on the planet.\n\n• Our mission: bring more truth to the world through the power of markets.\n\nBuilding a new category is hard… like really hard. But it’s beautiful and deeply fulfilling (https://x.com/Kalshi/status/1853456453886980215). Our culture is simple: we hire really talented people, work really hard, and enjoy the climb. We are looking for ambitious and exceptional people to join our (relatively small) team to help us build the next generation of financial markets.\n\nRole Roadmap\n\nWe are looking for a Video Editor who is passionate about creating viral social media content, including TikTok and other user-generated content. We have a massive nationwide campaign coming up that will involve hundreds of videos being created. This role will be crucial to the success of the campaign.\n\nYour responsibilities will include:\n\n• Edit and produce high-quality, engaging social media videos, including UGC TikTok videos, Instagram Reels, and YouTube Shorts.\n\n• Collaborate with our creative and social teams to ideate, plan, and execute video content that will go viral.\n\n• Transform raw footage into polished, short-form video content that’s optimized for social media.\n\n• Stay up-to-date with social media video trends, techniques, and best practices to ensure content resonates with our audience.\n\n• Ability to film or capture content is a plus—helping guide shoots or even capturing footage on occasion.\n\nWho You Are:\n\nYou love making super high quality engaging videos and have made many viral videos yourself. You thrive in fast-paced environments and are obsessed with crafting content that engages and excites audiences.\n\nSome basic requirements:\n\n• Experience making videos that have gone viral.\n\n• 2+ years of experience in video editing, specifically for social media platforms like TikTok, Instagram, and YouTube.\n\n• Proven ability to create highly engaging and viral content.\n\n• A creative mindset with a keen understanding of storytelling, pacing, and the latest video trends.\n\n• Experience in editing short-form, fast-paced videos for social media audiences.\n\n• Experience with sound editing, color correction, and motion graphics is a plus.\n\n• Bonus: Experience in filming content or directing video shoots.\n\nNYC Pay Transparency Disclosure:\n\nSalary Range: $70,000 to $150,000 annually plus equity and benefits.\n\nThis salary range is based on the current available market data and represents the expected salary range for this role. Kalshi has minimal hierarchy and few titles, but a broad range of experience is represented within roles. Should you have compensation expectations that exceed these bands, we'd love to hear from you and would welcome you to reach out to discuss further.\n\nOur Culture\n\nMeritocracy is at our core, and we value people who take ownership and figure (usually hard) things out. We dream big. We love our craft deeply and are proud of what we put out in the world. We are committed to our vision of building something big… but also useful: a product that brings more truth through the power of markets.\n\nKalshians are Kalshi’s most important asset: we pick Kalshians carefully, so we trust them fully on day 1.\n\nCommitment to Equal Opportunity\n\nKalshi is committed to creating a culture of inclusion and belonging, and we are proud to be an equal opportunity employer. We believe it is our collective responsibility to uphold these values and encourage candidates from all backgrounds to join us in our mission. All qualified applicants will be treated with respect and receive equal consideration for employment without regard to race, color, creed, religion, sex, gender identity, sexual orientation, national origin, disability, uniform service, veteran status, age, or any other protected characteristic per federal, state, or local law. If you are passionate about what you do and want to use your talents to support our mission and values, we’d love to hear from you.",
+  "must": [],
+  "nice": [],
+  "soft": [
+   "End-to-End Ownership"
+  ],
+  "experience": "2+ years",
+  "salary": "$70,000 to $150,000",
+  "analysis": {
+   "role": "Video Editor",
+   "company": "Kalshi",
+   "location": "Anywhere",
+   "posted_at": "2026-10-13T09:48:21+00:00",
+   "eligibility": "B",
+   "experience": "2+ years",
+   "experience_level": "2+ years",
+   "education": [
+    "be the largest financial market because they turn anything into a financial position",
+    "be crucial to the success of the campaign",
+    "be an equal opportunity employer",
+    "be treated with respect and receive equal consideration for employment without regard to race, color, creed, religion, sex, gender identity, sexual orientation, national origin, disa"
+   ],
+   "responsibilities": [],
+   "ideal_candidate": {
+    "summary": [
+     "Kalshi (https://jobicy.com/company/kalshi) is defining a new category\n\nKalshi has defined a new category: prediction markets. Kalshi allows people to trade on the outcome of any events and turn any question about the future into a financial asset. Kalshi fought for years and legalized prediction markets in the US for the first time in history. Kalshi is currently the fastest growing financial market in America, and has thousands of markets across politics, economics, financials, weather, tech, AI, culture and more.\n\nWe believe prediction markets have the potential to be the largest financial market because they turn anything into a financial position.\n\n• Our vision: well… build the largest financial market on the planet.\n\n• Our mission: bring more truth to the world through the power of markets.\n\nBuilding a new category is hard… like really hard. But it’s beautiful and deeply fulfilling (https://x.com/Kalshi/status/1853456453886980215). Our culture is simple: we hire really talented people, work really hard, and enjoy the climb. We are looking for ambitious and exceptional people to join our (relatively small) team to help us build the next generation of financial markets.\n\nRole Roadmap\n\nWe are looking for a Video Editor who is passionate about creating viral social media content, including TikTok and other user-generated content. We have a massive nationwide campaign coming up that will involve hundreds of videos being created. This role will be crucial to the success of the campaign.\n\nYour responsibilities will include:\n\n• Edit and produce high-quality, engaging social media videos, including UGC TikTok videos, Instagram Reels, and YouTube Shorts.\n\n• Collaborate with our creative and social teams to ideate, plan, and execute video content that will go viral.\n\n• Transform raw footage into polished, short-form video content that’s optimized for social media.\n\n• Stay up-to-date with social media video trends, techniques, and best practices to ensure content resonates with our audience.\n\n• Ability to film or capture content is a plus—helping guide shoots or even capturing footage on occasion.\n\nWho You Are:\n\nYou love making super high quality engaging videos and have made many viral videos yourself. You thrive in fast-paced environments and are obsessed with crafting content that engages and excites audiences.\n\nSome basic requirements:\n\n• Experience making videos that have gone viral.\n\n• 2+ years of experience in video editing, specifically for social media platforms like TikTok, Instagram, and YouTube.\n\n• Proven ability to create highly engaging and viral content.\n\n• A creative mindset with a keen understanding of storytelling, pacing, and the latest video trends.\n\n• Experience in editing short-form, fast-paced videos for social media audiences.\n\n• Experience with sound editing, color correction, and motion graphics is a plus.\n\n• Bonus: Experience in filming content or directing video shoots.\n\nNYC Pay Transparency Disclosure:\n\nSalary Range: $70,000 to $150,000 annually plus equity and benefits.\n\nThis salary range is based on the current available market data and represents the expected salary range for this role. Kalshi has minimal hierarchy and few titles, but a broad range of experience is represented within roles. Should you have compensation expectations that exceed these bands, we'd love to hear from you and would welcome you to reach out to discuss further.\n\nOur Culture\n\nMeritocracy is at our core, and we value people who take ownership and figure (usually hard) things out. We dream big. We love our craft deeply and are proud of what we put out in the world. We are committed to our vision of building something big… but also useful: a product that brings more truth through the power of markets.\n\nKalshians are Kalshi’s most important asset: we pick Kalshians carefully, so we trust them fully on day 1.\n\nCommitment to Equal Opportunity\n\nKalshi is committed to creating a culture of inclusion and belonging, and we are proud to be an equal opportunity employer. We believe it is our collective responsibility to uphold these values and encourage candidates from all backgrounds to join us in our mission. All qualified applicants will be treated with respect and receive equal consideration for employment without regard to race, color, creed, religion, sex, gender identity, sexual orientation, national origin, disability, uniform service, veteran status, age, or any other protected characteristic per federal, state, or local law. If you are passionate about what you do and want to use your talents to support our mission and values, we’d love to hear from you."
+    ],
+    "required_skills": [],
+    "preferred_skills": []
+   },
+   "required_skills": [],
+   "preferred_skills": [],
+   "ats_keywords": [
+    "End-to-End Ownership",
+    "Video Editor",
+    "Kalshi"
+   ],
+   "tools_and_technologies": [],
+   "salary": "$70,000 to $150,000",
+   "assessment": {
+    "found": false,
+    "details": [],
+    "source": "not_found_in_job_posting",
+    "confidence": "none"
+   },
+   "interview": {
+    "process": [],
+    "questions": [
+     "What would you prioritize in your first 30 days as a Video Editor?"
+    ],
+    "source": "role_based_inference",
+    "confidence": "inferred"
+   },
+   "indian_candidate_prep": [
+    "Verify that the posting explicitly accepts applicants from India before applying.",
+    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
+    "Check that your education matches the stated qualification requirements.",
+    "Prepare examples that demonstrate the stated experience level: 2+ years.",
+    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
+   ],
+   "content_angles": [
+    "What this Video Editor role actually requires",
+    "Resume keywords an applicant should use",
+    "What to prepare before applying",
+    "Assessment and interview preparation"
+   ],
+   "evidence": {
+    "job_posting": "primary source",
+    "assessment": "not_found_in_job_posting",
+    "interview": "role_based_inference"
+   }
+  },
+  "hours_old": 6.656664309722222,
+  "score": 48.0,
+  "work_mode": "Remote",
+  "employment_type": "Not specified",
+  "salary_type": "Source/feed value — verify against employer posting",
+  "id": "73f60d0841d1cdd5",
+  "description_sections": [
+   {
+    "heading": "Original job description",
+    "items": [
+     "Kalshi (https://jobicy.com/company/kalshi) is defining a new category\n\nKalshi has defined a new category: prediction markets. Kalshi allows people to trade on the outcome of any events and turn any question about the future into a financial asset. Kalshi fought for years and legalized prediction markets in the US for the first time in history. Kalshi is currently the fastest growing financial market in America, and has thousands of markets across politics, economics, financials, weather, tech, AI, culture and more.\n\nWe believe prediction markets have the potential to be the largest financial market because they turn anything into a financial position.\n\n• Our vision: well… build the largest financial market on the planet.\n\n• Our mission: bring more truth to the world through the power of markets.\n\nBuilding a new category is hard… like really hard. But it’s beautiful and deeply fulfilling (https://x.com/Kalshi/status/1853456453886980215). Our culture is simple: we hire really talented people, work really hard, and enjoy the climb. We are looking for ambitious and exceptional people to join our (relatively small) team to help us build the next generation of financial markets.\n\nRole Roadmap\n\nWe are looking for a Video Editor who is passionate about creating viral social media content, including TikTok and other user-generated content. We have a massive nationwide campaign coming up that will involve hundreds of videos being created. This role will be crucial to the success of the campaign.\n\nYour responsibilities will include:\n\n• Edit and produce high-quality, engaging social media videos, including UGC TikTok videos, Instagram Reels, and YouTube Shorts.\n\n• Collaborate with our creative and social teams to ideate, plan, and execute video content that will go viral.\n\n• Transform raw footage into polished, short-form video content that’s optimized for social media.\n\n• Stay up-to-date with social media video trends, techniques, and best practices to ensure content resonates with our audience.\n\n• Ability to film or capture content is a plus—helping guide shoots or even capturing footage on occasion.\n\nWho You Are:\n\nYou love making super high quality engaging videos and have made many viral videos yourself. You thrive in fast-paced environments and are obsessed with crafting content that engages and excites audiences.\n\nSome basic requirements:\n\n• Experience making videos that have gone viral.\n\n• 2+ years of experience in video editing, specifically for social media platforms like TikTok, Instagram, and YouTube.\n\n• Proven ability to create highly engaging and viral content.\n\n• A creative mindset with a keen understanding of storytelling, pacing, and the latest video trends.\n\n• Experience in editing short-form, fast-paced videos for social media audiences.\n\n• Experience with sound editing, color correction, and motion graphics is a plus.\n\n• Bonus: Experience in filming content or directing video shoots.\n\nNYC Pay Transparency Disclosure:\n\nSalary Range: $70,000 to $150,000 annually plus equity and benefits.\n\nThis salary range is based on the current available market data and represents the expected salary range for this role. Kalshi has minimal hierarchy and few titles, but a broad range of experience is represented within roles. Should you have compensation expectations that exceed these bands, we'd love to hear from you and would welcome you to reach out to discuss further.\n\nOur Culture\n\nMeritocracy is at our core, and we value people who take ownership and figure (usually hard) things out. We dream big. We love our craft deeply and are proud of what we put out in the world. We are committed to our vision of building something big… but also useful: a product that brings more truth through the power of markets.\n\nKalshians are Kalshi’s most important asset: we pick Kalshians carefully, so we trust them fully on day 1.\n\nCommitment to Equal Opportunity\n\nKalshi is committed to creating a culture of inclusion and belonging, and we are proud to be an equal opportunity employer. We believe it is our collective responsibility to uphold these values and encourage candidates from all backgrounds to join us in our mission. All qualified applicants will be treated with respect and receive equal consideration for employment without regard to race, color, creed, religion, sex, gender identity, sexual orientation, national origin, disability, uniform service, veteran status, age, or any other protected characteristic per federal, state, or local law. If you are passionate about what you do and want to use your talents to support our mission and values, we’d love to hear from you."
     ]
    }
   ]
@@ -997,8 +1456,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.508763645833333,
-  "score": 50.9,
+  "hours_old": 8.947873948888889,
+  "score": 47.6,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1114,8 +1573,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.5127228080555555,
-  "score": 50.9,
+  "hours_old": 8.951825967222222,
+  "score": 47.6,
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1125,156 +1584,6 @@
     "heading": "Original job description",
     "items": [
      "Headquarters: Remote US\n\nWhat We Do:\n\nCybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact.\n\nFounded in 2015 by former NSA cyber operators, Huntress is a remote-first team working to make enterprise-grade cybersecurity accessible to businesses of all sizes. We work closely with security teams and service providers protecting complex environments, often without the time or headcount to handle it all. That’s why we build our technology in-house and back it with a 24/7 human-led Security Operations Center (SOC). As a result, our platform is never disconnected from the experts who manage it, ensuring our customers' protection.\n\nHuntress now secures more than 5M endpoints and 16M identities worldwide. Those numbers keep growing because more businesses rely on us to help carry the load and operate with more confidence. Every day, you can see that commitment in how we stand with our customers and how we show up for each other.\n\nReports to: SDR Manager\n\nLocation: Remote US\n\nCompensation Range: $58,500 base with on target earnings at $78,000 plus equity\n\nWhat You'll Do:\n\nHuntress is looking for a talented and passionate Sales Development Representative (SDR) to help fuel our continued growth. In this role, you will open doors for the Account Executive team by building relationships with managed service providers (MSPs) and managed security service providers (MSSPs), earning trust quickly, and turning early conversations into qualified meetings that move the pipeline forward. You are outcome-obsessed in how you work, with a clear eye on the right next step, the right partner fit, and the follow-through it takes to create real pipeline impact.\n\nIn the daily rhythm of prospecting into the MSP and MSSP space, you bring warrior spirit. You stay steady through rejection, keep your standards high, and come back sharper on the next call. You also give a sh*t about the people on the other end of the phone, leading with honesty, curiosity, and respect as you help prospective partners understand the value Huntress can deliver to their business and their customers.\n\nResponsibilities:\n\n• Establish rapport and trust with managed service provider (MSP) and managed security service provider (MSSP) prospects via phone, email, and LinkedIn to understand their business and their fit with Huntress.\n\n• Set qualified meetings within our ideal customer profile by following best practices and standard processes.\n\n• Generate and qualify net-new accounts and work inbound opportunities to create a pipeline for the Account Executive team.\n\n• Use clear, value-driven messaging to build interest in Huntress and answer prospect questions with honesty, professionalism, and empathy.\n\n• Research accounts, document prospecting activity, and qualification notes in CRM, and maintain strong data hygiene.\n\n• Use AI tools with good judgment to support account research, call prep, and message drafting in your day-to-day work.\n\n• Keep improving your cold calling, messaging, and pipeline management skills through training, feedback, and repetition.\n\nWhat You Bring to the Team:\n\n• 8+ months of experience in a quota-carrying outbound B2B SaaS sales role.\n\n• Experience with outbound cold calling.\n\n• Strong time management and the ability to prioritize competing tasks.\n\n• Comfort working across CRM, prospecting tools, and multiple systems at the same time.\n\n• Attention to detail when taking notes, setting meetings, and following the process.\n\n• A coachable mindset and a genuine interest in continuing to grow your sales and cybersecurity knowledge.\n\n• Curiosity about AI and the judgment to use it in practical ways that help you work faster and smarter in your day-to-day.\n\nWhat We Offer:\n\n• 100% remote work environment - since our founding in 2015\n\n• Generous paid time off policy, including vacation, sick time, and paid holidays\n\n• 12 weeks of paid parental leave\n\n• Highly competitive and comprehensive medical, dental, and vision benefits plans\n\n• 401(k) with a 5% contribution regardless of employee contribution\n\n• Life and Disability insurance plans\n\n• Stock options for all full-time employees\n\n• One-time $500 reimbursement for building/upgrading home office\n\n• Annual allowance for education and professional development assistance\n\n• $75 USD/month digital reimbursement\n\n• Access to the BetterUp platform for coaching, personal, and professional growth\n\nHuntress is committed to creating a culture of inclusivity where every single member of our team is valued, has a voice, and is empowered to come to work every day just as they are.\n\nWe do not discriminate based on race, ethnicity, color, ancestry, national origin, religion, sex, sexual orientation, gender identity, disability, veteran status, genetic information, marital status, or any other legally protected status.\n\nWe do discriminate against hackers who try to exploit small businesses.\n\nAccommodations:\n\nIf you require reasonable accommodation to complete this application, interview, or pre-employment testing or participate in the employee selection process, please direct your inquiries to accommodations@huntresslabs.com. Please note that non-accommodation requests to this inbox will not receive a response.\n\nHuntress uses artificial intelligence tools to assist in reviewing and evaluating job applications, including resume screening, skills assessment, and candidate matching and comparisons. These AI tools support our human recruiters in the initial review process but do not make final hiring decisions without human involvement. By submitting your application, you acknowledge this use of AI in our recruitment process. Please review our Candidate Privacy Notice (https://trust.huntress.com/?itemUid=47f0a941-b86f-4864-a0d0-a224a34cfd57&source=click) for more details on our practices and your data privacy rights.\n\n#BI-Remote\n\nHuntress is committed to creating a culture of inclusivity where every single member of our team is valued, has a voice, and is empowered to come to work every day just as they are.\n\nWe do not discriminate based on race, ethnicity, color, ancestry, national origin, religion, sex, sexual orientation, gender identity, disability, veteran status, genetic information, marital status, or any other legally protected status.\n\nWe do discriminate against hackers who try to exploit businesses of all sizes.\n\nAccommodations:\n\nIf you require reasonable accommodation to complete this application, interview, or pre-employment testing or participate in the employee selection process, please direct your inquiries to accommodations@huntresslabs.com. Please note that non-accommodation requests to this inbox will not receive a response.\n\nHuntress uses artificial intelligence tools to assist in reviewing and evaluating job applications, including resume screening, skills assessment, and candidate matching and comparisons. These AI tools support our human recruiters in the initial review process, but do not make final hiring decisions without human involvement. By submitting your application, you acknowledge this use of AI in our recruitment process. Please review our Candidate Privacy Notice (https://trust.huntress.com/?itemUid=47f0a941-b86f-4864-a0d0-a224a34cfd57&source=click) for more details on our practices and your data privacy rights.\n\n#BI-Remote\n\nTo apply: https://weworkremotely.com/remote-jobs/huntress-sales-development-representative-service-provider"
-    ]
-   }
-  ]
- },
- {
-  "tier": "B",
-  "title": "Financial Controller Lead",
-  "company": "RootstockLabs",
-  "location": "Worldwide",
-  "url": "https://himalayas.app/companies/rootstocklabs/jobs/financial-controller-lead",
-  "source": "Himalayas",
-  "note": "Worldwide / APAC remote",
-  "remote": true,
-  "posted": "2026-10-13T09:33:15+00:00",
-  "description": "ABOUT THE ROLE\n\nAs Financial Controller Lead, you will be a strategic finance partner to the executive team, helping drive data-informed decisions that support rapid growth and operational excellence. In a fast-paced technology start-up environment, you will own the financial planning and business performance management processes, providing clear insights into revenue, costs, profitability, cash flow, and key business metrics.\n\nYou will work closely with leaders across Product, Sales, Marketing, Operations, Tech and People to translate complex financial and operational data into actionable recommendations. Beyond traditional financial controlling, you will help build scalable financial processes, improve reporting automation, evaluate strategic investments, and support board reporting, and business expansion initiatives.\n\nThis is a highly visible role for someone who enjoys combining financial rigor with an entrepreneurial mindset and thrives in an environment where priorities evolve quickly and every decision has a measurable impact.\n\nKEY RESPONSIBILITIES\n\n• Serve as the primary finance business partner to functional and executive leadership.\n\n• Lead the company's budgeting, forecasting, and long-range financial planning processes.\n\n• Develop financial models to support strategic initiatives, new products, pricing decisions, market expansion, and investment opportunities.\n\n• Monitor and analyze business performance, identifying trends, risks, and opportunities to improve growth and profitability.\n\n• Build and maintain executive dashboards and KPIs that measure financial and operational performance.\n\n• Provide insightful variance analysis and recommend actions to optimize revenue, gross margin, operating expenses, and cash flow.\n\n• Partner with Product, Commercial and Tech teams to evaluate business cases and resource allocation.\n\n• Support board presentations, and due diligence processes.\n\n• Drive continuous improvement of financial planning, reporting, and analytics through automation and scalable processes.\n\n• Collaborate with Accounting to ensure accurate month-end close, financial reporting, and compliance with internal controls.\n\n• Evaluate SaaS and technology business metrics, including ARR, MRR, CAC, LTV, churn, retention, and unit economics, where applicable.\n\n• Support strategic initiatives, including international expansion, partnerships, M&A, and new business models.\n\n• Build a culture of financial accountability while enabling fast and informed decision-making across the organization.\n\nWHAT YOU BRING\n\n• Bachelor's degree in Finance, Accounting, Economics, Business Administration, or a related discipline.\n\n• 7+ years of experience in Business Controlling, FP&A, Strategic Finance, or Corporate Finance, preferably in a high-growth technology company or start-up.\n\n• Strong financial modeling, forecasting, and business analysis skills.\n\n• Experience partnering with senior executives and cross-functional leadership teams.\n\n• Deep understanding of business drivers, or digital business models.\n\n• Advanced Excel and financial modeling capabilities.\n\n• Fluency using AI tools.\n\n• Experience with ERP, FP&A, and BI platforms (for example MS Dynamics, NetSuite, Oracle, SAP, Workday Adaptive Planning, Power BI, Looker, Tableau, or similar).\n\n• Excellent analytical thinking with the ability to transform data into strategic business insights.\n\n• Strong communication and presentation skills, with confidence presenting to executives, investors, and board members.\n\n• Comfortable operating in a fast-changing, ambiguous environment with a hands-on approach.\n\n• Demonstrated ability to build scalable financial processes in a growing organization.\n\n• Strong project management and stakeholder management skills.\n\n• High level of ownership, curiosity, and a continuous improvement mindset.\n\nPreferred Qualifications\n\n• Experience in fintech, blockchain, Web3, digital assets, or cryptocurrency businesses.\n\n• Understanding of token economics, digital asset accounting, or crypto market dynamics is a plus\n\nROOTIES BENEFITS\n\nAt RootstockLabs (https://himalayas.app/companies/rootstocklabs), we don’t just offer a job, we offer a community. Here’s what you can expect when you join us:\n\n•\nCompetitive compensation package and unique benefits designed to support your growth and well-being.\n\n•\n100% Remote Work from Europe & Latin America, with access to global CoWorking spaces.\n\n•\nWork-Life Balance: Paid vacation and sick leave days\n\n•\nContinuous Learning: Access to training programs, language courses, and learning sponsorship annually.\n\n•\nUnique Projects: Work with cutting-edge blockchain technology in a global, diverse team. REVIEW\n\nABOUT ROOTSTOCKLABS\n\nRootstockLabs (https://himalayas.app/companies/rootstocklabs) is a key contributor to Rootstock, Bitcoin's Financial Infrastructure for lending, yield, and onchain capital markets. We build and commercialize the institutional infrastructure that turns Bitcoin into productive capital.\n\n•\nWhat we do: Develop and commercialize Bitcoin-backed lending, tokenized real-world assets, and onchain financial strategies\n\n•\nWho we work with: Leading custodians, asset managers, and financial institutions\n\n•\nWhy it matters: Rootstock is secured by 80%+ of Bitcoin's hash power and has run with 100% uptime since 2018 (bringing Ethereum-style programmability to the world's hardest money).\n\n•\nProof it works: 200+ dApps live on Rootstock, from BTCFi protocols like Sushiswap and Oku to institutional names like Mercado Bitcoin, Animoca Brands, and Paystand\n\nOriginally posted on Himalayas (https://himalayas.app)",
-  "must": [
-   "Power BI",
-   "Tableau",
-   "Looker",
-   "Excel",
-   "SAP"
-  ],
-  "nice": [],
-  "soft": [
-   "Scalability",
-   "Stakeholder Management",
-   "Cross-functional Collaboration",
-   "End-to-End Ownership"
-  ],
-  "experience": "7+ years",
-  "salary": "",
-  "analysis": {
-   "role": "Financial Controller Lead",
-   "company": "RootstockLabs",
-   "location": "Worldwide",
-   "posted_at": "2026-10-13T09:33:15+00:00",
-   "eligibility": "B",
-   "experience": "7+ years",
-   "experience_level": "lead",
-   "education": [
-    "be a strategic finance partner to the executive team, helping drive data-informed decisions that support rapid growth and operational excellence",
-    "Bachelor's degree in Finance, Accounting, Economics, Business Administration, or a related discipline"
-   ],
-   "responsibilities": [
-    "Serve as the primary finance business partner to functional and executive leadership.",
-    "Lead the company's budgeting, forecasting, and long-range financial planning processes.",
-    "Develop financial models to support strategic initiatives, new products, pricing decisions, market expansion, and investment opportunities.",
-    "Monitor and analyze business performance, identifying trends, risks, and opportunities to improve growth and profitability.",
-    "Build and maintain executive dashboards and KPIs that measure financial and operational performance.",
-    "Provide insightful variance analysis and recommend actions to optimize revenue, gross margin, operating expenses, and cash flow.",
-    "Partner with Product, Commercial and Tech teams to evaluate business cases and resource allocation.",
-    "Support board presentations, and due diligence processes.",
-    "Drive continuous improvement of financial planning, reporting, and analytics through automation and scalable processes.",
-    "Collaborate with Accounting to ensure accurate month-end close, financial reporting, and compliance with internal controls.",
-    "Evaluate SaaS and technology business metrics, including ARR, MRR, CAC, LTV, churn, retention, and unit economics, where applicable.",
-    "Support strategic initiatives, including international expansion, partnerships, M&A, and new business models."
-   ],
-   "ideal_candidate": {
-    "summary": [
-     "Serve as the primary finance business partner to functional and executive leadership.",
-     "Lead the company's budgeting, forecasting, and long-range financial planning processes.",
-     "Develop financial models to support strategic initiatives, new products, pricing decisions, market expansion, and investment opportunities."
-    ],
-    "required_skills": [
-     "Power BI",
-     "Tableau",
-     "Looker",
-     "Excel",
-     "SAP"
-    ],
-    "preferred_skills": []
-   },
-   "required_skills": [
-    "Power BI",
-    "Tableau",
-    "Looker",
-    "Excel",
-    "SAP"
-   ],
-   "preferred_skills": [],
-   "ats_keywords": [
-    "Power BI",
-    "Tableau",
-    "Looker",
-    "Excel",
-    "SAP",
-    "Scalability",
-    "Stakeholder Managemen",
-    "Cross-functional Collaboration",
-    "End-to-End Ownership",
-    "Financial Controller Lead",
-    "RootstockLabs"
-   ],
-   "tools_and_technologies": [
-    "Power BI",
-    "Tableau",
-    "Looker",
-    "Excel",
-    "SAP"
-   ],
-   "salary": "",
-   "assessment": {
-    "found": false,
-    "details": [],
-    "source": "not_found_in_job_posting",
-    "confidence": "none"
-   },
-   "interview": {
-    "process": [],
-    "questions": [
-     "How would you approach the most important responsibilities of a Financial Controller Lead?",
-     "How have you used Power BI in a real project or work situation?",
-     "How have you used Tableau in a real project or work situation?",
-     "How have you used Looker in a real project or work situation?",
-     "How have you used Excel in a real project or work situation?"
-    ],
-    "source": "role_based_inference",
-    "confidence": "inferred"
-   },
-   "indian_candidate_prep": [
-    "Verify that the posting explicitly accepts applicants from India before applying.",
-    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
-    "Prepare concrete project/work examples demonstrating: Power BI, Tableau, Looker, Excel, SAP.",
-    "Check that your education matches the stated qualification requirements.",
-    "Prepare examples that demonstrate the stated experience level: 7+ years.",
-    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
-   ],
-   "content_angles": [
-    "What this Financial Controller Lead role actually requires",
-    "Resume keywords an applicant should use",
-    "What to prepare before applying",
-    "Assessment and interview preparation"
-   ],
-   "evidence": {
-    "job_posting": "primary source",
-    "assessment": "not_found_in_job_posting",
-    "interview": "role_based_inference"
-   }
-  },
-  "hours_old": 1.4692206244444443,
-  "score": 50.1,
-  "work_mode": "Remote",
-  "employment_type": "Not specified",
-  "salary_type": "Not found in feed or description; market research required",
-  "id": "5ff982e8672da30f",
-  "description_sections": [
-   {
-    "heading": "Original job description",
-    "items": [
-     "ABOUT THE ROLE\n\nAs Financial Controller Lead, you will be a strategic finance partner to the executive team, helping drive data-informed decisions that support rapid growth and operational excellence. In a fast-paced technology start-up environment, you will own the financial planning and business performance management processes, providing clear insights into revenue, costs, profitability, cash flow, and key business metrics.\n\nYou will work closely with leaders across Product, Sales, Marketing, Operations, Tech and People to translate complex financial and operational data into actionable recommendations. Beyond traditional financial controlling, you will help build scalable financial processes, improve reporting automation, evaluate strategic investments, and support board reporting, and business expansion initiatives.\n\nThis is a highly visible role for someone who enjoys combining financial rigor with an entrepreneurial mindset and thrives in an environment where priorities evolve quickly and every decision has a measurable impact.\n\nKEY RESPONSIBILITIES\n\n• Serve as the primary finance business partner to functional and executive leadership.\n\n• Lead the company's budgeting, forecasting, and long-range financial planning processes.\n\n• Develop financial models to support strategic initiatives, new products, pricing decisions, market expansion, and investment opportunities.\n\n• Monitor and analyze business performance, identifying trends, risks, and opportunities to improve growth and profitability.\n\n• Build and maintain executive dashboards and KPIs that measure financial and operational performance.\n\n• Provide insightful variance analysis and recommend actions to optimize revenue, gross margin, operating expenses, and cash flow.\n\n• Partner with Product, Commercial and Tech teams to evaluate business cases and resource allocation.\n\n• Support board presentations, and due diligence processes.\n\n• Drive continuous improvement of financial planning, reporting, and analytics through automation and scalable processes.\n\n• Collaborate with Accounting to ensure accurate month-end close, financial reporting, and compliance with internal controls.\n\n• Evaluate SaaS and technology business metrics, including ARR, MRR, CAC, LTV, churn, retention, and unit economics, where applicable.\n\n• Support strategic initiatives, including international expansion, partnerships, M&A, and new business models.\n\n• Build a culture of financial accountability while enabling fast and informed decision-making across the organization.\n\nWHAT YOU BRING\n\n• Bachelor's degree in Finance, Accounting, Economics, Business Administration, or a related discipline.\n\n• 7+ years of experience in Business Controlling, FP&A, Strategic Finance, or Corporate Finance, preferably in a high-growth technology company or start-up.\n\n• Strong financial modeling, forecasting, and business analysis skills.\n\n• Experience partnering with senior executives and cross-functional leadership teams.\n\n• Deep understanding of business drivers, or digital business models.\n\n• Advanced Excel and financial modeling capabilities.\n\n• Fluency using AI tools.\n\n• Experience with ERP, FP&A, and BI platforms (for example MS Dynamics, NetSuite, Oracle, SAP, Workday Adaptive Planning, Power BI, Looker, Tableau, or similar).\n\n• Excellent analytical thinking with the ability to transform data into strategic business insights.\n\n• Strong communication and presentation skills, with confidence presenting to executives, investors, and board members.\n\n• Comfortable operating in a fast-changing, ambiguous environment with a hands-on approach.\n\n• Demonstrated ability to build scalable financial processes in a growing organization.\n\n• Strong project management and stakeholder management skills.\n\n• High level of ownership, curiosity, and a continuous improvement mindset.\n\nPreferred Qualifications\n\n• Experience in fintech, blockchain, Web3, digital assets, or cryptocurrency businesses.\n\n• Understanding of token economics, digital asset accounting, or crypto market dynamics is a plus\n\nROOTIES BENEFITS\n\nAt RootstockLabs (https://himalayas.app/companies/rootstocklabs), we don’t just offer a job, we offer a community. Here’s what you can expect when you join us:\n\n•\nCompetitive compensation package and unique benefits designed to support your growth and well-being.\n\n•\n100% Remote Work from Europe & Latin America, with access to global CoWorking spaces.\n\n•\nWork-Life Balance: Paid vacation and sick leave days\n\n•\nContinuous Learning: Access to training programs, language courses, and learning sponsorship annually.\n\n•\nUnique Projects: Work with cutting-edge blockchain technology in a global, diverse team. REVIEW\n\nABOUT ROOTSTOCKLABS\n\nRootstockLabs (https://himalayas.app/companies/rootstocklabs) is a key contributor to Rootstock, Bitcoin's Financial Infrastructure for lending, yield, and onchain capital markets. We build and commercialize the institutional infrastructure that turns Bitcoin into productive capital.\n\n•\nWhat we do: Develop and commercialize Bitcoin-backed lending, tokenized real-world assets, and onchain financial strategies\n\n•\nWho we work with: Leading custodians, asset managers, and financial institutions\n\n•\nWhy it matters: Rootstock is secured by 80%+ of Bitcoin's hash power and has run with 100% uptime since 2018 (bringing Ethereum-style programmability to the world's hardest money).\n\n•\nProof it works: 200+ dApps live on Rootstock, from BTCFi protocols like Sushiswap and Oku to institutional names like Mercado Bitcoin, Animoca Brands, and Paystand\n\nOriginally posted on Himalayas (https://himalayas.app)"
     ]
    }
   ]
@@ -1381,8 +1690,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.510184466666667,
-  "score": 49.9,
+  "hours_old": 8.949293987777777,
+  "score": 46.6,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1473,8 +1782,8 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 3.510201021944445,
-  "score": 49.9,
+  "hours_old": 8.949308,
+  "score": 46.6,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Source/feed value — verify against employer posting",
@@ -1484,6 +1793,190 @@
     "heading": "Original job description",
     "items": [
      "Headquarters: San Francisco, CA, New York, NY, Portland, OR, or Remote within United States\n\nAt Mercury, building our customer base has been a wild and exciting adventure—and we’re just getting started. As we continue to grow, we’re looking for a thoughtful, driven Account Executive to help more founders, finance leaders, and business owners discover and thrive with Mercury.\n\nOver the past two years, we've significantly expanded our startup customer base and we’re continuing on that journey to support even more startups and teams on Mercury. In this role you’ll have the opportunity to work closely with founders and finance leaders helping them shape the future of their finance stack with Mercury at the center. You’ll uncover pain points tied to current operations, run point on complex evaluations with multiple-products, and simplify the migration process across their full-stack into Mercury.\n\nAs an Account Executive, you’ll work directly with founders, business owners, and finance teams to deeply understand their operational needs and guide them to the right financial tools. You’ll immerse yourself in their ecosystems and uncover pain points to help them build great businesses with Mercury.\n\nHere are some things you'll do on the job:\n\n• Run cold outbound-driven sales cycles to convert leads into long-term Mercury partners\n\n• Go deep to uncover business cases and pain that aren't obvious on the surface\n\n• Sell across multiple products in longer, more strategic cycles\n\n• Multi-thread across stakeholders and build champions inside the account\n\n• Build mutual action plans and drive deals forward on a shared timeline\n\n• Influence requirements in Mercury's favor as accounts evaluate their options\n\n• Orchestrate multiple stakeholders and moving pieces at once without dropping the thread\n\n• Own and expand the relationship across the first 90 days of the customer journey\n\nWhat we're looking for:\n\n• 1+ year of closing experience, primarily cold outbound-driven, in SaaS, fintech, or similar\n\n• Track record of converting cold leads into long-term partners, not just first meetings\n\n• Comfortable running multi-product, strategic selling cycles rather than single-product transactional ones\n\n• Skilled at building pain and urgency even when the account isn't presenting it themselves\n\n• Experience multi-threading, building champions, and influencing requirements in a competitive process\n\n*Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\n\nMercury values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Mercury are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other legally protected characteristic. We are committed to providing reasonable accommodations throughout the recruitment process for applicants with disabilities or special needs. If you need assistance, or an accommodation, please let your recruiter know once you are contacted about a role.\n\n#LI-CL2\n\nTotal Rewards\nThe total rewards package at Mercury includes base salary, equity (stock options/RSUs), and benefits.\n\nOur salary and equity ranges are highly competitive within the SaaS and fintech industry and are updated regularly using the most reliable compensation survey data for our industry. New hire offers are made based on a candidate’s experience, expertise, geographic location, and internal pay equity relative to peers.\n\nOur target new hire base salary ranges for this role are the following:\n\nUS employees in New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n\n$134,600—$168,200 USD\n\nUS employees outside of New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n\n$121,100—$151,400 USD\n\nTo apply: https://weworkremotely.com/remote-jobs/mercury-account-executive-technology"
+    ]
+   }
+  ]
+ },
+ {
+  "tier": "B",
+  "title": "English Screener",
+  "company": "Toptal",
+  "location": "Anywhere in the World",
+  "url": "https://weworkremotely.com/remote-jobs/toptal-english-screener-1",
+  "source": "WeWorkRemotely",
+  "note": "Worldwide / APAC remote",
+  "remote": true,
+  "posted": "2026-10-13T14:46:05+00:00",
+  "description": "Headquarters: Remote\n\nURL: https://www.toptal.com/\n\nJob Description\n\nSummary:\nToptal is an exclusive network of the top freelance software developers, designers, finance experts, product managers, and project managers in the world. Top companies hire Toptal freelancers for their most important projects.\n\nWe’re currently looking for a new member of our English Screening Team. In this hourly, remote engagement, you will serve as one of the first points of contact for applicants entering the Toptal network. Your ability to communicate clearly, assess candidates effectively, and create a positive experience will play a key role in maintaining Toptal’s high talent bar.\n\nResponsibilities:\n\n•\nConduct English screening assessments through live interviews and recorded video submissions, evaluating candidates’ English proficiency, professionalism, as well as their overall fit for the Toptal network\n\n•\nProvide notes and documentation after each interview\n\n•\nGuide candidates through the screening process and ensure a smooth and positive experience\n\n•\nCollaborate with the team to ensure alignment on screening standards and processes\n\n•\nContribute to continuous improvement of screening workflows and candidate experience\n\nWhat to Expect:\n\n•\nEngage with candidates from diverse professional backgrounds (developers, designers, finance experts, etc.)\n\n•\nRepresent Toptal as a first touchpoint, ensuring a strong and professional brand impression\n\n•\nWork in a fast-paced, fully remote environment with a focus on efficiency and quality\n\n•\nHandle multiple screenings per day while maintaining high evaluation standards\n\n•\nWork under an hourly engagement structure\n\n•\nWorkload may vary, but you can generally expect up to 8 hours of work per day depending on team needs and your availability\n\nRequirements:\n\n•\nExcellent written and verbal English communication skills\n\n•\nStrong interpersonal and interviewing skills\n\n•\nExperience conducting interviews or candidate assessments is preferred\n\n•\nComfortable handling video calls and engaging with global candidates\n\n•\nHighly organized with strong time management skills\n\n•\nAbility to work independently and manage workload effectively\n\n•\nComfortable using tools such as Slack and other collaboration platforms\n\n•\nExperience in remote work environments is a plus\n\nPreferred Qualifications:\n\n•\nBackground in recruitment, HR, BPO, or talent operations\n\n•\nExperience working with international candidates\n\n•\nFamiliarity with screening or evaluation frameworks\n\nAvailability:\n\n•\nAbility to commit to a consistent schedule\n\n•\nFlexibility to cover key time zones (APAC, EU and US time zones)\n\n•\nAvailability to support an hourly engagement model, with capacity to work up to 8 hours per day as needed\n\nTo apply: https://weworkremotely.com/remote-jobs/toptal-english-screener-1",
+  "must": [],
+  "nice": [],
+  "soft": [
+   "Communication Skills"
+  ],
+  "experience": "",
+  "salary": "",
+  "analysis": {
+   "role": "English Screener",
+   "company": "Toptal",
+   "location": "Anywhere in the World",
+   "posted_at": "2026-10-13T14:46:05+00:00",
+   "eligibility": "B",
+   "experience": "",
+   "experience_level": "",
+   "education": [],
+   "responsibilities": [
+    "\nConduct English screening assessments through live interviews and recorded video submissions, evaluating candidates’ English proficiency, professionalism, as well as their overall fit for the Toptal network\n\n•\nProvide notes and documentation after each interview\n\n•\nGuide candidates through the screening process and ensure a smooth and positive experience\n\n•\nCollaborate with the team to ensure alignment on screening standards and processes\n\n•\nContribute to continuous improvement of screening workflows and candidate experience\n\nWhat to Expect:\n\n•\nEngage with candidates from diverse professional backgrounds (developers, designers, finance experts, etc.)\n\n•\nRepresent Toptal as a first touchpoint, ensuring a strong and professional brand impression\n\n•\nWork in a fast-paced, fully remote environment with a focus on efficiency and quality\n\n•\nHandle multiple screenings per day while maintaining high evaluation standards\n\n•\nWork under an hourly engagement structure\n\n•\nWorkload may vary, but you can generally expect up to 8 hours of work per day depending on team needs and your availability"
+   ],
+   "ideal_candidate": {
+    "summary": [
+     "\nConduct English screening assessments through live interviews and recorded video submissions, evaluating candidates’ English proficiency, professionalism, as well as their overall fit for the Toptal network\n\n•\nProvide notes and documentation after each interview\n\n•\nGuide candidates through the screening process and ensure a smooth and positive experience\n\n•\nCollaborate with the team to ensure alignment on screening standards and processes\n\n•\nContribute to continuous improvement of screening workflows and candidate experience\n\nWhat to Expect:\n\n•\nEngage with candidates from diverse professional backgrounds (developers, designers, finance experts, etc.)\n\n•\nRepresent Toptal as a first touchpoint, ensuring a strong and professional brand impression\n\n•\nWork in a fast-paced, fully remote environment with a focus on efficiency and quality\n\n•\nHandle multiple screenings per day while maintaining high evaluation standards\n\n•\nWork under an hourly engagement structure\n\n•\nWorkload may vary, but you can generally expect up to 8 hours of work per day depending on team needs and your availability"
+    ],
+    "required_skills": [],
+    "preferred_skills": []
+   },
+   "required_skills": [],
+   "preferred_skills": [],
+   "ats_keywords": [
+    "Communication Skills",
+    "English Screener",
+    "Toptal"
+   ],
+   "tools_and_technologies": [],
+   "salary": "",
+   "assessment": {
+    "found": false,
+    "details": [],
+    "source": "not_found_in_job_posting",
+    "confidence": "none"
+   },
+   "interview": {
+    "process": [
+     "interviews and recorded video submissions, evaluating candidates’ English proficiency, professionalism, as well as their overall fit for the Toptal network\n\n•\nProvide notes and documentation after each interview\n\n•\nGuide candidates through the screening process and ensure a smooth and positive experience\n\n•\nCollaborate with the team to ensure alignment on screening standards and processes\n\n•\nContribute to continuous improvement of screening workflows and candidate experience\n\nWhat to Expect:\n\n•\nEngage with candidates from diverse professional backgrounds (developers, designers, finance experts, etc.)\n\n•\nRepresent Toptal as a first touchpoint, ensuring a strong and professional brand impression\n\n•\nWork"
+    ],
+    "questions": [
+     "How would you approach the most important responsibilities of a English Screener?"
+    ],
+    "source": "job_posting",
+    "confidence": "high"
+   },
+   "indian_candidate_prep": [
+    "Verify that the posting explicitly accepts applicants from India before applying.",
+    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
+    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
+   ],
+   "content_angles": [
+    "What this English Screener role actually requires",
+    "Resume keywords an applicant should use",
+    "What to prepare before applying",
+    "Assessment and interview preparation"
+   ],
+   "evidence": {
+    "job_posting": "primary source",
+    "assessment": "not_found_in_job_posting",
+    "interview": "job_posting"
+   }
+  },
+  "hours_old": 1.694420888888889,
+  "score": 45.0,
+  "work_mode": "Remote",
+  "employment_type": "Contract",
+  "salary_type": "Not found in feed or description; market research required",
+  "id": "6f224eea8b5b4f91",
+  "description_sections": [
+   {
+    "heading": "Original job description",
+    "items": [
+     "Headquarters: Remote\n\nURL: https://www.toptal.com/\n\nJob Description\n\nSummary:\nToptal is an exclusive network of the top freelance software developers, designers, finance experts, product managers, and project managers in the world. Top companies hire Toptal freelancers for their most important projects.\n\nWe’re currently looking for a new member of our English Screening Team. In this hourly, remote engagement, you will serve as one of the first points of contact for applicants entering the Toptal network. Your ability to communicate clearly, assess candidates effectively, and create a positive experience will play a key role in maintaining Toptal’s high talent bar.\n\nResponsibilities:\n\n•\nConduct English screening assessments through live interviews and recorded video submissions, evaluating candidates’ English proficiency, professionalism, as well as their overall fit for the Toptal network\n\n•\nProvide notes and documentation after each interview\n\n•\nGuide candidates through the screening process and ensure a smooth and positive experience\n\n•\nCollaborate with the team to ensure alignment on screening standards and processes\n\n•\nContribute to continuous improvement of screening workflows and candidate experience\n\nWhat to Expect:\n\n•\nEngage with candidates from diverse professional backgrounds (developers, designers, finance experts, etc.)\n\n•\nRepresent Toptal as a first touchpoint, ensuring a strong and professional brand impression\n\n•\nWork in a fast-paced, fully remote environment with a focus on efficiency and quality\n\n•\nHandle multiple screenings per day while maintaining high evaluation standards\n\n•\nWork under an hourly engagement structure\n\n•\nWorkload may vary, but you can generally expect up to 8 hours of work per day depending on team needs and your availability\n\nRequirements:\n\n•\nExcellent written and verbal English communication skills\n\n•\nStrong interpersonal and interviewing skills\n\n•\nExperience conducting interviews or candidate assessments is preferred\n\n•\nComfortable handling video calls and engaging with global candidates\n\n•\nHighly organized with strong time management skills\n\n•\nAbility to work independently and manage workload effectively\n\n•\nComfortable using tools such as Slack and other collaboration platforms\n\n•\nExperience in remote work environments is a plus\n\nPreferred Qualifications:\n\n•\nBackground in recruitment, HR, BPO, or talent operations\n\n•\nExperience working with international candidates\n\n•\nFamiliarity with screening or evaluation frameworks\n\nAvailability:\n\n•\nAbility to commit to a consistent schedule\n\n•\nFlexibility to cover key time zones (APAC, EU and US time zones)\n\n•\nAvailability to support an hourly engagement model, with capacity to work up to 8 hours per day as needed\n\nTo apply: https://weworkremotely.com/remote-jobs/toptal-english-screener-1"
+    ]
+   }
+  ]
+ },
+ {
+  "tier": "B",
+  "title": "Growth Marketing Specialist (m/w/d)",
+  "company": "Instaffo",
+  "location": "Worldwide",
+  "url": "https://himalayas.app/companies/instaffo/jobs/growth-marketing-specialist-m-w-d-6936257360",
+  "source": "Himalayas",
+  "note": "Worldwide / APAC remote",
+  "remote": true,
+  "posted": "2026-10-13T14:27:57+00:00",
+  "description": "deine mission\n\n???? Deine Mission: Du übernimmst die komplette Paid Acquisition, findest den Kanalmix mit dem besten ROAS und baust AI-Workflows, die unsere Kampagnen schneller, smarter und skalierbarer machen.\n\n???? Schau dir dieses Video von CJ an, in dem er die Rolle erklärt:\n\ndein daily doing\n\n???? Dein Daily Doing:\n\n• Du bist Owner unserer Paid-Kampagnen: Du steuerst Paid Search, Paid Social und weitere Kanäle mit einem sechsstelligen monatlichen Budget eigenständig, vom Kampagnen-Setup über die tägliche Optimierung bis zur Erfolgsmessung anhand einem multiplen Metrikenset\n\n• Du denkst end-to-end: Du verstehst nicht nur das Media Buying, sondern den gesamten Funnel, inklusive Attribution & Lagging Metrics\n\n• Du identifizierst eigenständig neue Kanäle und Maßnahmen, um unser Wachstum zu unterstützen\n\n• Du automatisierst, was automatisierbar ist: Mit Claude Code und AI-Tools baust du eigene Workflows, z.B. automatisches Reporting über Ad-Network-APIs\n\n• Du entwickelst und testest neue Ad Konzepte für Static Images und Video Content\n\nso überzeugst du\n\n???? So überzeugst du:\n\n• Du hast min. 5 Jahre Erfahrung im Performance Marketing, bist in mind. 2 Kanälen Experte und hast monatliche Budgets ab 100k eigenständig gemanagt\n\n• Du hast ausgeprägte analytische Fähigkeit und arbeitest stark zahlengetrieben, so dass du Datenpunkte in echte Insights verwandelst\n\n• Du denkst Marketing holistisch und probabilistisch: Du entwickelst Hypothesen für Experimente und validierst diese systematisch auf Basis von Daten\n\n• Du besitzt ein solides technisches Verständnis zu relevanten Tracking- und Attributionsthemen\n\n• AI ist Werkzeug für dich, kein Buzzword: Du baust echte Workflows mit Claude Code oder vergleichbaren Tools\n\n• Du kommst aus dem Startup- oder Scaleup-Umfeld und bist es gewohnt, Dinge eigenständig in die Hand zu nehmen\n\n• Deutsch: C1+, Englisch: Must Have\n\n• Nice to have: Erfahrung mit Marktplätzen und/oder komplexen Produkten mit langem Sales Cycle\n\nfreu dich auf\n\n• Du arbeitest auf Augenhöhe mit Christoph (Head of Growth), Mara (Visual & Video) und Eric (Content)\n\nOriginally posted on Himalayas (https://himalayas.app)",
+  "must": [],
+  "nice": [],
+  "soft": [
+   "End-to-End Ownership"
+  ],
+  "experience": "",
+  "salary": "",
+  "analysis": {
+   "role": "Growth Marketing Specialist (m/w/d)",
+   "company": "Instaffo",
+   "location": "Worldwide",
+   "posted_at": "2026-10-13T14:27:57+00:00",
+   "eligibility": "B",
+   "experience": "",
+   "experience_level": "",
+   "education": [],
+   "responsibilities": [],
+   "ideal_candidate": {
+    "summary": [
+     "deine mission\n\n???? Deine Mission: Du übernimmst die komplette Paid Acquisition, findest den Kanalmix mit dem besten ROAS und baust AI-Workflows, die unsere Kampagnen schneller, smarter und skalierbarer machen.\n\n???? Schau dir dieses Video von CJ an, in dem er die Rolle erklärt:\n\ndein daily doing\n\n???? Dein Daily Doing:\n\n• Du bist Owner unserer Paid-Kampagnen: Du steuerst Paid Search, Paid Social und weitere Kanäle mit einem sechsstelligen monatlichen Budget eigenständig, vom Kampagnen-Setup über die tägliche Optimierung bis zur Erfolgsmessung anhand einem multiplen Metrikenset\n\n• Du denkst end-to-end: Du verstehst nicht nur das Media Buying, sondern den gesamten Funnel, inklusive Attribution & Lagging Metrics\n\n• Du identifizierst eigenständig neue Kanäle und Maßnahmen, um unser Wachstum zu unterstützen\n\n• Du automatisierst, was automatisierbar ist: Mit Claude Code und AI-Tools baust du eigene Workflows, z.B. automatisches Reporting über Ad-Network-APIs\n\n• Du entwickelst und testest neue Ad Konzepte für Static Images und Video Content\n\nso überzeugst du\n\n???? So überzeugst du:\n\n• Du hast min. 5 Jahre Erfahrung im Performance Marketing, bist in mind. 2 Kanälen Experte und hast monatliche Budgets ab 100k eigenständig gemanagt\n\n• Du hast ausgeprägte analytische Fähigkeit und arbeitest stark zahlengetrieben, so dass du Datenpunkte in echte Insights verwandelst\n\n• Du denkst Marketing holistisch und probabilistisch: Du entwickelst Hypothesen für Experimente und validierst diese systematisch auf Basis von Daten\n\n• Du besitzt ein solides technisches Verständnis zu relevanten Tracking- und Attributionsthemen\n\n• AI ist Werkzeug für dich, kein Buzzword: Du baust echte Workflows mit Claude Code oder vergleichbaren Tools\n\n• Du kommst aus dem Startup- oder Scaleup-Umfeld und bist es gewohnt, Dinge eigenständig in die Hand zu nehmen\n\n• Deutsch: C1+, Englisch: Must Have\n\n• Nice to have: Erfahrung mit Marktplätzen und/oder komplexen Produkten mit langem Sales Cycle\n\nfreu dich auf\n\n• Du arbeitest auf Augenhöhe mit Christoph (Head of Growth), Mara (Visual & Video) und Eric (Content)\n\nOriginally posted on Himalayas (https://himalayas.app)"
+    ],
+    "required_skills": [],
+    "preferred_skills": []
+   },
+   "required_skills": [],
+   "preferred_skills": [],
+   "ats_keywords": [
+    "End-to-End Ownership",
+    "Growth Marketing Specialist (m/w/d)",
+    "Instaffo"
+   ],
+   "tools_and_technologies": [],
+   "salary": "",
+   "assessment": {
+    "found": false,
+    "details": [],
+    "source": "not_found_in_job_posting",
+    "confidence": "none"
+   },
+   "interview": {
+    "process": [],
+    "questions": [
+     "What would you prioritize in your first 30 days as a Growth Marketing Specialist (m/w/d)?"
+    ],
+    "source": "role_based_inference",
+    "confidence": "inferred"
+   },
+   "indian_candidate_prep": [
+    "Verify that the posting explicitly accepts applicants from India before applying.",
+    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
+    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
+   ],
+   "content_angles": [
+    "What this Growth Marketing Specialist (m/w/d) role actually requires",
+    "Resume keywords an applicant should use",
+    "What to prepare before applying",
+    "Assessment and interview preparation"
+   ],
+   "evidence": {
+    "job_posting": "primary source",
+    "assessment": "not_found_in_job_posting",
+    "interview": "role_based_inference"
+   }
+  },
+  "hours_old": 1.9966540236111112,
+  "score": 44.8,
+  "work_mode": "Remote",
+  "employment_type": "Not specified",
+  "salary_type": "Not found in feed or description; market research required",
+  "id": "4c3f4bec67a910a4",
+  "description_sections": [
+   {
+    "heading": "Original job description",
+    "items": [
+     "deine mission\n\n???? Deine Mission: Du übernimmst die komplette Paid Acquisition, findest den Kanalmix mit dem besten ROAS und baust AI-Workflows, die unsere Kampagnen schneller, smarter und skalierbarer machen.\n\n???? Schau dir dieses Video von CJ an, in dem er die Rolle erklärt:\n\ndein daily doing\n\n???? Dein Daily Doing:\n\n• Du bist Owner unserer Paid-Kampagnen: Du steuerst Paid Search, Paid Social und weitere Kanäle mit einem sechsstelligen monatlichen Budget eigenständig, vom Kampagnen-Setup über die tägliche Optimierung bis zur Erfolgsmessung anhand einem multiplen Metrikenset\n\n• Du denkst end-to-end: Du verstehst nicht nur das Media Buying, sondern den gesamten Funnel, inklusive Attribution & Lagging Metrics\n\n• Du identifizierst eigenständig neue Kanäle und Maßnahmen, um unser Wachstum zu unterstützen\n\n• Du automatisierst, was automatisierbar ist: Mit Claude Code und AI-Tools baust du eigene Workflows, z.B. automatisches Reporting über Ad-Network-APIs\n\n• Du entwickelst und testest neue Ad Konzepte für Static Images und Video Content\n\nso überzeugst du\n\n???? So überzeugst du:\n\n• Du hast min. 5 Jahre Erfahrung im Performance Marketing, bist in mind. 2 Kanälen Experte und hast monatliche Budgets ab 100k eigenständig gemanagt\n\n• Du hast ausgeprägte analytische Fähigkeit und arbeitest stark zahlengetrieben, so dass du Datenpunkte in echte Insights verwandelst\n\n• Du denkst Marketing holistisch und probabilistisch: Du entwickelst Hypothesen für Experimente und validierst diese systematisch auf Basis von Daten\n\n• Du besitzt ein solides technisches Verständnis zu relevanten Tracking- und Attributionsthemen\n\n• AI ist Werkzeug für dich, kein Buzzword: Du baust echte Workflows mit Claude Code oder vergleichbaren Tools\n\n• Du kommst aus dem Startup- oder Scaleup-Umfeld und bist es gewohnt, Dinge eigenständig in die Hand zu nehmen\n\n• Deutsch: C1+, Englisch: Must Have\n\n• Nice to have: Erfahrung mit Marktplätzen und/oder komplexen Produkten mit langem Sales Cycle\n\nfreu dich auf\n\n• Du arbeitest auf Augenhöhe mit Christoph (Head of Growth), Mara (Visual & Video) und Eric (Content)\n\nOriginally posted on Himalayas (https://himalayas.app)"
     ]
    }
   ]
@@ -1574,8 +2067,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 3.508747345833333,
-  "score": 44.9,
+  "hours_old": 8.947856881111111,
+  "score": 41.6,
   "work_mode": "Remote",
   "employment_type": "Not specified",
   "salary_type": "Not found in feed or description; market research required",
@@ -1585,110 +2078,6 @@
     "heading": "Original job description",
     "items": [
      "Headquarters: Remote, East Coast USA\n\nCollibra is the Enterprise AI Control Plane. Built over eighteen years of meta-data and ontology engineering, Collibra governs context and control across any data storage system, AI model, and AI agent.  Collibra delivers clarity and context to AI leaders who need data certainty at the speed of AI. A 5x Forrester Wave Leader and 2x Gartner Magic Quadrant Leader, Collibra serves more than 700 customers, including 78 of the Fortune 500, and governs more than 2 billion assets.\n\nCollibra Public Sector LLC is the purpose-built subsidiary that serves US federal government agencies and the Defense Industrial Base. Collibra Public Sector is a FOCI-mitigated entity with a DCSA facility clearance. Collibra Public Sector personnel service clients in some of the most demanding mission organizations. Collibra Public Sector products, people and partners are uniquely positioned to deliver software and services solutions to the US federal market.\n\nJoin Collibra Public Sector\n\nCollibra is looking for a proven General Manager to create and execute the overall business strategy to achieve long-term profitable growth that outpaces competitors and peers. Responsibilities include recruiting and leading a high-performing team that integrates sales, consulting services, support, legal, operations, marketing, product management, and product delivery. The General Manager will set the direction for the subsidiary to comply with government-required mandates such as CMMC. The General Manager will identify untapped market areas and build plans to capture those opportunities.\n\nSuccessful outcomes\n\n• Operate as a true GM leading sales, services, support that aligns parent-company dependencies into a single, accountable operating rhythm\n\n• Optimize post-sales execution by driving consistent deployments, adoption, and renewal readiness across Public Sector accounts\n\n• Manage overall expense to revenue targets\n\n• Spend the company’s money wisely to invest in new opportunities\n\n• Work closely with the parent to drive the overall Public Sector product roadmap and align any support needed from the shared services teams\n\n• Maintain positive evaluations from relevant government agencies such as DCSA\n\nCharacteristics\n\n• Demonstrated ability to manage directly and delegate effectively across all areas of responsibilities\n\n• Create a culture of trust and accountability within Collibra Public Sector\n\n• Know when to build consensus and when to maintain autonomy\n\n• Bold risk-taking based on deep understanding of complex data\n\n• Politically astute when dealing with diverse stakeholders and conflicting demands\n\nExperience\n\n• Experience managing a complete public sector subsidiary within a larger organization\n\n• Extended positions with increasing levels of responsibilities within enterprise software companies\n\n• Successful execution of business transformations and realignments\n\n• Bachelor’s degree required, MBA preferred\n\nBenefits at Collibra\n\nCollibra recognizes and values that everyone has different needs, interests, and life goals. We built our benefits program with flexibility in mind to support you and your loved ones through a diverse range of circumstances and life events. These flexible offerings sit on a foundation of competitive compensation, health coverage, and time off. Learn more about Collibra’s benefits (https://www.collibra.com/us/en/company/careers/benefits).\n\nWe create inclusion and belonging through how we onboard, meet, connect, engage, and communicate. Learn more about diversity, equity, and inclusion (https://www.collibra.com/us/en/company/careers/dei) at Collibra.\n\nAt Collibra, we’re proud to be an equal opportunity employer. We realize the key to creating a company with a world-class culture and employee experience comes from who we hire and creating a workplace that celebrates everyone.\n\nWith this, we proudly consider qualified applicants without regard to race, color, religion, creed, gender, national origin, age, disability, veteran status, sexual orientation, pregnancy, sex, gender identity, gender expression, genetic information, physical or mental disability, HIV status, registered domestic partner status, caregiver status, marital status, veteran or military status, citizenship status or any other legally protected category. If you have a need that requires accommodation, let us know by completing our Accommodations for Applicants form (https://www.collibra.com/us/en/company/careers/accommodations).\n\nTo apply: https://weworkremotely.com/remote-jobs/collibra-general-manager-collibra-public-sector"
-    ]
-   }
-  ]
- },
- {
-  "tier": "B",
-  "title": "Sales Assist Representative",
-  "company": "Zapier",
-  "location": "APAC",
-  "url": "https://jobicy.com/jobs/153087-sales-assist-representative",
-  "source": "Jobicy",
-  "note": "Worldwide / APAC remote",
-  "remote": true,
-  "posted": "2026-10-13T02:04:57+00:00",
-  "description": "AI at Zapier (https://jobicy.com/company/zapier)\n\nAt Zapier (https://zapier.com/about), we build and use automation every day to make work more efficient, creative, and human. So if you’re using AI tools while applying here - that’s great! We just ask that you use them responsibly and transparently.\n\nCheck out our guidance on How to Collaborate with AI During Zapier’s Hiring Process (https://zapier.com/l/jobs/ai-at-zapier), including how to use AI tools like ChatGPT, Claude, Gemini, or others during our hiring process - and when not to.\n\nAI Fluency Assessment (https://ai-fluency-hub.vercel.app)\nTake our 10 minute AI Fluency Assessment by clicking the link above. See how your skills stack up against our sales bar, get a personalized tier, and walk away with actionable next steps to level up your AI skills.\n\nJob Posted: June 2026\n\nLocation: India\n\nHi there!\n\nWe’re looking for a new Sales-Assist Representative to join the Sales-Assist Motion at Zapier.\n\nZapier’s on a mission to make everyone more productive at work. We are in search of individuals who are not just looking for a job, but are committed to building a rewarding career in sales. Ideal candidates will possess a genuine passion for sales, a desire to continually learn and improve, and the drive to achieve excellence within the industry.\n\nZapier has helped millions of people build businesses through the power of automation. The Sales Assist group serves customers as they evaluate and buy Zapier’s offers, through a high-velocity sales motion. We help customers primarily through live chat conversations through Zendesk, and some inbound demos over Zoom. We inspire deep automation use-cases pertaining to their role, and address any questions through their procurement and buying process. Ultimately, success here looks like removing friction from the purchase and adoption process through qualifying or converting leads.\n\nIf you want to advance your career at a fast-growing, profitable, impact-driven company, read on…\n\n•\nOur Commitment to Applicants (https://zapier.com/jobs/our-commitment-to-applicants/)\n\n•\nCulture and Values at Zapier (https://zapier.com/jobs/culture-and-values-at-zapier/)\n\n•\nZapier Guide to Remote Work (https://zapier.com/learn/remote-work/)\n\n•\nZapier Code of Conduct (https://zapier.com/jobs/zapier-code-of-conduct/)\n\n•\nDiversity and Inclusivity at Zapier (https://zapier.com/jobs/working-on-diversity-and-inclusivity/)\n\nAbout You\n\n•\nYou are located in India and able to work within the hours of ~9:00 pm - 7:00 am IST.\n\n•\n4+ years of experience, with a track record as a solutions engineer, technical account manager moving to sales, or a very technical quota-carrying salesperson with experience in a SaaS environment, especially across technical product-led companies with both self-serve and sales GTM) with exposure to international markets.\n\n•\nAble to work a high velocity sales queue for prolonged periods of time in your day (Live Chat)\n\n•\nYou're naturally curious about AI and regularly experiment with different AI tools to drive efficiency in your day-to-day work or personal life.\n\n•\nYou’re experimental and have the ability to test our ideas rapidly and contribute to multiple sales projects.\n\n•\nYou’re comfortable getting into the technicalities of our product, API offerings and curious about building solutions with these tools.\n\n•\nSelf-managing and a high degree of agency to manage your calendar, pipeline and hit quotas\n\n•\nEffective cross-cultural communicator — able to communicate clearly with both customers and a distributed international team. Advanced working English comprehension.\n\n•\nYou use AI in your work today — not occasionally, but as part of how you operate at a high level. You can point to workflows you’ve built, how your approach has evolved through iteration, and the impact on quality, efficiency, and experience — while intentionally applying AI for the right outcomes, setting a high bar for outputs, and taking ownership of what ships.\n\nThings You’ll Do\n\nAs a Sales-Assist Representative, you will have 3 main responsibilities:\n\n•\nShowcase Zapier as a potential solution for teams and businesses through multiple mediums - On a daily basis, most of your time will be on live chat (4+ hours) with customers through Zendesk. With the rest split between calls and emails. You’ll lead demos virtually to model a wide range of use-cases in which Zapier can help drive ROI for our customers. You’ll educate the user on use-cases to help inspire more ways they can automate within their business. You’ll lead them from interest, to learning more about our product to purchase. Success here is measured by our ability to qualify leads for other teams and convert customers yourself.\n\n•\nCreate a Sales Pipeline for multiple motions- through live chat queues and product qualified lead (PQL) emails, you’ll drive an influenced revenue metric with qualified leads to be handed to other teams and members.\n\n•\nMaintain feedback loops back into the rest of the organization - Identifying learnings from your customer demos and passing them along as a feedback loop is critical in this role. This looks like tagging your call recordings with product feedback opportunities, or identifying areas where improved collateral may have accelerated the sales-process. To do so, you’ll need to be excellent at written communication.\n\nYou’ll work closely with numerous senior stakeholders and will be a part of several cross-functional steering committees as well.\n\nHow to Apply\n\nAt Zapier, we believe that diverse perspectives and experiences make us better, which is why we have a non-standard application process designed to promote inclusion and equity. We're looking for the best fit for each of our roles, regardless of the type of companies in your background, so we encourage you to apply even if your skills and experiences don’t exactly match the job description. All we ask is that you answer a few in-depth questions in our application that would typically be asked at the start of an interview process. This helps speed things up by letting us get to know you and your skillset a bit better right out of the gate. Please be sure to answer each question; the resume and CV fields are optional.\n\nEducation is not a requirement for our roles; however, if you receive an offer, you will need to include your most recent educational experience as part of our background check process.\n\nAfter you apply, you are going to hear back from us—even if we don’t see an immediate fit with our team. In fact, throughout the process, we strive to never go more than seven days without letting you know the status of your application. We know we’ll make mistakes from time to time, so if you ever have questions about where you stand or about the process, just ask your recruiter!\n\nZapier is an equal-opportunity employer and we're excited to work with talented and empathetic people of all identities. Zapier does not discriminate based on someone's identity in any aspect of hiring or employment as required by law and in line with our commitment to Diversity, Inclusion, Belonging and Equity. Our code of conduct (https://zapier.com/jobs/zapier-code-of-conduct) provides a beacon for the kind of company we strive to be, and we celebrate our differences because those differences are what allow us to make a product that serves a global user base. Zapier will consider all qualified applicants, including those with criminal histories, consistent with applicable laws.\n\nZapier prioritizes the security of our customers' information and is dedicated to adhering to all applicable data privacy laws. You can review our privacy policy here (https://zapier.com/legal/data-privacy).\n\nZapier is committed to inclusion. As part of this commitment, Zapier welcomes applications from individuals with disabilities and will work to provide reasonable accommodations. If reasonable accommodations are needed to participate in the job application or interview process, please contact jobs@zapier.com.\n\nApplication Deadline:\n\nThe anticipated application window is 30 days from the date job is posted, unless the number of applicants requires it to close sooner or later, or if the position is filled.\n\nEven though we’re an all-remote company, we still need to be thoughtful about where we have Zapiens working. Check outthis resource (https://docs.google.com/spreadsheets/d/1_lXQvKwuU4xXEbye7EW_En8iv1ZIMlQNmT7B2Mzbo24/edit?gid=0#gid=0) for a list of countries where we currently cannot have Zapiens permanently working.",
-  "must": [],
-  "nice": [],
-  "soft": [
-   "Cross-functional Collaboration",
-   "End-to-End Ownership"
-  ],
-  "experience": "4+ years",
-  "salary": "",
-  "analysis": {
-   "role": "Sales Assist Representative",
-   "company": "Zapier",
-   "location": "APAC",
-   "posted_at": "2026-10-13T02:04:57+00:00",
-   "eligibility": "B",
-   "experience": "4+ years",
-   "experience_level": "4+ years",
-   "education": [
-    "degree of agency to manage your calendar, pipeline and hit quotas",
-    "be on live chat (4+ hours) with customers through Zendesk",
-    "be handed to other teams and members",
-    "be excellent at written communication",
-    "be a part of several cross-functional steering committees as well"
-   ],
-   "responsibilities": [],
-   "ideal_candidate": {
-    "summary": [
-     "AI at Zapier (https://jobicy.com/company/zapier)\n\nAt Zapier (https://zapier.com/about), we build and use automation every day to make work more efficient, creative, and human. So if you’re using AI tools while applying here - that’s great! We just ask that you use them responsibly and transparently.\n\nCheck out our guidance on How to Collaborate with AI During Zapier’s Hiring Process (https://zapier.com/l/jobs/ai-at-zapier), including how to use AI tools like ChatGPT, Claude, Gemini, or others during our hiring process - and when not to.\n\nAI Fluency Assessment (https://ai-fluency-hub.vercel.app)\nTake our 10 minute AI Fluency Assessment by clicking the link above. See how your skills stack up against our sales bar, get a personalized tier, and walk away with actionable next steps to level up your AI skills.\n\nJob Posted: June 2026\n\nLocation: India\n\nHi there!\n\nWe’re looking for a new Sales-Assist Representative to join the Sales-Assist Motion at Zapier.\n\nZapier’s on a mission to make everyone more productive at work. We are in search of individuals who are not just looking for a job, but are committed to building a rewarding career in sales. Ideal candidates will possess a genuine passion for sales, a desire to continually learn and improve, and the drive to achieve excellence within the industry.\n\nZapier has helped millions of people build businesses through the power of automation. The Sales Assist group serves customers as they evaluate and buy Zapier’s offers, through a high-velocity sales motion. We help customers primarily through live chat conversations through Zendesk, and some inbound demos over Zoom. We inspire deep automation use-cases pertaining to their role, and address any questions through their procurement and buying process. Ultimately, success here looks like removing friction from the purchase and adoption process through qualifying or converting leads.\n\nIf you want to advance your career at a fast-growing, profitable, impact-driven company, read on…\n\n•\nOur Commitment to Applicants (https://zapier.com/jobs/our-commitment-to-applicants/)\n\n•\nCulture and Values at Zapier (https://zapier.com/jobs/culture-and-values-at-zapier/)\n\n•\nZapier Guide to Remote Work (https://zapier.com/learn/remote-work/)\n\n•\nZapier Code of Conduct (https://zapier.com/jobs/zapier-code-of-conduct/)\n\n•\nDiversity and Inclusivity at Zapier (https://zapier.com/jobs/working-on-diversity-and-inclusivity/)\n\nAbout You\n\n•\nYou are located in India and able to work within the hours of ~9:00 pm - 7:00 am IST.\n\n•\n4+ years of experience, with a track record as a solutions engineer, technical account manager moving to sales, or a very technical quota-carrying salesperson with experience in a SaaS environment, especially across technical product-led companies with both self-serve and sales GTM) with exposure to international markets.\n\n•\nAble to work a high velocity sales queue for prolonged periods of time in your day (Live Chat)\n\n•\nYou're naturally curious about AI and regularly experiment with different AI tools to drive efficiency in your day-to-day work or personal life.\n\n•\nYou’re experimental and have the ability to test our ideas rapidly and contribute to multiple sales projects.\n\n•\nYou’re comfortable getting into the technicalities of our product, API offerings and curious about building solutions with these tools.\n\n•\nSelf-managing and a high degree of agency to manage your calendar, pipeline and hit quotas\n\n•\nEffective cross-cultural communicator — able to communicate clearly with both customers and a distributed international team. Advanced working English comprehension.\n\n•\nYou use AI in your work today — not occasionally, but as part of how you operate at a high level. You can point to workflows you’ve built, how your approach has evolved through iteration, and the impact on quality, efficiency, and experience — while intentionally applying AI for the right outcomes, setting a high bar for outputs, and taking ownership of what ships.\n\nThings You’ll Do\n\nAs a Sales-Assist Representative, you will have 3 main responsibilities:\n\n•\nShowcase Zapier as a potential solution for teams and businesses through multiple mediums - On a daily basis, most of your time will be on live chat (4+ hours) with customers through Zendesk. With the rest split between calls and emails. You’ll lead demos virtually to model a wide range of use-cases in which Zapier can help drive ROI for our customers. You’ll educate the user on use-cases to help inspire more ways they can automate within their business. You’ll lead them from interest, to learning more about our product to purchase. Success here is measured by our ability to qualify leads for other teams and convert customers yourself.\n\n•\nCreate a Sales Pipeline for multiple motions- through live chat queues and product qualified lead (PQL) emails, you’ll drive an influenced revenue metric with qualified leads to be handed to other teams and members.\n\n•\nMaintain feedback loops back into the rest of the organization - Identifying learnings from your customer demos and passing them along as a feedback loop is critical in this role. This looks like tagging your call recordings with product feedback opportunities, or identifying areas where improved collateral may have accelerated the sales-process. To do so, you’ll need to be excellent at written communication.\n\nYou’ll work closely with numerous senior stakeholders and will be a part of several cross-functional steering committees as well.\n\nHow to Apply\n\nAt Zapier, we believe that diverse perspectives and experiences make us better, which is why we have a non-standard application process designed to promote inclusion and equity. We're looking for the best fit for each of our roles, regardless of the type of companies in your background, so we encourage you to apply even if your skills and experiences don’t exactly match the job description. All we ask is that you answer a few in-depth questions in our application that would typically be asked at the start of an interview process. This helps speed things up by letting us get to know you and your skillset a bit better right out of the gate. Please be sure to answer each question; the resume and CV fields are optional.\n\nEducation is not a requirement for our roles; however, if you receive an offer, you will need to include your most recent educational experience as part of our background check process.\n\nAfter you apply, you are going to hear back from us—even if we don’t see an immediate fit with our team. In fact, throughout the process, we strive to never go more than seven days without letting you know the status of your application. We know we’ll make mistakes from time to time, so if you ever have questions about where you stand or about the process, just ask your recruiter!\n\nZapier is an equal-opportunity employer and we're excited to work with talented and empathetic people of all identities. Zapier does not discriminate based on someone's identity in any aspect of hiring or employment as required by law and in line with our commitment to Diversity, Inclusion, Belonging and Equity. Our code of conduct (https://zapier.com/jobs/zapier-code-of-conduct) provides a beacon for the kind of company we strive to be, and we celebrate our differences because those differences are what allow us to make a product that serves a global user base. Zapier will consider all qualified applicants, including those with criminal histories, consistent with applicable laws.\n\nZapier prioritizes the security of our customers' information and is dedicated to adhering to all applicable data privacy laws. You can review our privacy policy here (https://zapier.com/legal/data-privacy).\n\nZapier is committed to inclusion. As part of this commitment, Zapier welcomes applications from individuals with disabilities and will work to provide reasonable accommodations. If reasonable accommodations are needed to participate in the job application or interview process, please contact jobs@zapier.com.\n\nApplication Deadline:\n\nThe anticipated application window is 30 days from the date job is posted, unless the number of applicants requires it to close sooner or later, or if the position is filled.\n\nEven though we’re an all-remote company, we still need to be thoughtful about where we have Zapiens working. Check outthis resource (https://docs.google.com/spreadsheets/d/1_lXQvKwuU4xXEbye7EW_En8iv1ZIMlQNmT7B2Mzbo24/edit?gid=0#gid=0) for a list of countries where we currently cannot have Zapiens permanently working."
-    ],
-    "required_skills": [],
-    "preferred_skills": []
-   },
-   "required_skills": [],
-   "preferred_skills": [],
-   "ats_keywords": [
-    "Cross-functional Collaboration",
-    "End-to-End Ownership",
-    "Sales Assist Representative",
-    "Zapier"
-   ],
-   "tools_and_technologies": [],
-   "salary": "",
-   "assessment": {
-    "found": true,
-    "details": [
-     "Assessment (https://ai-fluency-hub.vercel.app)\nTake our 10 minute AI Fluency Assessment by clicking the link above. See how your skills stack up against our sales bar, get a personalized tier, and walk away with actionable next steps to level up your AI skills.\n\nJob Posted: June 2026\n\nLocation: India\n\nHi there!\n\nWe’re looking for a new Sales-Assist Representative to join the Sales-Assist Motion at Zapier.\n\nZapier’s on a mission to make everyone more productive at work. We are in search of individuals who"
-    ],
-    "source": "job_posting",
-    "confidence": "high"
-   },
-   "interview": {
-    "process": [
-     "Hiring Process (https://zapier.com/l/jobs/ai-at-zapier), including how to use AI tools like ChatGPT, Claude, Gemini, or others during our hiring process - and when not to.\n\nAI Fluency Assessment (https://ai-fluency-hub.vercel.app)\nTake our 10 minute AI Fluency Assessment by clicking the link above. See how your skills stack up against our sales bar, get a personalized tier, and walk away with actionable next steps to level up your AI skills.\n\nJob Posted: June 2026\n\nLocation: India\n\nHi there!\n\nWe’re looking for a new Sales-Assist Representative to join the Sales-Assist Motion at Zapier.\n\nZapier’s on a mission to make everyone more productive at work. We are in search of individuals who are not just looking"
-    ],
-    "questions": [
-     "What would you prioritize in your first 30 days as a Sales Assist Representative?"
-    ],
-    "source": "job_posting",
-    "confidence": "high"
-   },
-   "indian_candidate_prep": [
-    "Verify that the posting explicitly accepts applicants from India before applying.",
-    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
-    "Check that your education matches the stated qualification requirements.",
-    "Prepare examples that demonstrate the stated experience level: 4+ years.",
-    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
-   ],
-   "content_angles": [
-    "What this Sales Assist Representative role actually requires",
-    "Resume keywords an applicant should use",
-    "What to prepare before applying",
-    "Assessment and interview preparation"
-   ],
-   "evidence": {
-    "job_posting": "primary source",
-    "assessment": "job_posting",
-    "interview": "job_posting"
-   }
-  },
-  "hours_old": 8.941098482500001,
-  "score": 40.6,
-  "work_mode": "Remote",
-  "employment_type": "Not specified",
-  "salary_type": "Not found in feed or description; market research required",
-  "id": "7c431c763d07b8cb",
-  "description_sections": [
-   {
-    "heading": "Original job description",
-    "items": [
-     "AI at Zapier (https://jobicy.com/company/zapier)\n\nAt Zapier (https://zapier.com/about), we build and use automation every day to make work more efficient, creative, and human. So if you’re using AI tools while applying here - that’s great! We just ask that you use them responsibly and transparently.\n\nCheck out our guidance on How to Collaborate with AI During Zapier’s Hiring Process (https://zapier.com/l/jobs/ai-at-zapier), including how to use AI tools like ChatGPT, Claude, Gemini, or others during our hiring process - and when not to.\n\nAI Fluency Assessment (https://ai-fluency-hub.vercel.app)\nTake our 10 minute AI Fluency Assessment by clicking the link above. See how your skills stack up against our sales bar, get a personalized tier, and walk away with actionable next steps to level up your AI skills.\n\nJob Posted: June 2026\n\nLocation: India\n\nHi there!\n\nWe’re looking for a new Sales-Assist Representative to join the Sales-Assist Motion at Zapier.\n\nZapier’s on a mission to make everyone more productive at work. We are in search of individuals who are not just looking for a job, but are committed to building a rewarding career in sales. Ideal candidates will possess a genuine passion for sales, a desire to continually learn and improve, and the drive to achieve excellence within the industry.\n\nZapier has helped millions of people build businesses through the power of automation. The Sales Assist group serves customers as they evaluate and buy Zapier’s offers, through a high-velocity sales motion. We help customers primarily through live chat conversations through Zendesk, and some inbound demos over Zoom. We inspire deep automation use-cases pertaining to their role, and address any questions through their procurement and buying process. Ultimately, success here looks like removing friction from the purchase and adoption process through qualifying or converting leads.\n\nIf you want to advance your career at a fast-growing, profitable, impact-driven company, read on…\n\n•\nOur Commitment to Applicants (https://zapier.com/jobs/our-commitment-to-applicants/)\n\n•\nCulture and Values at Zapier (https://zapier.com/jobs/culture-and-values-at-zapier/)\n\n•\nZapier Guide to Remote Work (https://zapier.com/learn/remote-work/)\n\n•\nZapier Code of Conduct (https://zapier.com/jobs/zapier-code-of-conduct/)\n\n•\nDiversity and Inclusivity at Zapier (https://zapier.com/jobs/working-on-diversity-and-inclusivity/)\n\nAbout You\n\n•\nYou are located in India and able to work within the hours of ~9:00 pm - 7:00 am IST.\n\n•\n4+ years of experience, with a track record as a solutions engineer, technical account manager moving to sales, or a very technical quota-carrying salesperson with experience in a SaaS environment, especially across technical product-led companies with both self-serve and sales GTM) with exposure to international markets.\n\n•\nAble to work a high velocity sales queue for prolonged periods of time in your day (Live Chat)\n\n•\nYou're naturally curious about AI and regularly experiment with different AI tools to drive efficiency in your day-to-day work or personal life.\n\n•\nYou’re experimental and have the ability to test our ideas rapidly and contribute to multiple sales projects.\n\n•\nYou’re comfortable getting into the technicalities of our product, API offerings and curious about building solutions with these tools.\n\n•\nSelf-managing and a high degree of agency to manage your calendar, pipeline and hit quotas\n\n•\nEffective cross-cultural communicator — able to communicate clearly with both customers and a distributed international team. Advanced working English comprehension.\n\n•\nYou use AI in your work today — not occasionally, but as part of how you operate at a high level. You can point to workflows you’ve built, how your approach has evolved through iteration, and the impact on quality, efficiency, and experience — while intentionally applying AI for the right outcomes, setting a high bar for outputs, and taking ownership of what ships.\n\nThings You’ll Do\n\nAs a Sales-Assist Representative, you will have 3 main responsibilities:\n\n•\nShowcase Zapier as a potential solution for teams and businesses through multiple mediums - On a daily basis, most of your time will be on live chat (4+ hours) with customers through Zendesk. With the rest split between calls and emails. You’ll lead demos virtually to model a wide range of use-cases in which Zapier can help drive ROI for our customers. You’ll educate the user on use-cases to help inspire more ways they can automate within their business. You’ll lead them from interest, to learning more about our product to purchase. Success here is measured by our ability to qualify leads for other teams and convert customers yourself.\n\n•\nCreate a Sales Pipeline for multiple motions- through live chat queues and product qualified lead (PQL) emails, you’ll drive an influenced revenue metric with qualified leads to be handed to other teams and members.\n\n•\nMaintain feedback loops back into the rest of the organization - Identifying learnings from your customer demos and passing them along as a feedback loop is critical in this role. This looks like tagging your call recordings with product feedback opportunities, or identifying areas where improved collateral may have accelerated the sales-process. To do so, you’ll need to be excellent at written communication.\n\nYou’ll work closely with numerous senior stakeholders and will be a part of several cross-functional steering committees as well.\n\nHow to Apply\n\nAt Zapier, we believe that diverse perspectives and experiences make us better, which is why we have a non-standard application process designed to promote inclusion and equity. We're looking for the best fit for each of our roles, regardless of the type of companies in your background, so we encourage you to apply even if your skills and experiences don’t exactly match the job description. All we ask is that you answer a few in-depth questions in our application that would typically be asked at the start of an interview process. This helps speed things up by letting us get to know you and your skillset a bit better right out of the gate. Please be sure to answer each question; the resume and CV fields are optional.\n\nEducation is not a requirement for our roles; however, if you receive an offer, you will need to include your most recent educational experience as part of our background check process.\n\nAfter you apply, you are going to hear back from us—even if we don’t see an immediate fit with our team. In fact, throughout the process, we strive to never go more than seven days without letting you know the status of your application. We know we’ll make mistakes from time to time, so if you ever have questions about where you stand or about the process, just ask your recruiter!\n\nZapier is an equal-opportunity employer and we're excited to work with talented and empathetic people of all identities. Zapier does not discriminate based on someone's identity in any aspect of hiring or employment as required by law and in line with our commitment to Diversity, Inclusion, Belonging and Equity. Our code of conduct (https://zapier.com/jobs/zapier-code-of-conduct) provides a beacon for the kind of company we strive to be, and we celebrate our differences because those differences are what allow us to make a product that serves a global user base. Zapier will consider all qualified applicants, including those with criminal histories, consistent with applicable laws.\n\nZapier prioritizes the security of our customers' information and is dedicated to adhering to all applicable data privacy laws. You can review our privacy policy here (https://zapier.com/legal/data-privacy).\n\nZapier is committed to inclusion. As part of this commitment, Zapier welcomes applications from individuals with disabilities and will work to provide reasonable accommodations. If reasonable accommodations are needed to participate in the job application or interview process, please contact jobs@zapier.com.\n\nApplication Deadline:\n\nThe anticipated application window is 30 days from the date job is posted, unless the number of applicants requires it to close sooner or later, or if the position is filled.\n\nEven though we’re an all-remote company, we still need to be thoughtful about where we have Zapiens working. Check outthis resource (https://docs.google.com/spreadsheets/d/1_lXQvKwuU4xXEbye7EW_En8iv1ZIMlQNmT7B2Mzbo24/edit?gid=0#gid=0) for a list of countries where we currently cannot have Zapiens permanently working."
     ]
    }
   ]
