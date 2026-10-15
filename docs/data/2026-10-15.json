@@ -1,0 +1,305 @@
+[
+ {
+  "tier": "B",
+  "title": "Remote AI Trainers (Generalist and Python Coding Experts)",
+  "company": "AITrainers",
+  "location": "Anywhere in the World",
+  "url": "https://weworkremotely.com/remote-jobs/aitrainers-remote-ai-trainers-generalist-and-python-coding-experts",
+  "source": "WeWorkRemotely",
+  "note": "Worldwide / APAC remote",
+  "remote": true,
+  "posted": "2026-10-14T20:04:30+00:00",
+  "description": "Headquarters: Delaware\n\nURL: https://aitrainers.online/\n\nWe are expanding our global roster and looking for top-tier Generalist and Python AI Trainers to join our fast-growing team.\n\nRole 1: Generalist AI Trainer\n\nAs a Generalist Trainer, you will craft complex prompts, evaluate model responses for nuance, logic, and factual accuracy, and rewrite answers to reflect expert-level human reasoning across various domains.\n\n•\nCompensation: $30 – $45 per hour\n\n•\nKey Responsibilities:\n\n•\nDesign challenging prompts to test the limits of advanced LLMs.\n\n•\nFact-check, critique, and improve model-generated responses for clarity, tone, and accuracy.\n\n•\nCompare multiple model outputs and provide detailed justifications for your rankings.\n\n•\nWhat We're Looking For:\n\n•\nBachelor’s, Master’s, or Ph.D. degree in any academic discipline (or students on session).\n\n•\nExceptional writing, editing, and critical thinking skills with flawless attention to detail.\n\n•\nAbility to explain complex topics clearly and concisely.\n\nRole 2: Python AI Trainer\n\nAs a Python AI Trainer, you will focus on evaluating and improving code-generation capabilities, debugging intricate algorithms, and authoring complex programming tasks to test advanced coding models.\n\n•\nCompensation: $55 – $120 per hour (based on expertise and complexity)\n\n•\nKey Responsibilities:\n\n•\nWrite clean, efficient, and well-documented Python code to test LLM coding assistants.\n\n•\nEvaluate model-generated scripts for bugs, edge cases, security vulnerabilities, and optimal performance.\n\n•\nCreate diverse, multi-step coding prompts and benchmark solutions.\n\n•\nWhat We're Looking For:\n\n•\nStrong proficiency in Python and familiarity with popular libraries/frameworks.\n\n•\nSolid understanding of software development principles, data structures, and algorithms.\n\n•\nExperience in code review, software engineering, or technical writing is a strong plus.\n\nWhy Join AITrainers Online?\n\n•\nCompetitive Pay & Weekly Payouts: Enjoy reliable earnings paid weekly via PayPal.\n\n•\nTotal Flexibility: Work 100% remotely on a flexible schedule. Set your own hours and work from anywhere in the world.\n\n•\nContinuous Learning: Get an insider’s look at the cutting edge of generative AI technology while sharpening your own analytical and technical skills.\n\nTo apply: https://weworkremotely.com/remote-jobs/aitrainers-remote-ai-trainers-generalist-and-python-coding-experts",
+  "must": [
+   "Python",
+   "LLMs",
+   "Generative AI"
+  ],
+  "nice": [],
+  "soft": [
+   "Data Structures & Algorithms",
+   "Debugging"
+  ],
+  "experience": "",
+  "salary": "$30 – $45",
+  "analysis": {
+   "role": "Remote AI Trainers (Generalist and Python Coding Experts)",
+   "company": "AITrainers",
+   "location": "Anywhere in the World",
+   "posted_at": "2026-10-14T20:04:30+00:00",
+   "eligibility": "B",
+   "experience": "",
+   "experience_level": "",
+   "education": [
+    "Bachelor’s, Master’s, or Ph",
+    "degree in any academic discipline (or students on session)"
+   ],
+   "responsibilities": [
+    "\nDesign challenging prompts to test the limits of advanced LLMs.\n\n•\nFact-check, critique, and improve model-generated responses for clarity, tone, and accuracy.\n\n•\nCompare multiple model outputs and provide detailed justifications for your rankings.\n\n•\n•\nWrite clean, efficient, and well-documented Python code to test LLM coding assistants.\n\n•\nEvaluate model-generated scripts for bugs, edge cases, security vulnerabilities, and optimal performance.\n\n•\nCreate diverse, multi-step coding prompts and benchmark solutions.\n\n"
+   ],
+   "ideal_candidate": {
+    "summary": [
+     "\nDesign challenging prompts to test the limits of advanced LLMs.\n\n•\nFact-check, critique, and improve model-generated responses for clarity, tone, and accuracy.\n\n•\nCompare multiple model outputs and provide detailed justifications for your rankings.\n\n•\n•\nWrite clean, efficient, and well-documented Python code to test LLM coding assistants.\n\n•\nEvaluate model-generated scripts for bugs, edge cases, security vulnerabilities, and optimal performance.\n\n•\nCreate diverse, multi-step coding prompts and benchmark solutions.\n\n"
+    ],
+    "required_skills": [
+     "Python",
+     "LLMs",
+     "Generative AI"
+    ],
+    "preferred_skills": []
+   },
+   "required_skills": [
+    "Python",
+    "LLMs",
+    "Generative AI"
+   ],
+   "preferred_skills": [],
+   "ats_keywords": [
+    "Python",
+    "LLMs",
+    "Generative AI",
+    "Data Structures & Algorithms",
+    "Debugging",
+    "Remote AI Trainers (Generalist and Python Coding Experts)",
+    "AITrainers"
+   ],
+   "tools_and_technologies": [
+    "Python",
+    "LLMs",
+    "Generative AI"
+   ],
+   "salary": "$30 – $45",
+   "assessment": {
+    "found": true,
+    "details": [
+     "est the limits of advanced LLMs.\n\n•\nFact-check, critique, and improve model-generated responses for clarity, tone, and accuracy.\n\n•\nCompare multiple model outputs and provide detailed justifications for your rankings.\n\n•\nWhat We're Looking For:\n\n•\nBachelor’s, Master’s, or Ph.D. degree in any academic discipline (or students on session).\n\n•\nExceptional writing, editing, and critical thinking skills with flawless attention to detail.\n\n•\nAbility to explain complex topics clearly and concisely.\n\nRole 2"
+    ],
+    "source": "job_posting",
+    "confidence": "high"
+   },
+   "interview": {
+    "process": [],
+    "questions": [
+     "How would you approach the most important responsibilities of a Remote AI Trainers (Generalist and Python Coding Experts)?",
+     "How have you used Python in a real project or work situation?",
+     "How have you used LLMs in a real project or work situation?",
+     "How have you used Generative AI in a real project or work situation?"
+    ],
+    "source": "role_based_inference",
+    "confidence": "inferred"
+   },
+   "indian_candidate_prep": [
+    "Verify that the posting explicitly accepts applicants from India before applying.",
+    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
+    "Prepare concrete project/work examples demonstrating: Python, LLMs, Generative AI.",
+    "Check that your education matches the stated qualification requirements.",
+    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
+   ],
+   "content_angles": [
+    "What this Remote AI Trainers (Generalist and Python Coding Experts) role actually requires",
+    "Resume keywords an applicant should use",
+    "What to prepare before applying",
+    "Assessment and interview preparation"
+   ],
+   "evidence": {
+    "job_posting": "primary source",
+    "assessment": "job_posting",
+    "interview": "role_based_inference"
+   }
+  },
+  "hours_old": 19.18426614166667,
+  "score": 46.5,
+  "work_mode": "Remote",
+  "employment_type": "Not specified",
+  "salary_type": "Source/feed value — verify against employer posting",
+  "id": "125bd393375eb791",
+  "description_sections": [
+   {
+    "heading": "Original job description",
+    "items": [
+     "Headquarters: Delaware\n\nURL: https://aitrainers.online/\n\nWe are expanding our global roster and looking for top-tier Generalist and Python AI Trainers to join our fast-growing team.\n\nRole 1: Generalist AI Trainer\n\nAs a Generalist Trainer, you will craft complex prompts, evaluate model responses for nuance, logic, and factual accuracy, and rewrite answers to reflect expert-level human reasoning across various domains.\n\n•\nCompensation: $30 – $45 per hour\n\n•\nKey Responsibilities:\n\n•\nDesign challenging prompts to test the limits of advanced LLMs.\n\n•\nFact-check, critique, and improve model-generated responses for clarity, tone, and accuracy.\n\n•\nCompare multiple model outputs and provide detailed justifications for your rankings.\n\n•\nWhat We're Looking For:\n\n•\nBachelor’s, Master’s, or Ph.D. degree in any academic discipline (or students on session).\n\n•\nExceptional writing, editing, and critical thinking skills with flawless attention to detail.\n\n•\nAbility to explain complex topics clearly and concisely.\n\nRole 2: Python AI Trainer\n\nAs a Python AI Trainer, you will focus on evaluating and improving code-generation capabilities, debugging intricate algorithms, and authoring complex programming tasks to test advanced coding models.\n\n•\nCompensation: $55 – $120 per hour (based on expertise and complexity)\n\n•\nKey Responsibilities:\n\n•\nWrite clean, efficient, and well-documented Python code to test LLM coding assistants.\n\n•\nEvaluate model-generated scripts for bugs, edge cases, security vulnerabilities, and optimal performance.\n\n•\nCreate diverse, multi-step coding prompts and benchmark solutions.\n\n•\nWhat We're Looking For:\n\n•\nStrong proficiency in Python and familiarity with popular libraries/frameworks.\n\n•\nSolid understanding of software development principles, data structures, and algorithms.\n\n•\nExperience in code review, software engineering, or technical writing is a strong plus.\n\nWhy Join AITrainers Online?\n\n•\nCompetitive Pay & Weekly Payouts: Enjoy reliable earnings paid weekly via PayPal.\n\n•\nTotal Flexibility: Work 100% remotely on a flexible schedule. Set your own hours and work from anywhere in the world.\n\n•\nContinuous Learning: Get an insider’s look at the cutting edge of generative AI technology while sharpening your own analytical and technical skills.\n\nTo apply: https://weworkremotely.com/remote-jobs/aitrainers-remote-ai-trainers-generalist-and-python-coding-experts"
+    ]
+   }
+  ]
+ },
+ {
+  "tier": "B",
+  "title": "Marketing Specialist",
+  "company": "Orderly Network",
+  "location": "Worldwide",
+  "url": "https://himalayas.app/companies/orderly-network/jobs/marketing-specialist",
+  "source": "Himalayas",
+  "note": "Worldwide / APAC remote",
+  "remote": true,
+  "posted": "2026-10-15T02:42:34+00:00",
+  "description": "Work with the best\n\nWe are Orderly, the ultimate destination for decentralized trading platforms. We are not satisfied with the limitations of centralized exchanges or the complexities of building decentralized order books. We aim to make trading easy, fast, and secure for everyone. How? By fusing the simplicity of CeFi with the power of DeFi.\n\nAt the heart of the issue lies “liquidity”. Builders often grapple with a paradox; traders need liquidity, but liquidity demands traders. Our solution is simple as is bold –concentrate all liquidity into one order book. One order book that connects all the liquidity in the crypto space.\n\nOur ambition doesn't stop there. We're omnichain, championing chain abstraction. We envision seamless transactions, where the underlying blockchain is merely a detail. By concentrating liquidity, we aim to redefine the crypto landscape, making bridging and wrapped assets a thing of the past.\n\nWe are Orderly, and we are here to revolutionize DeFi, democratizing access to financial opportunities and fostering a fair, equitable paradigm for all.\n\nA Glimpse into Your Future at Orderly Network (https://himalayas.app/companies/orderly-network)\n\n•\nWhat will you achieve?\n\n• Drive Orderly’s marketing initiatives across social media, community channels, and external communications to strengthen brand awareness and engagement across the Web3 ecosystem.\n\n• Build and maintain relationships with KOLs, influencers, Web3 projects, protocols, and ecosystem partners, identifying and executing collaboration and co-marketing opportunities.\n\n• Develop and coordinate external-facing content, including partnership announcements, campaign launches, and product updates, ensuring consistent and effective communication of Orderly’s value proposition.\n\n• Plan and execute marketing campaigns and community initiatives, coordinating with internal teams and external partners to deliver campaigns on time and achieve their objectives.\n\n• Monitor Web3 industry trends, community discussions, and competitor activities to identify marketing opportunities and inform campaign planning.\n\n• Track marketing performance across channels and campaigns, using engagement, audience growth, referral traffic, and other relevant metrics to evaluate results and optimize future initiatives.\n\n•\nWhat challenges will you face?\n\n• Dealing with a fast-moving Web3 landscape, where market trends, narratives, and community dynamics evolve quickly, requiring you to identify and act on marketing opportunities in a timely manner.\n\n• Building meaningful relationships with KOLs, influencers, Web3 projects, and ecosystem partners, turning initial outreach into valuable collaborations.\n\n• Balancing creativity with execution, while managing multiple campaigns, stakeholders, timelines, and deliverables.\n\n• Finding effective ways to communicate Orderly's value proposition and differentiate its brand in a competitive Web3 ecosystem.\n\n• Evaluating marketing effectiveness through campaign data and audience insights, and continuously improving marketing performance.\n\n• Independently driving marketing initiatives from planning and partner outreach through execution and performance review, rather than simply following predefined instructions.\n\n• Collaborating with teammates and external partners across different countries, cultures, and time zones, requiring clear communication and strong self-management skills.\n\n• About you:\n\n• 5+ years of experience in marketing, social media, community management, partnerships, or a related field, preferably within Web3, crypto, DeFi, or fintech.\n\n• Good understanding of the Web3 ecosystem, including crypto communities, KOLs, DeFi projects, and industry trends. Familiarity with DEXs, perpetual trading, or crypto trading infrastructure is a plus.\n\n• Proven ability to independently plan and execute marketing initiatives, manage multiple projects, and deliver results with minimal supervision.\n\n• Experience identifying and building relationships with KOLs, influencers, external partners, or web3 projects is a strong plus.\n\n• Strong content creation and writing skills, with the ability to communicate complex ideas clearly to different audiences.\n\n• Familiarity with social media management, community engagement, KOL marketing campaigns, and marketing performance tracking.\n\n• Fluent in both written and spoken English and Mandarin Chinese.\n\n• Strong communication and organizational skills with a proactive mindset, attention to detail, and the ability to adapt to a fast-moving environment.\n\nInterested in Learning More?\n\n• Our hiring process begins by meeting with our People Team, who help facilitate the process of placing you in your new role. You can expect to share your experience and ideas in online video interviews with our hiring team of management and potential new colleagues.\n\n• If you have experience in developing trading systems or financial-related products is a plus.\n\n• You can prepare for this interview by mentally organizing your strategies and opinions on topics such as Web3, cryptocurrency trading platforms, and your vision of how to succeed.\n\n• Share this! Don’t be afraid of friends or co-workers stealing this job! We will find a place for you if you are unique and intelligent. Check out our External Referral Incentives Program as well.\n\nOriginally posted on Himalayas (https://himalayas.app)",
+  "must": [],
+  "nice": [],
+  "soft": [],
+  "experience": "5+ years",
+  "salary": "",
+  "analysis": {
+   "role": "Marketing Specialist",
+   "company": "Orderly Network",
+   "location": "Worldwide",
+   "posted_at": "2026-10-15T02:42:34+00:00",
+   "eligibility": "B",
+   "experience": "5+ years",
+   "experience_level": "5+ years",
+   "education": [
+    "be afraid of friends or co-workers stealing this job! We will find a place for you if you are unique and intelligen"
+   ],
+   "responsibilities": [],
+   "ideal_candidate": {
+    "summary": [
+     "Work with the best\n\nWe are Orderly, the ultimate destination for decentralized trading platforms. We are not satisfied with the limitations of centralized exchanges or the complexities of building decentralized order books. We aim to make trading easy, fast, and secure for everyone. How? By fusing the simplicity of CeFi with the power of DeFi.\n\nAt the heart of the issue lies “liquidity”. Builders often grapple with a paradox; traders need liquidity, but liquidity demands traders. Our solution is simple as is bold –concentrate all liquidity into one order book. One order book that connects all the liquidity in the crypto space.\n\nOur ambition doesn't stop there. We're omnichain, championing chain abstraction. We envision seamless transactions, where the underlying blockchain is merely a detail. By concentrating liquidity, we aim to redefine the crypto landscape, making bridging and wrapped assets a thing of the past.\n\nWe are Orderly, and we are here to revolutionize DeFi, democratizing access to financial opportunities and fostering a fair, equitable paradigm for all.\n\nA Glimpse into Your Future at Orderly Network (https://himalayas.app/companies/orderly-network)\n\n•\nWhat will you achieve?\n\n• Drive Orderly’s marketing initiatives across social media, community channels, and external communications to strengthen brand awareness and engagement across the Web3 ecosystem.\n\n• Build and maintain relationships with KOLs, influencers, Web3 projects, protocols, and ecosystem partners, identifying and executing collaboration and co-marketing opportunities.\n\n• Develop and coordinate external-facing content, including partnership announcements, campaign launches, and product updates, ensuring consistent and effective communication of Orderly’s value proposition.\n\n• Plan and execute marketing campaigns and community initiatives, coordinating with internal teams and external partners to deliver campaigns on time and achieve their objectives.\n\n• Monitor Web3 industry trends, community discussions, and competitor activities to identify marketing opportunities and inform campaign planning.\n\n• Track marketing performance across channels and campaigns, using engagement, audience growth, referral traffic, and other relevant metrics to evaluate results and optimize future initiatives.\n\n•\nWhat challenges will you face?\n\n• Dealing with a fast-moving Web3 landscape, where market trends, narratives, and community dynamics evolve quickly, requiring you to identify and act on marketing opportunities in a timely manner.\n\n• Building meaningful relationships with KOLs, influencers, Web3 projects, and ecosystem partners, turning initial outreach into valuable collaborations.\n\n• Balancing creativity with execution, while managing multiple campaigns, stakeholders, timelines, and deliverables.\n\n• Finding effective ways to communicate Orderly's value proposition and differentiate its brand in a competitive Web3 ecosystem.\n\n• Evaluating marketing effectiveness through campaign data and audience insights, and continuously improving marketing performance.\n\n• Independently driving marketing initiatives from planning and partner outreach through execution and performance review, rather than simply following predefined instructions.\n\n• Collaborating with teammates and external partners across different countries, cultures, and time zones, requiring clear communication and strong self-management skills.\n\n• About you:\n\n• 5+ years of experience in marketing, social media, community management, partnerships, or a related field, preferably within Web3, crypto, DeFi, or fintech.\n\n• Good understanding of the Web3 ecosystem, including crypto communities, KOLs, DeFi projects, and industry trends. Familiarity with DEXs, perpetual trading, or crypto trading infrastructure is a plus.\n\n• Proven ability to independently plan and execute marketing initiatives, manage multiple projects, and deliver results with minimal supervision.\n\n• Experience identifying and building relationships with KOLs, influencers, external partners, or web3 projects is a strong plus.\n\n• Strong content creation and writing skills, with the ability to communicate complex ideas clearly to different audiences.\n\n• Familiarity with social media management, community engagement, KOL marketing campaigns, and marketing performance tracking.\n\n• Fluent in both written and spoken English and Mandarin Chinese.\n\n• Strong communication and organizational skills with a proactive mindset, attention to detail, and the ability to adapt to a fast-moving environment.\n\nInterested in Learning More?\n\n• Our hiring process begins by meeting with our People Team, who help facilitate the process of placing you in your new role. You can expect to share your experience and ideas in online video interviews with our hiring team of management and potential new colleagues.\n\n• If you have experience in developing trading systems or financial-related products is a plus.\n\n• You can prepare for this interview by mentally organizing your strategies and opinions on topics such as Web3, cryptocurrency trading platforms, and your vision of how to succeed.\n\n• Share this! Don’t be afraid of friends or co-workers stealing this job! We will find a place for you if you are unique and intelligent. Check out our External Referral Incentives Program as well.\n\nOriginally posted on Himalayas (https://himalayas.app)"
+    ],
+    "required_skills": [],
+    "preferred_skills": []
+   },
+   "required_skills": [],
+   "preferred_skills": [],
+   "ats_keywords": [
+    "Marketing Specialis",
+    "Orderly Network"
+   ],
+   "tools_and_technologies": [],
+   "salary": "",
+   "assessment": {
+    "found": false,
+    "details": [],
+    "source": "not_found_in_job_posting",
+    "confidence": "none"
+   },
+   "interview": {
+    "process": [
+     "hiring process begins by meeting with our People Team, who help facilitate the process of placing you in your new role. You can expect to share your experience and ideas in online video interviews with our hiring team of management and potential new colleagues.\n\n• If you have experience in developing trading systems or financial-related products is a plus.\n\n• You can prepare for this interview by mentally organizing your strategies and opinions on topics such as Web3, cryptocurrency trading platforms, and your vision of how to succeed.\n\n• Share this! Don’t be afraid of friends or co-workers stealing this job! We will find a place for you if you are unique and intelligent. Check out our External Referral I"
+    ],
+    "questions": [
+     "What would you prioritize in your first 30 days as a Marketing Specialist?"
+    ],
+    "source": "job_posting",
+    "confidence": "high"
+   },
+   "indian_candidate_prep": [
+    "Verify that the posting explicitly accepts applicants from India before applying.",
+    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
+    "Check that your education matches the stated qualification requirements.",
+    "Prepare examples that demonstrate the stated experience level: 5+ years.",
+    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
+   ],
+   "content_angles": [
+    "What this Marketing Specialist role actually requires",
+    "Resume keywords an applicant should use",
+    "What to prepare before applying",
+    "Assessment and interview preparation"
+   ],
+   "evidence": {
+    "job_posting": "primary source",
+    "assessment": "not_found_in_job_posting",
+    "interview": "job_posting"
+   }
+  },
+  "hours_old": 12.549809894722223,
+  "score": 38.5,
+  "work_mode": "Remote",
+  "employment_type": "Not specified",
+  "salary_type": "Not found in feed or description; market research required",
+  "id": "16471d9743d2f139",
+  "description_sections": [
+   {
+    "heading": "Original job description",
+    "items": [
+     "Work with the best\n\nWe are Orderly, the ultimate destination for decentralized trading platforms. We are not satisfied with the limitations of centralized exchanges or the complexities of building decentralized order books. We aim to make trading easy, fast, and secure for everyone. How? By fusing the simplicity of CeFi with the power of DeFi.\n\nAt the heart of the issue lies “liquidity”. Builders often grapple with a paradox; traders need liquidity, but liquidity demands traders. Our solution is simple as is bold –concentrate all liquidity into one order book. One order book that connects all the liquidity in the crypto space.\n\nOur ambition doesn't stop there. We're omnichain, championing chain abstraction. We envision seamless transactions, where the underlying blockchain is merely a detail. By concentrating liquidity, we aim to redefine the crypto landscape, making bridging and wrapped assets a thing of the past.\n\nWe are Orderly, and we are here to revolutionize DeFi, democratizing access to financial opportunities and fostering a fair, equitable paradigm for all.\n\nA Glimpse into Your Future at Orderly Network (https://himalayas.app/companies/orderly-network)\n\n•\nWhat will you achieve?\n\n• Drive Orderly’s marketing initiatives across social media, community channels, and external communications to strengthen brand awareness and engagement across the Web3 ecosystem.\n\n• Build and maintain relationships with KOLs, influencers, Web3 projects, protocols, and ecosystem partners, identifying and executing collaboration and co-marketing opportunities.\n\n• Develop and coordinate external-facing content, including partnership announcements, campaign launches, and product updates, ensuring consistent and effective communication of Orderly’s value proposition.\n\n• Plan and execute marketing campaigns and community initiatives, coordinating with internal teams and external partners to deliver campaigns on time and achieve their objectives.\n\n• Monitor Web3 industry trends, community discussions, and competitor activities to identify marketing opportunities and inform campaign planning.\n\n• Track marketing performance across channels and campaigns, using engagement, audience growth, referral traffic, and other relevant metrics to evaluate results and optimize future initiatives.\n\n•\nWhat challenges will you face?\n\n• Dealing with a fast-moving Web3 landscape, where market trends, narratives, and community dynamics evolve quickly, requiring you to identify and act on marketing opportunities in a timely manner.\n\n• Building meaningful relationships with KOLs, influencers, Web3 projects, and ecosystem partners, turning initial outreach into valuable collaborations.\n\n• Balancing creativity with execution, while managing multiple campaigns, stakeholders, timelines, and deliverables.\n\n• Finding effective ways to communicate Orderly's value proposition and differentiate its brand in a competitive Web3 ecosystem.\n\n• Evaluating marketing effectiveness through campaign data and audience insights, and continuously improving marketing performance.\n\n• Independently driving marketing initiatives from planning and partner outreach through execution and performance review, rather than simply following predefined instructions.\n\n• Collaborating with teammates and external partners across different countries, cultures, and time zones, requiring clear communication and strong self-management skills.\n\n• About you:\n\n• 5+ years of experience in marketing, social media, community management, partnerships, or a related field, preferably within Web3, crypto, DeFi, or fintech.\n\n• Good understanding of the Web3 ecosystem, including crypto communities, KOLs, DeFi projects, and industry trends. Familiarity with DEXs, perpetual trading, or crypto trading infrastructure is a plus.\n\n• Proven ability to independently plan and execute marketing initiatives, manage multiple projects, and deliver results with minimal supervision.\n\n• Experience identifying and building relationships with KOLs, influencers, external partners, or web3 projects is a strong plus.\n\n• Strong content creation and writing skills, with the ability to communicate complex ideas clearly to different audiences.\n\n• Familiarity with social media management, community engagement, KOL marketing campaigns, and marketing performance tracking.\n\n• Fluent in both written and spoken English and Mandarin Chinese.\n\n• Strong communication and organizational skills with a proactive mindset, attention to detail, and the ability to adapt to a fast-moving environment.\n\nInterested in Learning More?\n\n• Our hiring process begins by meeting with our People Team, who help facilitate the process of placing you in your new role. You can expect to share your experience and ideas in online video interviews with our hiring team of management and potential new colleagues.\n\n• If you have experience in developing trading systems or financial-related products is a plus.\n\n• You can prepare for this interview by mentally organizing your strategies and opinions on topics such as Web3, cryptocurrency trading platforms, and your vision of how to succeed.\n\n• Share this! Don’t be afraid of friends or co-workers stealing this job! We will find a place for you if you are unique and intelligent. Check out our External Referral Incentives Program as well.\n\nOriginally posted on Himalayas (https://himalayas.app)"
+    ]
+   }
+  ]
+ },
+ {
+  "tier": "B",
+  "title": "Business Talent Pool",
+  "company": "Sterlington, PLLC",
+  "location": "Worldwide",
+  "url": "https://himalayas.app/companies/sterlington-pllc/jobs/business-talent-pool-7353925961",
+  "source": "Himalayas",
+  "note": "Worldwide / APAC remote",
+  "remote": true,
+  "posted": "2026-10-15T01:25:52+00:00",
+  "description": "We’re always on the lookout for exceptional talent! If you’re a professional who thrives in a fast-paced, high-caliber environment, we warmly invite you to submit an open application to join our Talent Pool.\n\nOur Firm:\n\nSterlington PLLC is a full-service law firm focusing on complex corporate, litigation, executive compensation, and private wealth matters. As a firm, we focus on the economic as well as the legal aspects of our matters.\nAmong other strengths, Sterlington is the ultimate law firm for founders, senior executives, and UHNWIs as well as their related businesses.\n\nThe opportunity\n\nWe’re always on the lookout for exceptional talent! If you’re a professional who thrives in a fast-paced, high-caliber environment, we warmly invite you to submit an open application to join our Talent Pool. No matter if your background is in corporate support, business operations, or other services, we’d absolutely love to hear from you!\n\nIf we find a role that suits you well, we will contact you. In the meantime, don’t hesitate to apply for any roles that interest you.\n\nAt Sterlington, we believe that world-class talent has no boundaries. We are committed to fostering a diverse and inclusive environment where unique perspectives are valued and every individual has the opportunity to thrive. We encourage all qualified candidates to apply.\n\nOriginally posted on Himalayas (https://himalayas.app)",
+  "must": [],
+  "nice": [],
+  "soft": [],
+  "experience": "",
+  "salary": "",
+  "analysis": {
+   "role": "Business Talent Pool",
+   "company": "Sterlington, PLLC",
+   "location": "Worldwide",
+   "posted_at": "2026-10-15T01:25:52+00:00",
+   "eligibility": "B",
+   "experience": "",
+   "experience_level": "senior",
+   "education": [],
+   "responsibilities": [],
+   "ideal_candidate": {
+    "summary": [
+     "We’re always on the lookout for exceptional talent! If you’re a professional who thrives in a fast-paced, high-caliber environment, we warmly invite you to submit an open application to join our Talent Pool.\n\nOur Firm:\n\nSterlington PLLC is a full-service law firm focusing on complex corporate, litigation, executive compensation, and private wealth matters. As a firm, we focus on the economic as well as the legal aspects of our matters.\nAmong other strengths, Sterlington is the ultimate law firm for founders, senior executives, and UHNWIs as well as their related businesses.\n\nThe opportunity\n\nWe’re always on the lookout for exceptional talent! If you’re a professional who thrives in a fast-paced, high-caliber environment, we warmly invite you to submit an open application to join our Talent Pool. No matter if your background is in corporate support, business operations, or other services, we’d absolutely love to hear from you!\n\nIf we find a role that suits you well, we will contact you. In the meantime, don’t hesitate to apply for any roles that interest you.\n\nAt Sterlington, we believe that world-class talent has no boundaries. We are committed to fostering a diverse and inclusive environment where unique perspectives are valued and every individual has the opportunity to thrive. We encourage all qualified candidates to apply.\n\nOriginally posted on Himalayas (https://himalayas.app)"
+    ],
+    "required_skills": [],
+    "preferred_skills": []
+   },
+   "required_skills": [],
+   "preferred_skills": [],
+   "ats_keywords": [
+    "Business Talent Pool",
+    "Sterlington, PLLC"
+   ],
+   "tools_and_technologies": [],
+   "salary": "",
+   "assessment": {
+    "found": false,
+    "details": [],
+    "source": "not_found_in_job_posting",
+    "confidence": "none"
+   },
+   "interview": {
+    "process": [],
+    "questions": [
+     "What would you prioritize in your first 30 days as a Business Talent Pool?"
+    ],
+    "source": "role_based_inference",
+    "confidence": "inferred"
+   },
+   "indian_candidate_prep": [
+    "Verify that the posting explicitly accepts applicants from India before applying.",
+    "Tailor the resume to the role using the exact relevant ATS keywords from the posting.",
+    "Prepare concise STAR-format examples for ownership, problem-solving, and collaboration."
+   ],
+   "content_angles": [
+    "What this Business Talent Pool role actually requires",
+    "Resume keywords an applicant should use",
+    "What to prepare before applying",
+    "Assessment and interview preparation"
+   ],
+   "evidence": {
+    "job_posting": "primary source",
+    "assessment": "not_found_in_job_posting",
+    "interview": "role_based_inference"
+   }
+  },
+  "hours_old": 13.828147328333333,
+  "score": 37.7,
+  "work_mode": "Remote",
+  "employment_type": "Not specified",
+  "salary_type": "Not found in feed or description; market research required",
+  "id": "28b12feef1942dd3",
+  "description_sections": [
+   {
+    "heading": "Original job description",
+    "items": [
+     "We’re always on the lookout for exceptional talent! If you’re a professional who thrives in a fast-paced, high-caliber environment, we warmly invite you to submit an open application to join our Talent Pool.\n\nOur Firm:\n\nSterlington PLLC is a full-service law firm focusing on complex corporate, litigation, executive compensation, and private wealth matters. As a firm, we focus on the economic as well as the legal aspects of our matters.\nAmong other strengths, Sterlington is the ultimate law firm for founders, senior executives, and UHNWIs as well as their related businesses.\n\nThe opportunity\n\nWe’re always on the lookout for exceptional talent! If you’re a professional who thrives in a fast-paced, high-caliber environment, we warmly invite you to submit an open application to join our Talent Pool. No matter if your background is in corporate support, business operations, or other services, we’d absolutely love to hear from you!\n\nIf we find a role that suits you well, we will contact you. In the meantime, don’t hesitate to apply for any roles that interest you.\n\nAt Sterlington, we believe that world-class talent has no boundaries. We are committed to fostering a diverse and inclusive environment where unique perspectives are valued and every individual has the opportunity to thrive. We encourage all qualified candidates to apply.\n\nOriginally posted on Himalayas (https://himalayas.app)"
+    ]
+   }
+  ]
+ }
+]
