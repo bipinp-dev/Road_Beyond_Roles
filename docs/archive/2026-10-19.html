@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Road Beyond Roles · 2026-10-19</title><meta name='description' content='Helping You Build a Better Career. Road Beyond Roles brings fresh career opportunities and practical career guidance.'>
+<style>
+:root{--navy:#102746;--navy-2:#18395f;--blue:#1769e8;--blue-hover:#0e55c5;--ink:#1c2b40;--muted:#64748b;--line:#dbe3ed;--soft:#f4f7fb;--white:#fff;--green:#157347}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font:14px/1.5 Inter,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit}button,input,select{font:inherit}.container{width:min(1280px,calc(100% - 48px));margin:0 auto}
+.topbar{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}.nav{min-height:68px;display:flex;align-items:center;gap:28px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;white-space:nowrap}.logo{width:34px;height:34px;object-fit:contain}.brand-copy{line-height:1.15}.brand-name{font-size:16px;font-weight:800;letter-spacing:-.5px;color:var(--navy)}.brand-name span{color:var(--blue)}.brand-tag{font-size:9px;letter-spacing:.25px;color:var(--muted);margin-top:4px}.navlinks{display:flex;align-items:center;justify-content:flex-end;gap:20px;margin-left:auto;white-space:nowrap}.navlinks a{font-size:12px;font-weight:650;color:#34445b;text-decoration:none;padding:25px 0 23px;border-bottom:2px solid transparent}.navlinks a:hover,.navlinks a.active{color:var(--blue);border-color:var(--blue)}.navlinks .youtube{padding:9px 12px;border:1px solid var(--line);border-radius:6px;color:var(--navy)}
+.content{padding:24px 0 56px}.page-head{padding:28px 0 20px;border-bottom:1px solid var(--line);background:#fff}.breadcrumbs{font-size:11px;color:var(--muted);margin-bottom:10px}.page-head h1{font-size:28px;letter-spacing:-.8px;line-height:1.2;margin:0;font-weight:760;color:var(--navy)}.page-head p{margin:7px 0 0;color:var(--muted);font-size:13px;max-width:760px}
+.searchbar{display:grid;grid-template-columns:minmax(220px,1fr) 150px;gap:8px;margin-top:20px}.search{width:100%;min-width:0;padding:12px 14px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:var(--ink);font-size:13px;outline:none}.search:focus,.filter:focus{border-color:var(--blue);box-shadow:0 0 0 3px #1769e81a}.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:36px;padding:9px 13px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:var(--navy);text-decoration:none;font-size:12px;font-weight:700;cursor:pointer}.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}.btn.primary:hover{background:var(--blue-hover)}.btn:hover{border-color:#91a4bd}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}.filter{padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:#34445b;font-size:11px}.filter-link{display:inline-flex;align-items:center;padding:7px 10px;border:1px solid var(--line);border-radius:6px;color:#34445b;text-decoration:none;font-size:11px}.filter-link.active,.filter-link:hover{border-color:#a8c7ff;background:#eff5ff;color:var(--blue)}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:24px;padding:24px 0 56px}.maincol{min-width:0}.sidecol{min-width:0}.results-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}.results-head h2{font-size:18px;letter-spacing:-.35px;margin:0;color:var(--navy)}.results-head p{font-size:11px;color:var(--muted);margin:4px 0 0}.sort{padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;font-size:11px;color:#34445b}
+.job-list{border:1px solid var(--line);border-radius:8px;overflow:hidden}.job{display:grid;grid-template-columns:42px minmax(0,1fr) auto;gap:13px;padding:17px 16px;border-bottom:1px solid var(--line);background:#fff;margin:0;align-items:start}.job:last-child{border-bottom:0}.job:hover{background:#f9fbff}.company-mark{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid #e7edf5;border-radius:7px;background:#fff;color:var(--navy);font-size:13px;font-weight:800}.job-main{min-width:0}.job-title{font-size:14px;font-weight:750;line-height:1.35;margin:0 0 4px;color:var(--navy)}.job-title a{text-decoration:none}.job-title a:hover{color:var(--blue)}.company-line{font-size:12px;color:#41536b}.meta{display:flex;flex-wrap:wrap;gap:6px 13px;margin-top:9px;font-size:11px;color:var(--muted)}.tag-row{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}.chip{display:inline-flex;align-items:center;padding:3px 7px;border-radius:4px;background:#f1f5f9;color:#42536a;font-size:10px;line-height:1.4}.chip.m{background:#edf4ff;color:#235bb0;border:1px solid #d9e7ff}.job-actions{display:flex;flex-direction:column;align-items:stretch;gap:6px;min-width:88px}.job-actions .btn{min-height:31px;padding:7px 10px;font-size:11px}.job-actions .btn:not(.primary){border-color:transparent}.rank,.badge{display:none}
+.side-panel{border:1px solid var(--line);border-radius:8px;margin-bottom:14px;background:#fff;overflow:hidden}.side-panel h3{font-size:14px;font-weight:750;margin:0;padding:13px 14px;border-bottom:1px solid var(--line);color:var(--navy)}.side-content{padding:12px 14px}.resource-link{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid #edf1f6;text-decoration:none;font-size:12px;color:#34445b}.resource-link:last-child{border-bottom:0}.resource-link:hover{color:var(--blue)}.resource-link small{display:block;color:var(--muted);font-size:10px;margin-top:2px}.youtube-panel{background:var(--navy);color:#fff;padding:16px;border-radius:8px;margin-bottom:14px}.youtube-panel h3{font-size:14px;margin:0 0 6px}.youtube-panel p{font-size:11px;color:#d5dfed;margin:0 0 12px}.youtube-panel .btn{background:#fff;color:var(--navy);border-color:#fff}
+.stats{display:flex;flex-wrap:wrap;gap:0;border-bottom:1px solid var(--line);background:#f8fafc}.stat{flex:1;min-width:150px;padding:15px 18px;border-right:1px solid var(--line)}.stat:last-child{border-right:0}.stat strong{display:block;color:var(--navy);font-size:18px;line-height:1.25}.stat span{font-size:10px;color:var(--muted)}
+.source-description{color:var(--ink);overflow-wrap:anywhere}
+.source-description p{margin:0 0 16px;white-space:normal}
+.source-description p:last-child{margin-bottom:0}
+.source-description h3{font-size:16px;font-weight:900;text-transform:uppercase;letter-spacing:.35px;margin:24px 0 10px}
+.source-description ul{margin:8px 0 18px;padding-left:24px}
+.source-description li{margin:0 0 8px;padding-left:4px}
+.source-description a{color:var(--blue);text-decoration:underline;text-underline-offset:2px;overflow-wrap:anywhere}
+.source-description a:hover{color:var(--blue-dark)}
+.detail{padding:22px 0 58px}.detail-card{max-width:1100px;margin:0 auto}.back{display:inline-block;font-size:11px;color:var(--blue);text-decoration:none;margin-bottom:16px}.detail-head{border:1px solid var(--line);border-radius:8px;padding:20px;background:#fff}.detail-title-row{display:flex;align-items:flex-start;gap:14px}.detail-card h1{font-size:26px;line-height:1.25;letter-spacing:-.6px;margin:0 0 6px;color:var(--navy)}.detail-company{font-size:14px;font-weight:650;color:#40536d}.detail-actions{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}.detail-meta{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}.detail-meta span{background:#f1f5f9;border:1px solid #e4eaf2;padding:5px 8px;border-radius:4px;font-size:10px;color:#42536a}.detail-tabs{display:flex;flex-wrap:wrap;gap:0;margin:14px 0;border-bottom:1px solid var(--line)}.detail-tabs a{padding:11px 13px;text-decoration:none;font-size:11px;color:#4c5d73;border-bottom:2px solid transparent}.detail-tabs a:hover{color:var(--blue);border-color:var(--blue)}.detail-columns{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:16px}.detail-section{border:1px solid var(--line);border-radius:8px;background:#fff;margin-bottom:13px;padding:17px}.detail-section h2{font-size:14px;color:var(--navy);margin:0 0 10px;font-weight:750}.detail-copy,.detail-list{font-size:12px;line-height:1.75;color:#43536a;margin:0}.detail-list{padding-left:18px}.detail-list li{margin:0 0 5px}.keyword-groups{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 13px}.keyword-group{border:1px solid var(--line);border-radius:8px;padding:14px;background:#fff}.keyword-group>b{display:block;font-size:12px;margin-bottom:9px;color:var(--navy)}.course-list,.question-list{margin:0;padding:0;list-style:none}.course-list li,.question-list li{padding:9px 0;border-bottom:1px solid #edf1f6;font-size:12px}.course-list li:last-child,.question-list li:last-child{border-bottom:0}.course-list a{color:var(--blue);text-decoration:none;font-weight:650}.course-list small{display:block;color:var(--muted);font-size:10px;margin-top:3px}.mut{color:var(--muted);font-size:11px}.notice{margin:18px 0 0;padding:13px;background:#f8fafc;border:1px solid var(--line);border-radius:6px;color:#596a80;font-size:11px;line-height:1.65}.archive-list{border-top:1px solid var(--line);margin-top:20px;padding-top:14px}.archive-list a{color:var(--blue);font-size:13px;font-weight:700;text-decoration:none}.archive-list li{margin:9px 0}.company-grid,.resource-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.company-card,.resource-card{border:1px solid var(--line);border-radius:8px;padding:16px;background:#fff}.company-card h3,.resource-card h3{font-size:14px;margin:0 0 6px;color:var(--navy)}.company-card p,.resource-card p{font-size:11px;color:var(--muted);margin:0 0 10px}.footer{border-top:1px solid var(--line);background:#f8fafc;padding:23px 0}.footer-grid{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-brand{font-size:12px;font-weight:800;letter-spacing:.2px;color:var(--navy)}.footer p{margin:4px 0 0;color:var(--muted);font-size:10px}.footer-yt{font-size:11px;font-weight:700;color:var(--blue);text-decoration:none}
+@media(max-width:1080px){.nav{flex-wrap:wrap;padding:12px 0;gap:12px}.navlinks{order:3;width:100%;justify-content:flex-start;overflow-x:auto;gap:18px}.navlinks a{padding:8px 0}.layout{grid-template-columns:minmax(0,1fr) 250px}.detail-columns{grid-template-columns:minmax(0,1fr) 250px}}
+@media(max-width:760px){.container{width:calc(100% - 28px)}.layout,.detail-columns{grid-template-columns:1fr}.sidecol{display:grid;grid-template-columns:1fr 1fr;gap:12px}.youtube-panel{grid-column:1/-1}.side-panel{margin-bottom:0}.detail-title-row{flex-wrap:wrap}.detail-actions{margin-left:0;width:100%}.detail-actions .btn{flex:1}.keyword-groups{grid-template-columns:1fr 1fr}.company-grid,.resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.brand-tag{display:none}.brand-name{font-size:14px}.navlinks{gap:15px}.navlinks a{font-size:11px}.searchbar{grid-template-columns:1fr}.searchbar .btn{width:100%}.page-head h1{font-size:24px}.stats{display:grid;grid-template-columns:1fr 1fr}.stat{min-width:0;border-bottom:1px solid var(--line);padding:12px}.job{grid-template-columns:34px minmax(0,1fr);padding:13px 11px;gap:9px}.company-mark{width:32px;height:32px}.job-actions{grid-column:2;flex-direction:row;min-width:0}.job-actions .btn{flex:1}.sidecol{display:block}.side-panel{margin-bottom:12px}.keyword-groups{grid-template-columns:1fr}.company-grid,.resource-grid{grid-template-columns:1fr}.detail-card h1{font-size:22px}.detail-tabs{overflow-x:auto;flex-wrap:nowrap}.detail-tabs a{white-space:nowrap}.footer-grid{align-items:flex-start;flex-direction:column}}
+</style></head><body>
+<header class='topbar'><div class='container nav'>
+  <a class='brand' href='../index.html'><img class='logo' src='../assets/rbr-logo.jpg' alt='Road Beyond Roles'><div class='brand-copy'><div class='brand-name'>ROAD <span>BEYOND</span> ROLES</div><div class='brand-tag'>Jobs · Internships · Apprenticeships</div></div></a>
+  <nav class='navlinks' aria-label='Main navigation'><a class='' href='../index.html'>Home</a><a class='' href='../jobs.html'>Jobs</a><a class='' href='../internships.html'>Internships</a><a class='' href='../apprenticeships.html'>Apprenticeships</a><a class='' href='../companies.html'>Companies</a><a class='' href='../career-tips.html'>Career Tips</a><a class='' href='../interview-prep.html'>Interview Prep</a><a class='' href='../resume-guide.html'>Resume Guide</a><a class='' href='../free-courses.html'>Free Courses</a><a class='youtube' href='https://www.youtube.com/@roadbeyondrole' target='_blank' rel='noopener'>YouTube ↗</a></nav>
+</div></header><main class='detail'><div class='container'><div class='detail-card'><a class='back' href='../index.html'>← Home</a><h1>Opportunities for 2026-10-19</h1><p class='mut'>38 qualifying postings.</p><div class='job-list'>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>G</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=f516c265ce331aff'>Intermediate Backend Engineer - Code Security</a></h3>
+  <div class='company-line'>Gitlab</div>
+  <div class='meta'><span>Bangalore, India</span><span>Hybrid</span><span>Full-time</span><span>Posted 2026-10-16T10:54:01-04:00</span></div>
+  <div class='tag-row'><span class='chip'>Git</span><span class='chip'>CI/CD</span><span class='chip'>LLMs</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=f516c265ce331aff'>View</a><a class='btn' href='https://job-boards.greenhouse.io/gitlab/jobs/8894531002' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>A</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=f49890e1eb86dba7'>Founding Forward Deployed Engineer</a></h3>
+  <div class='company-line'>Alloy</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Hybrid</span><span>5+ years</span><span>Posted 2026-10-18T07:31:05+00:00</span><span>5+ years · $141,000–$250,000 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>Python</span><span class='chip'>JavaScript</span><span class='chip'>TypeScript</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=f49890e1eb86dba7'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/alloy-founding-forward-deployed-engineer' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>A</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=ea1c22ce1ba5a653'>Operations Engineer, BizTech</a></h3>
+  <div class='company-line'>Airbnb</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>3+ years</span><span>Posted 2026-10-18T07:31:05+00:00</span><span>3+ years · US$136,000–US$160,000 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>Observability</span><span class='chip'>Grafana</span><span class='chip'>Python</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=ea1c22ce1ba5a653'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/airbnb-operations-engineer-biztech' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>P</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=df2083b262ec32b1'>Enterprise Support Engineer</a></h3>
+  <div class='company-line'>PlanetScale</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Posted 2026-10-18T07:30:58+00:00</span><span>$120,000–$200,000 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>MySQL</span><span class='chip'>PostgreSQL</span><span class='chip'>Observability</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=df2083b262ec32b1'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/planetscale-enterprise-support-engineer' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>S</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=f2a8038a38c84b1d'>Monetization Operations Analyst</a></h3>
+  <div class='company-line'>Stripe</div>
+  <div class='meta'><span>Bengaluru</span><span>Contract</span><span>5+ years</span><span>Posted 2026-10-16T04:16:28-04:00</span><span>5+ years</span></div>
+  <div class='tag-row'><span class='chip'>UI/UX</span><span class='chip'>Product Management</span><span class='chip'>SQL</span><span class='chip'>Excel</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=f2a8038a38c84b1d'>View</a><a class='btn' href='https://stripe.com/jobs/search?gh_jid=8247120' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>S</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=cfce3af01aedfb61'>Staff Software Engineer, Revenue Systems</a></h3>
+  <div class='company-line'>Squarespace</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Hybrid</span><span>Staff</span><span>Posted 2026-10-18T07:30:58+00:00</span><span>Staff · US$170,000–US$299,000 / annual</span></div>
+  <div class='tag-row'><span class='chip'>Java</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=cfce3af01aedfb61'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/squarespace-staff-software-engineer-revenue-systems' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>D</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=ad05ad153d2d8ce9'>Staff Software Engineer - Connectivity</a></h3>
+  <div class='company-line'>Dremio</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Hybrid</span><span>8+ years</span><span>Posted 2026-10-18T07:30:58+00:00</span><span>8+ years</span></div>
+  <div class='tag-row'><span class='chip'>Java</span><span class='chip'>Rust</span><span class='chip'>C++</span><span class='chip'>Power BI</span><span class='chip'>Tableau</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=ad05ad153d2d8ce9'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/dremio-staff-software-engineer-connectivity' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>SC</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=04c5f7d8e4418899'>Head of Technology</a></h3>
+  <div class='company-line'>Sanctuary Computer</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Contract</span><span>12+ years</span><span>Posted 2026-10-16T14:21:11+00:00</span><span>12+ years · $110–$175 / hourly</span></div>
+  <div class='tag-row'><span class='chip'>Ruby</span><span class='chip'>Next.js</span><span class='chip'>Figma</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=04c5f7d8e4418899'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/sanctuary-computer-head-of-technology' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>A</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=c6740afe6ea2be88'>Engineering Manager, Payments</a></h3>
+  <div class='company-line'>Airbnb</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>10+ years</span><span>Posted 2026-10-18T07:30:58+00:00</span><span>10+ years · US$212,000–US$265,000 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>Machine Learning</span><span class='chip'>LLMs</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=c6740afe6ea2be88'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/airbnb-engineering-manager-payments' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>C</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=dfdcff9044cc04b4'>Enterprise Customer Success Manager</a></h3>
+  <div class='company-line'>Canonical</div>
+  <div class='meta'><span>Anywhere</span><span>On-site</span><span>5 years</span><span>Posted 2026-10-18T07:23:20+00:00</span><span>5 years · $90k–$145k / annual</span></div>
+  <div class='tag-row'><span class='chip'>Customer Support</span><span class='chip'>Kubernetes</span><span class='chip'>Linux</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=dfdcff9044cc04b4'>View</a><a class='btn' href='https://jobicy.com/jobs/155703-enterprise-customer-success-manager-9' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>F</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=85b1eee318193c67'>Enterprise Sales Director</a></h3>
+  <div class='company-line'>Fivetran</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>6+ years</span><span>Posted 2026-10-16T07:30:46+00:00</span><span>6+ years · US$142,486–US$178,107.75 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>dbt</span><span class='chip'>SQL</span><span class='chip'>ETL</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=85b1eee318193c67'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/fivetran-enterprise-sales-director' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>P</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=dffbaae16066c8ee'>Brand Designer</a></h3>
+  <div class='company-line'>PlanetScale</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Posted 2026-10-18T07:30:58+00:00</span><span>US$170,000–US$220,000 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>PostgreSQL</span><span class='chip'>MySQL</span><span class='chip'>Figma</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=dffbaae16066c8ee'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/planetscale-brand-designer' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>A</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=2dfce039e59cdd1c'>Software Engineer AI Coding Tasks</a></h3>
+  <div class='company-line'>Askable</div>
+  <div class='meta'><span>Remote</span><span>Contract</span><span>2+ years</span><span>Posted 2026-10-17T01:09:20+00:00</span><span>2+ years · US$1,000</span></div>
+  <div class='tag-row'><span class='chip'>Python</span><span class='chip'>Java</span><span class='chip'>TypeScript</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=2dfce039e59cdd1c'>View</a><a class='btn' href='https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137538' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>M</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=dac3c5d836a7ed2e'>AML Investigator III</a></h3>
+  <div class='company-line'>Mercury</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Posted 2026-10-18T07:31:05+00:00</span><span>$121,700</span></div>
+  <div class='tag-row'><span class='chip'>Observability</span><span class='chip'>UI/UX</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=dac3c5d836a7ed2e'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/mercury-aml-investigator-iii' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>T</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=b0f9c1b103ecccc3'>Sales Development Representative</a></h3>
+  <div class='company-line'>Tebra</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Posted 2026-10-18T07:30:59+00:00</span><span>$57,000</span></div>
+  <div class='tag-row'><span class='chip'>Salesforce</span><span class='chip'>HubSpot</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=b0f9c1b103ecccc3'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/tebra-sales-development-representative' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>L</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=6aed4bc07928f40f'>Principal Product Manager, Agentic AI</a></h3>
+  <div class='company-line'>Legion</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Contract</span><span>7+ years</span><span>Posted 2026-10-17T07:31:02+00:00</span><span>7+ years · $280,000–$300,000 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>LLMs</span><span class='chip'>Product Management</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=6aed4bc07928f40f'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/legion-principal-product-manager-agentic-ai' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>M</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=0a5c792e59f6891d'>Customer Value Architect III</a></h3>
+  <div class='company-line'>Mixpanel</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Contract</span><span>4-6 years</span><span>Posted 2026-10-17T07:30:54+00:00</span><span>4-6 years · $277</span></div>
+  <div class='tag-row'><span class='chip'>LLMs</span><span class='chip'>Customer Support</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=0a5c792e59f6891d'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/mixpanel-customer-value-architect-iii-1' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>M</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=5ac3a5930bbb96db'>Customer Value Architect III</a></h3>
+  <div class='company-line'>Mixpanel</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Contract</span><span>4-6 years</span><span>Posted 2026-10-17T07:30:50+00:00</span><span>4-6 years · US$125,500–US$169,500 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>LLMs</span><span class='chip'>Customer Support</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=5ac3a5930bbb96db'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/mixpanel-customer-value-architect-iii' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>CI</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=9634c70b52729a0c'>Global Controller</a></h3>
+  <div class='company-line'>Customer.io</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Contract</span><span>10+ years</span><span>Posted 2026-10-17T07:30:55+00:00</span><span>10+ years · US$250k–US$280k (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>Observability</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=9634c70b52729a0c'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/customer-io-global-controller' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>L</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=ce054dab6c2cf4c6'>Enterprise Account Executive - NAMER</a></h3>
+  <div class='company-line'>Legion</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>3-5 years</span><span>Posted 2026-10-17T07:30:54+00:00</span><span>3-5 years · $135,000.00–$185,000 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>Salesforce</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=ce054dab6c2cf4c6'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/legion-enterprise-account-executive-namer' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>P</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=f04368ee3eefa040'>Senior Solutions Consultant</a></h3>
+  <div class='company-line'>PagerDuty</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Hybrid</span><span>5+ years</span><span>Posted 2026-10-16T07:31:07+00:00</span><span>5+ years · 144,000–197,200 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>Java</span><span class='chip'>PHP</span><span class='chip'>Ruby</span><span class='chip'>Generative AI</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=f04368ee3eefa040'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/pagerduty-senior-solutions-consultant' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>G</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=ef8285eb2a571a42'>VP, Commercial Sales - Employers</a></h3>
+  <div class='company-line'>Galileo</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Contract</span><span>5+ years</span><span>Posted 2026-10-16T07:30:44+00:00</span><span>5+ years · $150,000–$200,000 / annual</span></div>
+  <div class='tag-row'><span class='chip'>Salesforce</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=ef8285eb2a571a42'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/galileo-vp-commercial-sales-employers' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>A</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=e1d69682bb4901f4'>Client Enablement Lead</a></h3>
+  <div class='company-line'>Alloy</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Hybrid</span><span>7+ years</span><span>Posted 2026-10-18T07:30:58+00:00</span><span>7+ years · $180,000–$220,000 (pay period not stated)</span></div>
+  <div class='tag-row'></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=e1d69682bb4901f4'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/alloy-client-enablement-lead' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>A</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=5637f629c7c43ab3'>Area Vice President, West/South Central</a></h3>
+  <div class='company-line'>Abnormal</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Contract</span><span>10+ years</span><span>Posted 2026-10-17T07:31:02+00:00</span><span>10+ years · US$233,750–US$275,000 (pay period not stated)</span></div>
+  <div class='tag-row'></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=5637f629c7c43ab3'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/abnormal-area-vice-president-west-south-central' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>CH</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=98e2e4326c3c4e57'>Contract Technical Recruiter</a></h3>
+  <div class='company-line'>Clover Health</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Contract</span><span>5 years</span><span>Posted 2026-10-16T07:31:00+00:00</span><span>5 years · US$76,900–US$100,000 (pay period not stated)</span></div>
+  <div class='tag-row'></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=98e2e4326c3c4e57'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/clover-health-contract-technical-recruiter' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>B</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=74b464a54d509135'>eLearning Developer</a></h3>
+  <div class='company-line'>BeyondTrust</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>3 years</span><span>Posted 2026-10-16T07:31:07+00:00</span><span>3 years</span></div>
+  <div class='tag-row'><span class='chip'>Cybersecurity</span><span class='chip'>UI/UX</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=74b464a54d509135'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/beyondtrust-elearning-developer' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>S</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=10eb1d017a466ee3'>Chief Risk Officer</a></h3>
+  <div class='company-line'>Sezzle</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Full-time</span><span>15-20 years</span><span>Posted 2026-10-18T07:30:58+00:00</span><span>15-20 years</span></div>
+  <div class='tag-row'><span class='chip'>Cybersecurity</span><span class='chip'>Observability</span><span class='chip'>LLMs</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=10eb1d017a466ee3'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/sezzle-chief-risk-officer' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>B</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=27e4e12423d80b9c'>Enterprise Account Manager - Riyadh (Saudi National)</a></h3>
+  <div class='company-line'>BeyondTrust</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>8+ years</span><span>Posted 2026-10-17T07:31:02+00:00</span><span>8+ years</span></div>
+  <div class='tag-row'><span class='chip'>Salesforce</span><span class='chip'>Cybersecurity</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=27e4e12423d80b9c'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager-riyadh-saudi-national' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>B</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=c101cb0f5298b267'>Enterprise Account Manager - East Region (Saudi National)</a></h3>
+  <div class='company-line'>BeyondTrust</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>8+ years</span><span>Posted 2026-10-17T07:30:54+00:00</span><span>8+ years</span></div>
+  <div class='tag-row'><span class='chip'>Salesforce</span><span class='chip'>Cybersecurity</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=c101cb0f5298b267'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager-east-region-saudi-national' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>WG</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=4c9f4b0f0e6ee7d7'>Hebrew Freelance Translator &amp; Copy Editor (Product, Marketing &amp; UI Content)</a></h3>
+  <div class='company-line'>Welo Global</div>
+  <div class='meta'><span>Anywhere</span><span>Remote</span><span>Freelance</span><span>2+ years</span><span>Posted 2026-10-18T08:58:23+00:00</span><span>2+ years · $20–$45 / hourly</span></div>
+  <div class='tag-row'><span class='chip'>NLP</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=4c9f4b0f0e6ee7d7'>View</a><a class='btn' href='https://jobicy.com/jobs/155709-hebrew-freelance-translator-copy-editor-product-marketing-ui-content' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>WG</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=49d59e58c92ca48d'>English to Burmese (Myanmar) Linguist &amp; Copy Editor for Product, Marketing &amp; UI Content</a></h3>
+  <div class='company-line'>Welo Global</div>
+  <div class='meta'><span>Anywhere</span><span>Remote</span><span>Freelance</span><span>2+ years</span><span>Posted 2026-10-18T08:58:22+00:00</span><span>2+ years · $12–$25 / hourly</span></div>
+  <div class='tag-row'><span class='chip'>NLP</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=49d59e58c92ca48d'>View</a><a class='btn' href='https://jobicy.com/jobs/155708-english-to-burmese-myanmar-linguist-copy-editor-for-product-marketing-ui-content' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>E</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=8901972c92fc422e'>[Talent pool] Key Account Managment Specialist</a></h3>
+  <div class='company-line'>EBANX</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Posted 2026-10-16T07:30:50+00:00</span></div>
+  <div class='tag-row'><span class='chip'>Salesforce</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=8901972c92fc422e'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/ebanx-talent-pool-key-account-managment-specialist' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>SC</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=3112a1c4bf45d3d4'>Head of Technology</a></h3>
+  <div class='company-line'>Sanctuary Computer</div>
+  <div class='meta'><span>Remote</span><span>Contract</span><span>12+ years</span><span>Posted 2026-10-16T17:55:35+00:00</span><span>12+ years · $110–$175 / hourly</span></div>
+  <div class='tag-row'><span class='chip'>Ruby</span><span class='chip'>Next.js</span><span class='chip'>Figma</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=3112a1c4bf45d3d4'>View</a><a class='btn' href='https://remoteOK.com/remote-jobs/remote-head-of-technology-sanctuary-computer-1137537' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>SB</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=10113f1b843c057d'>Director of Product Management and IT Operations</a></h3>
+  <div class='company-line'>Self Bill Pro</div>
+  <div class='meta'><span>Remote</span><span>Posted 2026-10-16T16:00:39+00:00</span><span>$130,000–160,000 (pay period not stated)</span></div>
+  <div class='tag-row'><span class='chip'>Product Management</span><span class='chip'>Cybersecurity</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=10113f1b843c057d'>View</a><a class='btn' href='https://remoteOK.com/remote-jobs/remote-director-of-product-management-and-it-operations-self-bill-pro-1137536' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>K</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=cb40b20642eab26b'>APAC Python</a></h3>
+  <div class='company-line'>Kodland</div>
+  <div class='meta'><span>Remote</span><span>Posted 2026-10-16T16:00:26+00:00</span></div>
+  <div class='tag-row'><span class='chip'>Python</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=cb40b20642eab26b'>View</a><a class='btn' href='https://remoteOK.com/remote-jobs/remote-apac-python-kodland-1137534' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>YR</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=b1601c0975ef8668'>SAP RE FX Consultant</a></h3>
+  <div class='company-line'>Yopeso Romania SRL</div>
+  <div class='meta'><span>On-site</span><span>Contract</span><span>20 years</span><span>Posted 2026-10-16T16:00:33+00:00</span><span>20 years</span></div>
+  <div class='tag-row'><span class='chip'>SAP</span><span class='chip'>Agile</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=b1601c0975ef8668'>View</a><a class='btn' href='https://remoteOK.com/remote-jobs/remote-sap-re-fx-consultant-yopeso-romania-srl-1137535' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='jobs'>
+  <div class='company-mark' aria-hidden='true'>G</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=d50cd1e4a116b740'>Regional Sales Director</a></h3>
+  <div class='company-line'>Gitlab</div>
+  <div class='meta'><span>Remote</span><span>Remote</span><span>Full-time</span><span>Posted 2026-10-16T09:53:23-04:00</span></div>
+  <div class='tag-row'><span class='chip'>Git</span><span class='chip'>Salesforce</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=d50cd1e4a116b740'>View</a><a class='btn' href='https://job-boards.greenhouse.io/gitlab/jobs/8860219002' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article>
+<article class='job' data-category='internships'>
+  <div class='company-mark' aria-hidden='true'>S</div>
+  <div class='job-main'><h3 class='job-title'><a href='../job.html?id=ccbf123e2ed09038'>Chargeback Operations Intern (Colombia)</a></h3>
+  <div class='company-line'>Sezzle</div>
+  <div class='meta'><span>Anywhere in the World</span><span>Remote</span><span>Internship</span><span>Posted 2026-10-18T07:30:58+00:00</span><span>$2.800.000</span></div>
+  <div class='tag-row'><span class='chip'>LLMs</span></div></div>
+  <div class='job-actions'><a class='btn primary' href='../job.html?id=ccbf123e2ed09038'>View</a><a class='btn' href='https://weworkremotely.com/remote-jobs/sezzle-chargeback-operations-intern-colombia' target='_blank' rel='noopener nofollow'>Apply ↗</a></div>
+</article></div></div></div></main>
+<footer class='footer'><div class='container footer-grid'>
+  <div><div class='footer-brand'>ROAD BEYOND ROLES</div><p>Helping You Build a Better Career.</p><p>Fresh opportunities · Career guidance · Growth</p></div>
+  <a class='footer-yt' href='https://www.youtube.com/@roadbeyondrole' target='_blank' rel='noopener'>Watch the YouTube channel ↗</a>
+</div></footer>
+
+<script>
+function filterJobs(){const q=document.getElementById('q');const v=(q?.value||'').toLowerCase().trim();document.querySelectorAll('.job').forEach(d=>{d.style.display=!v||d.textContent.toLowerCase().includes(v)?'':'none'});}
+function filterCards(){const q=document.getElementById('q');const v=(q?.value||'').toLowerCase().trim();document.querySelectorAll('.company-card').forEach(d=>{d.style.display=!v||d.textContent.toLowerCase().includes(v)?'':'none'});}
+const q=document.getElementById('q');q?.addEventListener('input',()=>{if(document.querySelector('.job'))filterJobs();if(document.querySelector('.company-card'))filterCards();});
+</script></body></html>
