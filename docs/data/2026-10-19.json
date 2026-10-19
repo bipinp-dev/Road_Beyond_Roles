@@ -137,7 +137,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 66.84159607111111,
+  "hours_old": 67.86559369222222,
   "score": 60.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -176,7 +176,6 @@
   "work_mode": "Hybrid",
   "employment_type": "Full-time",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "f516c265ce331aff",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -326,7 +325,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 26.22382761638889,
+  "hours_old": 27.247825149444445,
   "score": 55.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -375,7 +374,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Hybrid",
   "employment_type": "",
-  "id": "f49890e1eb86dba7",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -577,7 +575,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 26.22383767611111,
+  "hours_old": 27.247835093055553,
   "score": 55.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -623,7 +621,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "",
-  "id": "ea1c22ce1ba5a653",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -770,7 +767,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 26.225788689722222,
+  "hours_old": 27.249786055,
   "score": 53.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -816,7 +813,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "",
-  "id": "df2083b262ec32b1",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -958,7 +954,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 73.46749454750001,
+  "hours_old": 74.4914584038889,
   "score": 49.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -997,7 +993,6 @@
   "work_mode": "",
   "employment_type": "Contract",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "f2a8038a38c84b1d",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -1100,7 +1095,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 26.22579741361111,
+  "hours_old": 27.24979969111111,
   "score": 48.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -1118,7 +1113,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Hybrid",
   "employment_type": "",
-  "id": "cfce3af01aedfb61",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -1286,7 +1280,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 26.225810510555554,
+  "hours_old": 27.249811385277777,
   "score": 48.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -1324,7 +1318,6 @@
   "work_mode": "Hybrid",
   "employment_type": "",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "ad05ad153d2d8ce9",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -1462,7 +1455,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 67.38891488083334,
+  "hours_old": 68.4128899563889,
   "score": 46.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -1510,7 +1503,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Contract",
-  "id": "04c5f7d8e4418899",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -1628,7 +1620,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 26.225821784722225,
+  "hours_old": 27.249847166388886,
   "score": 45.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -1674,7 +1666,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "",
-  "id": "c6740afe6ea2be88",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -1802,7 +1793,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 26.353059910555555,
+  "hours_old": 27.377079539166665,
   "score": 44.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -1850,7 +1841,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "On-site",
   "employment_type": "",
-  "id": "dfdcff9044cc04b4",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -1985,7 +1975,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 74.22924679194445,
+  "hours_old": 75.25320155583333,
   "score": 41.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -2031,7 +2021,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "",
-  "id": "85b1eee318193c67",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -2147,7 +2136,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 26.225867761944443,
+  "hours_old": 27.24987611166667,
   "score": 40.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -2193,7 +2182,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "",
-  "id": "dffbaae16066c8ee",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -2334,7 +2322,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 56.586473446666666,
+  "hours_old": 57.61043607055556,
   "score": 40.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -2352,7 +2340,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Contract",
-  "id": "2dfce039e59cdd1c",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -2462,7 +2449,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 26.223933539999997,
+  "hours_old": 27.24794391138889,
   "score": 39.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -2500,7 +2487,6 @@
   "work_mode": "Remote",
   "employment_type": "",
   "salary_type": "Source/feed value — verify against employer posting",
-  "id": "dac3c5d836a7ed2e",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -2605,7 +2591,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 26.225611340833332,
+  "hours_old": 27.249621030555556,
   "score": 39.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -2643,7 +2629,6 @@
   "work_mode": "Remote",
   "employment_type": "",
   "salary_type": "Source/feed value — verify against employer posting",
-  "id": "b0f9c1b103ecccc3",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -2751,7 +2736,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 50.22483374166667,
+  "hours_old": 51.24881397222222,
   "score": 39.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -2797,7 +2782,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Contract",
-  "id": "6aed4bc07928f40f",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -2919,7 +2903,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 50.227065903888885,
+  "hours_old": 51.25104611555556,
   "score": 39.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -2957,7 +2941,6 @@
   "work_mode": "Remote",
   "employment_type": "Contract",
   "salary_type": "Source/feed value — verify against employer posting",
-  "id": "0a5c792e59f6891d",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -3079,7 +3062,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 50.228188763611115,
+  "hours_old": 51.25217118111111,
   "score": 39.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -3125,7 +3108,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Contract",
-  "id": "5ac3a5930bbb96db",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -3246,7 +3228,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 50.22682349388889,
+  "hours_old": 51.25079159111111,
   "score": 38.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -3292,7 +3274,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Contract",
-  "id": "9634c70b52729a0c",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -3397,7 +3378,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 50.227120050833335,
+  "hours_old": 51.25108842722222,
   "score": 38.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -3443,7 +3424,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "",
-  "id": "ce054dab6c2cf4c6",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -3603,7 +3583,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 74.22352245138889,
+  "hours_old": 75.24749041083334,
   "score": 38.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -3649,7 +3629,6 @@
   },
   "work_mode": "Hybrid",
   "employment_type": "",
-  "id": "f04368ee3eefa040",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -3768,7 +3747,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 74.229922485,
+  "hours_old": 75.25389026472222,
   "score": 38.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -3816,7 +3795,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Contract",
-  "id": "ef8285eb2a571a42",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -3911,7 +3889,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 26.22590309277778,
+  "hours_old": 27.2500147925,
   "score": 37.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -3957,7 +3935,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Hybrid",
   "employment_type": "",
-  "id": "e1d69682bb4901f4",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -4067,7 +4044,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 50.22494117861111,
+  "hours_old": 51.248913154166665,
   "score": 37.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -4113,7 +4090,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Contract",
-  "id": "5637f629c7c43ab3",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -4203,7 +4179,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 74.22550681944445,
+  "hours_old": 75.24947797499999,
   "score": 37.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -4249,7 +4225,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Contract",
-  "id": "98e2e4326c3c4e57",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -4375,7 +4350,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 74.22356898416666,
+  "hours_old": 75.2475401625,
   "score": 36.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -4413,7 +4388,6 @@
   "work_mode": "Remote",
   "employment_type": "",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "74b464a54d509135",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -4543,7 +4517,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 26.22598083027778,
+  "hours_old": 27.250054549722222,
   "score": 34.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -4581,7 +4555,6 @@
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "10eb1d017a466ee3",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -4705,7 +4678,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 50.224963835000004,
+  "hours_old": 51.24894932527777,
   "score": 33.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -4743,7 +4716,6 @@
   "work_mode": "Remote",
   "employment_type": "",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "27e4e12423d80b9c",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -4867,7 +4839,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 50.227191965555555,
+  "hours_old": 51.25117740611111,
   "score": 33.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -4905,7 +4877,6 @@
   "work_mode": "Remote",
   "employment_type": "",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "c101cb0f5298b267",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -5007,8 +4978,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 24.769094056666667,
-  "score": 32.1,
+  "hours_old": 25.79312769722222,
+  "score": 32.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
   "_source_page_text": "Remote Hebrew Freelance Translator & Copy Editor (Product, Marketing & UI Content) at Welo Global - Jobicy Job title, company or skill Remote Jobs Talent Companies AI Tools Salaries Career Advice Post a Job PRO Sign In My Profile Remote Jobs Job Categories Job Locations Post a Remote Job Talent & Career AI Tools Online Resume Builder Interview Prep Hub Skill Assessments Companies Salaries Directory Cost of Living Index Career Advice Career Paths Jobicy Help Center FAQ & Contact Us Pricing Advertise Affiliate Program Remote Jobs Career AI Tools Resume Builder Talent Companies Salaries Career Advice Job Alerts More Post a Remote Job Hiring Plans Back Explore jobs Browse all jobs Job alerts Job categories Content & Editorial Customer Success Creative & Design DevOps & Infrastructure Software Engineering Finance & Accounting Data Science & Analytics Marketing & Sales All categories › Job locations 🇺🇸 USA 🇨🇦 Canada 🇪🇺 Europe All locations › Developer resources Jobs API / MCP / RSS Salary API For Candidates Stand out to top remote companies My Profile Back AI tools Resume Score Analyzer Resume Tailoring Tool Resume Summary Generator Mock Interview Practice Cover Letter Generator Thank You Email Generator Offer Negotiation Coach Job Description Generator Interview Questions All career tools Tools & prep Online Resume Builder Skill Assessments Interview Prep Hub Career Paths Insights Companies Cost of Living Index Remote Work Index Career Advice New Feature Supercharged prep with AI-powered coaching Explore AI Tools Back Jobicy About Jobicy Help Center FAQ & Contact Us Transparency Business Pricing Advertise Ads Platform Affiliate Program Submit a Guest Post Apps & extensions App Store Google Play Chrome Extension Firefox Extension Earn with us Get passive income by promoting Jobicy Join Affiliate Program Free extension Meet Jobicy Copilot AI autofill for job applications, plus remote job alerts. Get the extension All remote jobs Welo Global Hebrew Freelance Translator & Copy Editor (Product, Marketing & UI Content) Review the role, location requirements, compensation details, and application process before deciding whether this opportunity fits your next career move. Apply for this job View company Share Remote from 🌐 Anywhere Salary Undisclosed Department Content & Editorial Employment Contract Experience Open level Published 18 Oct 2026 Apply before 17 Nov 2026 Listing views 148 Application actions 11 Application toolkit Make your next move. Prepare your resume, explore your fit, and draft a cover letter for this opportunity. Tailor Resume Check Job Fit Cover Letter Tailor my resume to this job See how your resume can be rewritten and optimized for this specific job. PRO identifies relevant strengths, missing keywords, and opportunities to present your experience more clearly. Illustrative PRO preview Example output format. Your recommendations will be generated from your resume and this job. Original: Responsible for leading projects and working with different teams. Suggested rewrite: Led a cross-functional initiative that improved [business outcome] by [measurable result] , demonstrating experience relevant to this role... Upgrade to Pro Am I a good fit for this job? Compare your resume with this job's requirements. PRO highlights your strongest matches, identifies potential gaps, and recommends practical next steps for your application. Illustrative PRO preview Example output format. Your actual assessment will be generated from your resume. 1. Overall Match: A personalized match level with an explanation of how your experience aligns with the role. 2. Key Strengths: Skills, achievements, and experience that support your application. 3. Potential Gaps: Requirements that are missing or not clearly demonstrated in your resume. 4. Recommendation: Specific improvements to strengthen your application... Upgrade to Pro Cover Letter Assistant Create a personalized cover letter using this job's requirements and the verified experience in your resume. PRO helps connect your strengths with what the employer is seeking. Illustrative PRO preview Example output format. Your letter will be personalized using your resume and this job. Dear Hiring Manager, I am excited to apply for this position. My experience in [relevant area] and track record of [measurable achievement] align with the role's key requirements. I would welcome the opportunity to bring these strengths to your team and contribute to [business objective] ... Upgrade to Pro AI Summary The role, at a glance. Welo Global is seeking a freelance English (US) to Hebrew (Israel) translator and copy editor for an ongoing remote localization project. The work covers marketing, UI, product, support, informational, and light legal content, with an expected volume of roughly 1,000–2,000 or more words per week. Candidates need native or near-native Hebrew, strong English proficiency, relevant professional translation experience, and familiarity with CAT tools. Success depends on linguistic accuracy, cultural adaptation, reliable delivery, responsiveness, and comfort incorporating feedback in a fast-paced localization environment. Role DNA A quick view of the complexity, pace, ownership and collaboration implied by the job description. Job Complexity 3/5 Easy Hard Pace & Pressure 3/5 Relaxed Fast-paced Autonomy Level 5/5 Guided Full ownership Communication Load 4/5 Independent Collaborative AI insight The role requires professional bilingual localization judgment across product, marketing, and UI content, including careful terminology and style consistency. The workload is moderate, but freelancers must independently manage quality, deadlines, revisions, and client-specific CAT-tool workflows. Salary analysis Estimated compensation compared with the broader US market for similar roles. Estimated job median (per hour) Market rate $30 US market range (per hour) $20–$45 0 $49.50 AI insight The hourly pay period is inferred from the job context; it was not explicitly stated by the employer. No employer compensation was disclosed. The displayed figures are estimated hourly USD market guidance for an experienced freelance English-to-Hebrew translator and copy editor; the hourly cadence is inferred from freelance localization market conventions. Core skills Skills and capabilities most closely associated with this opportunity. English to Hebrew translation Hebrew copy editing Localization Marketing translation UI localization Product content translation CAT tools Terminology management Linguistic quality assurance Transcreation Proofreading Style guide adherence Deadline management Cross-cultural communication Sample interview questions How do you approach translating English marketing copy into Hebrew while preserving its intent and persuasive tone? I first identify the target audience, brand voice, and intended action. I then localize the message rather than translating word for word, adapting idioms, calls to action, and sentence structure so the Hebrew reads naturally while retaining the original commercial objective. What quality checks do you perform when reviewing localized UI content? I verify terminology consistency, grammatical accuracy, context, character limitations, placeholders, variables, punctuation, and formatting. I also check that the Hebrew wording is concise and usable in the interface, including right-to-left display considerations where relevant. Describe your experience with CAT tools and terminology resources. I use CAT tools to maintain translation-memory consistency, apply approved terminology, manage segment-level quality checks, and work efficiently across recurring content. I review matches critically rather than accepting them automatically and flag terminology gaps or source ambiguities early. How do you handle unclear source text or content that lacks sufficient context? I review available reference materials, prior translations, screenshots, and style guides first. If ambiguity remains, I document a concise query with the affected string, possible interpretations, and my recommended option so the project team can resolve it efficiently. How do you maintain reliability on an ongoing freelance project with weekly volume targets? I plan capacity around expected volume, acknowledge assignments promptly, and communicate early if a deadline or scope issue arises. I reserve time for self-review and revisions, ensuring delivery is both on time and ready for production use. This analysis is generated from the job description. Salary estimates, role characteristics and sample answers are guidance, not employer-provided facts. Opportunity details About this role. About Welo Global Welo Global is a leader in multilingual AI, technology, and content solutions serving over 2,000 clients in 300 languages. The company combines globally scaled multilingual infrastructure, including a network of over 500,000 linguists and domain experts, with advanced NLP, computational linguistics, and best-in-class compliance backed by seven ISO certifications. Welo Global’s five brands—Welocalize (multilingual content and localization services for global enterprises), Park IP (intellectual property and patent translation services for law firms and corporate legal teams), Welo Life Sciences (regulated language and compliance-aligned content solutions for pharmaceutical, biotech, and medical device organizations), Adapt (multilingual performance-led digital marketing agency), and Welo Data (multilingual data generation, evaluation, and human data infrastructure for AI systems)—serve distinct customer segments with purpose-built expertise, fit-for-purpose solutions, and supporting technology. weloglobal.com To perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skill, and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. Main Purpose of the Role Welo Global is seeking an experienced freelance English (en-US) to Hebrew (he-IL) Translator and Copy Editor to support an exciting, long-term project with a leading multinational company. This is an on-going freelance and remote position. Project Details Location: Remote Expected Volume: Approximately 1000-2000+ words per week Employment Type: Freelance/Independent Contract Task type: Translation and Copy-Editing Content types: Marketing, UI, Product, Support, Informational, Light Legal CAT Tool: Client specific CAT tool (training provided) Requirements Native or near‑native proficiency in Hebrew (he-IL) with excellent command of English (en-US) 2+ years of professional translation experience with a degree in Translation, Linguistics, or a related field or 5+ years of professional translation experience without a formal translation degree Demonstrated experience translating English to Hebrew across a variety of content types, including informational, marketing, UI, product, support Experience using CAT tools Excellent attention to detail and a proven ability to deliver high-quality translations while meeting deadlines in a fast-paced localization environment Strong communication skills, responsiveness, reliability, and openness to feedback and revisions Join a global network of linguists, benefit from ongoing support and training, collaborate on high-visibility international projects, and build a long-term partnership with Welo Global. If this opportunity sounds like a great fit, we encourage you to submit your details below. We look forward to connecting with you! Welo Global Talent Management Team Job Reference: #LI-JC1 Compensation Additional Information Show more Apply now > Annual salary information is not provided for this position. Explore salary ranges for similar roles in our Salary Directory › Upload your resume now To unlock remote work opportunities and be discovered by global employers. This job listing has been manually reviewed by the Jobicy Trust & Safety Team for compliance with our posting guidelines, including verification of the company's legitimacy, accuracy of job details, clarity of remote work policy, and absence of misleading or fraudulent content. Next step Apply now. Follow the employer’s application method and review Jobicy’s safety guidance before sharing personal information. Did you apply? Let us know, and we’ll help you track your application. Yes No Continue on the employer website Protect your personal information and never pay to secure an interview or job offer. View safety guidance . Apply Now Save Log in to save × Real people. Real careers. Meet Vladimir. A marketing professional and member of the Jobicy community. Personal website ↗ One quick step before you apply Sign in to continue. Sign in or create a free account to continue to the employer's application. Applying is free. After signing in, return to this job and select Apply Now. Add alert Report Share Keep exploring Related remote jobs. Welo Global Oct 18 New English to Burmese (Myanmar) Linguist & Copy Editor for Product, Marketing & UI Content About Welo Global Welo Global is a leader in multilingual AI, technology, and content solutions serving over 2,000 clients in 300 languages. The company combines globally scaled multilingual infrastructure, including… Remote from Anywhere Work type Contract Affirm Oct 18 New Copywriter II At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters… Remote from Canada Work type Full Time Compensation CAD 80k–100k/year Phantom Oct 17 New Senior Copywriter Phantom is on a mission to connect the world to the freedom of open markets. Tens of millions of people all over the world use Phantom to access global markets… Remote from USA Work type Full Time Compensation USD 140k–188k/year Welo Global Oct 17 New English to Spanish (LatAm) for Life Sciences Linguist About Welo Life Sciences Welo Life Sciences, a Welo Global brand, is a specialized language and technology partner serving pharmaceutical, CRO, and medical device organizations operating in regulated global markets…. Remote from Anywhere Work type Contract Oddball Oct 17 New Proposal Writer Oddball believes that the best products are built when companies understand and value the things they are working on. We value learning and growth and the ability to make a… Remote from USA Work type Full Time Compensation USD 110k–140k/year Think Academy US Oct 16 Math Content Teacher – Mandarin Speaking Required Role: Math Teacher Job type: Part-Time (12 – 20 hours per week) Location: Remote Intended Start Date: ASAP Who we are: Think Academy US (www.TheThinkAcademy.com), a 100% owned subsidiary of… Remote from Canada Work type Part Time Compensation USD 45/hour Fueled Oct 16 Product Designer – Content Solutions Location: Remote — Americas Team (Open to applicants located in North & South America, with the ability to primarily work within US business hours/time zones) Fueled is a leading digital… Remote from LATAM Work type Full Time Fueled Oct 16 Contract Senior Content Designer Location: Remote – Americas (Open to applicants located in North American aligned time zones) Fueled is a leading digital strategy, design, and engineering agency. We are a 300+ person team… Remote from USA, Canada, LATAM Work type Contract Deloitte Oct 15 Senior Editor, AI and Technology, Deloitte Global Insights Job Type: Permanent Work Model: Remote Reference code: 133904 Primary Location: Toronto, ON All Available Locations: Toronto, ON; Calgary, AB; Edmonton, AB; Fredericton, NB Our Purpose At Deloitte, our Purpose is to make an impact… Remote from Canada Work type Full Time Compensation CAD 104k–215k/year Catawiki Oct 15 Expert Dutch and Belgian Comics At Catawiki, every day brings the extraordinary! Whether it’s Daniel Ricciardo’s Formula 1 Car, a Woolly Mammoth’s Skeleton, Lady Gaga’s Jumpsuit or Usain Bolt’s running shoe, we encounter exceptional objects… Remote from Europe Work type Full Time Browse all jobs Your next opportunity On this page Role overview Application tools About this role Related remote jobs About the company Welo Global Smarter AI. Better Business. Industry Computer Software Established 2006 Open roles 27 Actively hiring Verified job posting This listing has been manually reviewed for authenticity, fraud signals, and compliance with Jobicy's publishing standards. How verification works → More opportunities Keep your search moving. Explore verified remote roles across industries, locations, and experience levels. View all remote jobs Job Search Safety Tips × Here are some tips to help you search and apply for jobs safely: Watch out for suspicious jobs Don't apply for jobs that offer high pay for little work or offer to hire you without an interview. Read more › Check the employer's profile Make sure you're applying for a trustworthy job by visiting the employer's profile and learning more about them. Read more › Protect your information Don't share personal details like your bank account or government-issued ID on suspicious websites or messengers. Read more › Report jobs that feel unsafe If you see a job that seems misleading, inappropriate or discriminatory, report it for going against our policies and we'll review it. Share this job × Facebook Twitter (X) LinkedIn WhatsApp Telegram Copy link Jobs Talent AI Tools Salaries Menu AI‑Powered Career Growth with Jobicy! Hire Talent Jobicy About FAQ & Contact Us Pricing Advertise Transparency Community LinkedIn Facebook Twitter (X) Instagram Remote Talent Discover Job Listings Career Advice Remote Companies Interview Prep Hub Career Paths Salaries Directory Human Resources Remote Jobs API/RSS Affiliate Program Remote Work Index Sitemap Career Tools Online Resume Builder Resume Score Analyzer Resume Tailoring Tool Resume Summary Generator Mock Interview Practice Cover Letter Generator Thank You Email Generator Offer Negotiation Coach Job Description Generator Interview Question Generator Skill Assessments Remote job listings Remote Finance & Accounting Jobs Remote Creative & Design Jobs Remote Product & Operations Jobs Remote Software Engineering Jobs Remote Data Science & Analytics Jobs Remote Customer Success Jobs Remote Marketing & Sales Jobs Remote Healthcare & Medical Jobs Remote HR & Recruiting Jobs Remote Content & Editorial Jobs Remote DevOps & Infrastructure Jobs All categories → 🇨🇦 Remote Canada Jobs 🇺🇸 Remote USA Jobs 🇪🇺 Remote Europe Jobs 🇬🇧 Remote UK Jobs 🇩🇪 Remote Germany Jobs 🌍 Remote EMEA Jobs 🌏 Remote APAC Jobs All remote locations → Remote Full Time Jobs Remote Part Time Jobs Remote Contract Jobs We use 🍪cookies to improve your browsing experience. All trademarks and service marks belong to their respective owners. Use of content requires a clickable source link. Apps & Extensions Browser Extensions Google Chrome Microsoft Edge Mozilla Firefox Mobile & Desktop App Store Windows App Google Play Get APK Scan to download Scan to download Privacy Policy Terms of Service Jobs API/RSS © 2026 Jobicy™. All rights reserved. KEY#0a410be61 Feedback",
@@ -5055,7 +5026,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Freelance",
-  "id": "4c9f4b0f0e6ee7d7",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -5155,8 +5125,8 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 24.769376158055557,
-  "score": 32.1,
+  "hours_old": 25.793410098055553,
+  "score": 32.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
   "_source_page_text": "Remote English to Burmese (Myanmar) Linguist & Copy Editor for Product, Marketing & UI Content at Welo Global - Jobicy Job title, company or skill Remote Jobs Talent Companies AI Tools Salaries Career Advice Post a Job PRO Sign In My Profile Remote Jobs Job Categories Job Locations Post a Remote Job Talent & Career AI Tools Online Resume Builder Interview Prep Hub Skill Assessments Companies Salaries Directory Cost of Living Index Career Advice Career Paths Jobicy Help Center FAQ & Contact Us Pricing Advertise Affiliate Program Remote Jobs Career AI Tools Resume Builder Talent Companies Salaries Career Advice Job Alerts More Post a Remote Job Hiring Plans Back Explore jobs Browse all jobs Job alerts Job categories Content & Editorial Customer Success Creative & Design DevOps & Infrastructure Software Engineering Finance & Accounting Data Science & Analytics Marketing & Sales All categories › Job locations 🇺🇸 USA 🇨🇦 Canada 🇪🇺 Europe All locations › Developer resources Jobs API / MCP / RSS Salary API For Candidates Stand out to top remote companies My Profile Back AI tools Resume Score Analyzer Resume Tailoring Tool Resume Summary Generator Mock Interview Practice Cover Letter Generator Thank You Email Generator Offer Negotiation Coach Job Description Generator Interview Questions All career tools Tools & prep Online Resume Builder Skill Assessments Interview Prep Hub Career Paths Insights Companies Cost of Living Index Remote Work Index Career Advice New Feature Supercharged prep with AI-powered coaching Explore AI Tools Back Jobicy About Jobicy Help Center FAQ & Contact Us Transparency Business Pricing Advertise Ads Platform Affiliate Program Submit a Guest Post Apps & extensions App Store Google Play Chrome Extension Firefox Extension Earn with us Get passive income by promoting Jobicy Join Affiliate Program Free extension Meet Jobicy Copilot AI autofill for job applications, plus remote job alerts. Get the extension All remote jobs Welo Global English to Burmese (Myanmar) Linguist & Copy Editor for Product, Marketing & UI Content Review the role, location requirements, compensation details, and application process before deciding whether this opportunity fits your next career move. Apply for this job View company Share Remote from 🌐 Anywhere Salary Undisclosed Department Content & Editorial Employment Contract Experience Open level Published 18 Oct 2026 Apply before 17 Nov 2026 Listing views 182 Application actions 11 Application toolkit Make your next move. Prepare your resume, explore your fit, and draft a cover letter for this opportunity. Tailor Resume Check Job Fit Cover Letter Tailor my resume to this job See how your resume can be rewritten and optimized for this specific job. PRO identifies relevant strengths, missing keywords, and opportunities to present your experience more clearly. Illustrative PRO preview Example output format. Your recommendations will be generated from your resume and this job. Original: Responsible for leading projects and working with different teams. Suggested rewrite: Led a cross-functional initiative that improved [business outcome] by [measurable result] , demonstrating experience relevant to this role... Upgrade to Pro Am I a good fit for this job? Compare your resume with this job's requirements. PRO highlights your strongest matches, identifies potential gaps, and recommends practical next steps for your application. Illustrative PRO preview Example output format. Your actual assessment will be generated from your resume. 1. Overall Match: A personalized match level with an explanation of how your experience aligns with the role. 2. Key Strengths: Skills, achievements, and experience that support your application. 3. Potential Gaps: Requirements that are missing or not clearly demonstrated in your resume. 4. Recommendation: Specific improvements to strengthen your application... Upgrade to Pro Cover Letter Assistant Create a personalized cover letter using this job's requirements and the verified experience in your resume. PRO helps connect your strengths with what the employer is seeking. Illustrative PRO preview Example output format. Your letter will be personalized using your resume and this job. Dear Hiring Manager, I am excited to apply for this position. My experience in [relevant area] and track record of [measurable achievement] align with the role's key requirements. I would welcome the opportunity to bring these strengths to your team and contribute to [business objective] ... Upgrade to Pro AI Summary The role, at a glance. Welo Global seeks a Burmese (Myanmar) linguist and copy editor for ongoing English-to-Burmese translation, copy-editing, and machine-translation post-editing work. The freelance remote engagement covers marketing, UI, product, support, informational, and legal content, with an expected volume of more than 5,000 words weekly. Candidates need native or near-native Burmese proficiency, excellent English, relevant professional translation experience, and familiarity with CAT tools. The role requires consistently accurate localized content, close attention to detail, responsiveness, and reliable delivery in a fast-paced localization workflow. Role DNA A quick view of the complexity, pace, ownership and collaboration implied by the job description. Job Complexity 4/5 Easy Hard Pace & Pressure 4/5 Relaxed Fast-paced Autonomy Level 5/5 Guided Full ownership Communication Load 4/5 Independent Collaborative AI insight This role requires nuanced bilingual localization across several content types, including UI and legal material, where accuracy, terminology, and cultural adaptation are essential. Freelance delivery expectations and weekly volume also require strong self-management and quality control. Salary analysis Estimated compensation compared with the broader US market for similar roles. Estimated job median (per hour) Market rate $18 US market range (per hour) $12–$25 0 $27.50 AI insight The hourly pay period is inferred from the job context; it was not explicitly stated by the employer. No employer compensation was disclosed. The hourly cadence and USD 12–25 per-hour market estimate (median USD 18) are AI estimates inferred from the freelance localization scope, expected recurring volume, and typical independent linguist engagement conventions; they are not employer-provided rates. Core skills Skills and capabilities most closely associated with this opportunity. English-to-Burmese Translation Burmese Language Proficiency Copy Editing Machine Translation Post-Editing Localization CAT Tools UI Localization Marketing Translation Product Content Localization Legal Translation Terminology Management Quality Assurance Proofreading Deadline Management Cross-cultural Communication Sample interview questions How do you approach translating English marketing content into Burmese while retaining its persuasive intent? I first identify the intended audience, brand voice, and conversion goal. I then adapt the message idiomatically rather than translating word for word, while preserving approved terminology and ensuring the Burmese copy is clear, natural, and culturally appropriate. What quality checks do you perform when copy-editing or post-editing machine-translated content? I review meaning accuracy, fluency, terminology, grammar, punctuation, formatting, and consistency with style guides. For MTPE, I pay particular attention to omissions, mistranslations, unnatural literal phrasing, variables, placeholders, and UI character constraints. Describe your experience using CAT tools and translation memories. I use CAT tools to maintain consistency, apply terminology, leverage translation memories, and run quality-assurance checks. I also verify segment context carefully, since matches and machine suggestions still require editorial judgment for Burmese fluency and product accuracy. How would you manage a recurring workload of more than 5,000 words per week while maintaining quality? I would plan capacity by deadline and content complexity, reserve time for editing and QA, and communicate early about any risks or terminology questions. I use a structured workflow with translation, self-review, CAT QA, and final formatting checks before delivery. How do you handle feedback or requested revisions from a client? I review feedback objectively, clarify any ambiguous comments, and apply validated terminology or style decisions consistently across related work. I view revisions as an opportunity to align more closely with the client's preferences and improve future deliveries. This analysis is generated from the job description. Salary estimates, role characteristics and sample answers are guidance, not employer-provided facts. Opportunity details About this role. About Welo Global Welo Global is a leader in multilingual AI, technology, and content solutions serving over 2,000 clients in 300 languages. The company combines globally scaled multilingual infrastructure, including a network of over 500,000 linguists and domain experts, with advanced NLP, computational linguistics, and best-in-class compliance backed by seven ISO certifications. Welo Global’s five brands—Welocalize (multilingual content and localization services for global enterprises), Park IP (intellectual property and patent translation services for law firms and corporate legal teams), Welo Life Sciences (regulated language and compliance-aligned content solutions for pharmaceutical, biotech, and medical device organizations), Adapt (multilingual performance-led digital marketing agency), and Welo Data (multilingual data generation, evaluation, and human data infrastructure for AI systems)—serve distinct customer segments with purpose-built expertise, fit-for-purpose solutions, and supporting technology. weloglobal.com The Role Welo Global is seeking experienced Burmese (Myanmar) Linguists and Copy Editors to support an exciting, long-term project with a leading multinational company. This is an ongoing freelance and remote position. Agencies are welcome to apply to this great opportunity! Project Details Location: Remote Expected Volume: 5000+ words per week Employment Type: Freelance/Independent Contract Task Type: Translation, Copy-Editing and MTPE Content Types: Marketing, UI, Product, Support, Informational and Legal CAT Tool: Client-specific CAT tool (training provided during onboarding) Requirements Native or near-native proficiency in Burmese (Myanmar) with excellent command of English 2+ years of professional translation experience with a degree in Translation, Linguistics, or a related field or 5+ years of professional translation experience without a formal translation degree Demonstrated experience translating English to Burmese across a variety of content types, including informational, marketing, UI, product, and support content Experience using CAT tools Excellent attention to detail and a proven ability to deliver high-quality translations while meeting deadlines in a fast-paced localization environment Strong communication skills, responsiveness, reliability, and openness to feedback and revisions Join a global network of linguists, benefit from ongoing support and training, collaborate on high-visibility international projects, and build a long-term partnership with Welo Global. If this opportunity sounds like a great fit, we encourage you to submit your details below. We look forward to connecting with you! Job Reference: #LI-JC1 Compensation Additional Information Show more Apply now > Annual salary information is not provided for this position. Explore salary ranges for similar roles in our Salary Directory › Upload your resume now To unlock remote work opportunities and be discovered by global employers. This job listing has been manually reviewed by the Jobicy Trust & Safety Team for compliance with our posting guidelines, including verification of the company's legitimacy, accuracy of job details, clarity of remote work policy, and absence of misleading or fraudulent content. Next step Apply now. Follow the employer’s application method and review Jobicy’s safety guidance before sharing personal information. Did you apply? Let us know, and we’ll help you track your application. Yes No Continue on the employer website Protect your personal information and never pay to secure an interview or job offer. View safety guidance . Apply Now Save Log in to save × Real people. Real careers. Meet Vladimir. A marketing professional and member of the Jobicy community. Personal website ↗ One quick step before you apply Sign in to continue. Sign in or create a free account to continue to the employer's application. Applying is free. After signing in, return to this job and select Apply Now. Add alert Report Share Keep exploring Related remote jobs. Welo Global Oct 18 New Hebrew Freelance Translator & Copy Editor (Product, Marketing & UI Content) About Welo Global Welo Global is a leader in multilingual AI, technology, and content solutions serving over 2,000 clients in 300 languages. The company combines globally scaled multilingual infrastructure, including… Remote from Anywhere Work type Contract Affirm Oct 18 New Copywriter II At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters… Remote from Canada Work type Full Time Compensation CAD 80k–100k/year Phantom Oct 17 New Senior Copywriter Phantom is on a mission to connect the world to the freedom of open markets. Tens of millions of people all over the world use Phantom to access global markets… Remote from USA Work type Full Time Compensation USD 140k–188k/year Welo Global Oct 17 New English to Spanish (LatAm) for Life Sciences Linguist About Welo Life Sciences Welo Life Sciences, a Welo Global brand, is a specialized language and technology partner serving pharmaceutical, CRO, and medical device organizations operating in regulated global markets…. Remote from Anywhere Work type Contract Oddball Oct 17 New Proposal Writer Oddball believes that the best products are built when companies understand and value the things they are working on. We value learning and growth and the ability to make a… Remote from USA Work type Full Time Compensation USD 110k–140k/year Think Academy US Oct 16 Math Content Teacher – Mandarin Speaking Required Role: Math Teacher Job type: Part-Time (12 – 20 hours per week) Location: Remote Intended Start Date: ASAP Who we are: Think Academy US (www.TheThinkAcademy.com), a 100% owned subsidiary of… Remote from Canada Work type Part Time Compensation USD 45/hour Fueled Oct 16 Product Designer – Content Solutions Location: Remote — Americas Team (Open to applicants located in North & South America, with the ability to primarily work within US business hours/time zones) Fueled is a leading digital… Remote from LATAM Work type Full Time Fueled Oct 16 Contract Senior Content Designer Location: Remote – Americas (Open to applicants located in North American aligned time zones) Fueled is a leading digital strategy, design, and engineering agency. We are a 300+ person team… Remote from USA, Canada, LATAM Work type Contract Deloitte Oct 15 Senior Editor, AI and Technology, Deloitte Global Insights Job Type: Permanent Work Model: Remote Reference code: 133904 Primary Location: Toronto, ON All Available Locations: Toronto, ON; Calgary, AB; Edmonton, AB; Fredericton, NB Our Purpose At Deloitte, our Purpose is to make an impact… Remote from Canada Work type Full Time Compensation CAD 104k–215k/year Catawiki Oct 15 Expert Dutch and Belgian Comics At Catawiki, every day brings the extraordinary! Whether it’s Daniel Ricciardo’s Formula 1 Car, a Woolly Mammoth’s Skeleton, Lady Gaga’s Jumpsuit or Usain Bolt’s running shoe, we encounter exceptional objects… Remote from Europe Work type Full Time Browse all jobs Your next opportunity On this page Role overview Application tools About this role Related remote jobs About the company Welo Global Smarter AI. Better Business. Industry Computer Software Established 2006 Open roles 27 Actively hiring Verified job posting This listing has been manually reviewed for authenticity, fraud signals, and compliance with Jobicy's publishing standards. How verification works → More opportunities Keep your search moving. Explore verified remote roles across industries, locations, and experience levels. View all remote jobs Job Search Safety Tips × Here are some tips to help you search and apply for jobs safely: Watch out for suspicious jobs Don't apply for jobs that offer high pay for little work or offer to hire you without an interview. Read more › Check the employer's profile Make sure you're applying for a trustworthy job by visiting the employer's profile and learning more about them. Read more › Protect your information Don't share personal details like your bank account or government-issued ID on suspicious websites or messengers. Read more › Report jobs that feel unsafe If you see a job that seems misleading, inappropriate or discriminatory, report it for going against our policies and we'll review it. Share this job × Facebook Twitter (X) LinkedIn WhatsApp Telegram Copy link Jobs Talent AI Tools Salaries Menu AI‑Powered Career Growth with Jobicy! Hire Talent Jobicy About FAQ & Contact Us Pricing Advertise Transparency Community LinkedIn Facebook Twitter (X) Instagram Remote Talent Discover Job Listings Career Advice Remote Companies Interview Prep Hub Career Paths Salaries Directory Human Resources Remote Jobs API/RSS Affiliate Program Remote Work Index Sitemap Career Tools Online Resume Builder Resume Score Analyzer Resume Tailoring Tool Resume Summary Generator Mock Interview Practice Cover Letter Generator Thank You Email Generator Offer Negotiation Coach Job Description Generator Interview Question Generator Skill Assessments Remote job listings Remote Finance & Accounting Jobs Remote Creative & Design Jobs Remote Product & Operations Jobs Remote Software Engineering Jobs Remote Data Science & Analytics Jobs Remote Customer Success Jobs Remote Marketing & Sales Jobs Remote Healthcare & Medical Jobs Remote HR & Recruiting Jobs Remote Content & Editorial Jobs Remote DevOps & Infrastructure Jobs All categories → 🇨🇦 Remote Canada Jobs 🇺🇸 Remote USA Jobs 🇪🇺 Remote Europe Jobs 🇬🇧 Remote UK Jobs 🇩🇪 Remote Germany Jobs 🌍 Remote EMEA Jobs 🌏 Remote APAC Jobs All remote locations → Remote Full Time Jobs Remote Part Time Jobs Remote Contract Jobs We use 🍪cookies to improve your browsing experience. All trademarks and service marks belong to their respective owners. Use of content requires a clickable source link. Apps & Extensions Browser Extensions Google Chrome Microsoft Edge Mozilla Firefox Mobile & Desktop App Store Windows App Google Play Get APK Scan to download Scan to download Privacy Policy Terms of Service Jobs API/RSS © 2026 Jobicy™. All rights reserved. KEY#0a410be61 Feedback",
@@ -5203,7 +5173,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Freelance",
-  "id": "49d59e58c92ca48d",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -5305,7 +5274,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 74.2283108286111,
+  "hours_old": 75.25230702944444,
   "score": 32.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -5343,7 +5312,6 @@
   "work_mode": "Remote",
   "employment_type": "",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "8901972c92fc422e",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -5481,7 +5449,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 63.81583306333333,
+  "hours_old": 64.83983011916666,
   "score": 28.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -5529,7 +5497,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "Contract",
-  "id": "3112a1c4bf45d3d4",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -5657,7 +5624,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 65.73139585861111,
+  "hours_old": 66.75539262388888,
   "score": 21.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -5703,7 +5670,6 @@
   "_episode_source_verification_issue": "Official vacancy has not been verified yet against the employer and role.",
   "work_mode": "Remote",
   "employment_type": "",
-  "id": "10113f1b843c057d",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -5805,7 +5771,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 65.73501056833334,
+  "hours_old": 66.75900757638888,
   "score": 17.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -5843,7 +5809,6 @@
   "work_mode": "Remote",
   "employment_type": "",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "cb40b20642eab26b",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -5964,7 +5929,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 65.73307147305556,
+  "hours_old": 66.7570685863889,
   "score": 15.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -6002,7 +5967,6 @@
   "work_mode": "On-site",
   "employment_type": "Contract",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "b1601c0975ef8668",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -6125,7 +6089,7 @@
     "interview": "job_posting"
    }
   },
-  "hours_old": 67.85252757222221,
+  "hours_old": 68.87652480444444,
   "score": 15.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -6164,7 +6128,6 @@
   "work_mode": "Remote",
   "employment_type": "Full-time",
   "salary_type": "Not found in feed or description; market research required",
-  "id": "d50cd1e4a116b740",
   "description_sections": [
    {
     "heading": "Original job description",
@@ -6282,7 +6245,7 @@
     "interview": "role_based_inference"
    }
   },
-  "hours_old": 26.2261549,
+  "hours_old": 27.25014347861111,
   "score": 8.0,
   "_source_verification_attempted": true,
   "_official_discovery_attempted": true,
@@ -6320,7 +6283,6 @@
   "work_mode": "Remote",
   "employment_type": "Internship",
   "salary_type": "Source/feed value — verify against employer posting",
-  "id": "ccbf123e2ed09038",
   "description_sections": [
    {
     "heading": "Original job description",
