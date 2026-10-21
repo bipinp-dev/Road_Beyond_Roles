@@ -958,7 +958,7 @@ def _job_location(j: dict[str, Any]) -> str:
 
             return "The employer says remote from any location; confirm India eligibility."
 
-        return "The listing says worldwide remote; confirm India eligibility with the employer."
+        return "The role page says worldwide remote; confirm India eligibility with the employer."
 
     if "remote" in low:
 
@@ -2210,7 +2210,7 @@ def _salary_phrase(j: dict[str, Any]) -> str:
 
             source_name = "captured vacancy"
 
-        return f"The {source_name} listing states {spoken_salary}{period_phrase}; confirm the terms on the employer's page."
+        return f"The {source_name} role page states {spoken_salary}{period_phrase}; confirm the terms on the employer's page."
 
     if kind == "market_estimate":
 
@@ -3296,72 +3296,168 @@ def _spoken_salary_for_narration(job: dict) -> str:
     return f"{spoken}{period_phrase}"
 
 
-def _job_monologue(job: dict, idx: int, total: int) -> str:
-    """One-paragraph-per-topic peer-voice narration for a single role.
+def _role_archetype(job: dict) -> str:
+    """Classify a role so per-role narration branches on role shape, not just field swaps."""
+    import re as _re
+    title = str(job.get("title") or "").lower()
+    must = " ".join(str(x).lower() for x in (job.get("must") or []))
+    nice = " ".join(str(x).lower() for x in (job.get("nice") or []))
+    soft = " ".join(str(x).lower() for x in (job.get("soft") or []))
+    blob = " ".join([title, must, nice, soft])
 
-    Reads like a senior recruiter's verdict, not a recited job description.
-    """
+    if _re.search(r"\b(advocate|advocacy|developer relations|devrel|community|evangelist|technical writer|documentation)\b", title):
+        return "advocacy"
+    if _re.search(r"\b(manager|director|head|vp|vice president|lead|principal|chief|owner)\b", title):
+        return "leadership"
+    if _re.search(r"\b(data|analyst|analytics|scientist|machine learning|ml|ai|statistic)\b", blob):
+        return "data"
+    if _re.search(r"\b(engineer|developer|swe|software|backend|frontend|full-?stack|platform|devops|sre|architect)\b", blob):
+        return "engineering"
+    return "general"
+
+
+def _job_monologue(job: dict, idx: int, total: int) -> str:
+    """Peer-voice narration for a single role. Branches on archetype so consecutive roles do not sound identical."""
     title = str(job.get("title") or "this role").strip()
     company = str(job.get("company") or "the employer").strip()
     salary = _spoken_salary_for_narration(job)
     must = _usable_must_requirements(job)
-    must_phrase = human_list(must[:3], 3) if must else "the core requirements in the posting"
+    must_phrase = human_list(must[:3], 3) if must else "the core requirements in the role"
     eligibility_note = _india_eligibility_issue(job)
     location = str(job.get("location") or "").strip().lower()
+    archetype = _role_archetype(job)
 
-    # Opening: name the role and the salary, honestly
+    nice = [str(x).strip() for x in (job.get("nice") or []) if str(x).strip()]
+    soft = [str(x).strip() for x in (job.get("soft") or []) if str(x).strip()]
+    nice_phrase = human_list(nice[:3], 3) if nice else ""
+    soft_phrase = human_list(soft[:2], 2) if soft else ""
+
     parts = []
     if salary:
         parts.append(
             f"Role number {idx}: {company} is hiring a {title}. "
-            f"The verified compensation published on the source listing sits at {salary}."
+            f"The verified compensation published on the source page sits at {salary}."
         )
     else:
         parts.append(
             f"Role number {idx}: {company} is hiring a {title}. "
-            f"No verified salary range was published on the source, so treat compensation as an open question to raise with the recruiter."
+            "No verified salary range was published on the source, so treat compensation as an open question to raise with the recruiter."
         )
 
-    # Eligibility reality
     if eligibility_note:
-        parts.append(
-            f"For applicants in India, this is where it gets tricky: {eligibility_note}."
-        )
-    elif "worldwide" in location or "anywhere" in location:
-        parts.append(
-            "The listing is tagged worldwide remote, but a worldwide label alone does not guarantee India payroll eligibility. "
-            "Ask the recruiter about entity and tax-nexus coverage in your first message so you don't lose weeks to a role that can't hire you."
-        )
+        parts.append(f"For applicants in India, this is where it gets tricky: {eligibility_note}.")
     elif "india" in location:
-        parts.append(
-            "This role is explicitly open to candidates based in India."
-        )
+        parts.append("This role is explicitly open to candidates based in India.")
+    elif "worldwide" in location or "anywhere" in location:
+        variants = [
+            "The role is tagged worldwide remote, but a worldwide label alone does not guarantee India payroll eligibility. "
+            "Ask the recruiter about entity and tax-nexus coverage in your first message so you don't lose weeks to a role that can't hire you.",
+            "The role is advertised as worldwide remote, but in practice that label often hides a US-only payroll boundary. "
+            "Ask two questions in your first reply: does the company already run payroll in India, and if not, will they hire through an employer-of-record or a contracting entity. "
+            "The answer tells you in one email whether this is a real opportunity or a polite no.",
+            "Worldwide remote on the role page does not mean worldwide payroll. "
+            "Before you invest in the process, confirm whether the company has a legal entity in India or works through an employer-of-record. "
+            "If neither, the honest answer is that this role will not convert for an India-based candidate, and it is better to know that now than after three interview rounds.",
+        ]
+        parts.append(variants[(idx - 1) % len(variants)])
 
-    # Who should skip
-    if must:
+    if archetype == "leadership":
         parts.append(
-            f"Who should honestly skip this? If your core strength is not in {must_phrase}, "
-            "or if you cannot show production evidence for it, move on. This role is not a stretch fit."
+            "Who should honestly skip this? If your experience is entirely individual-contributor, even a very senior one, this is not the stretch to attempt. "
+            "The screen here is about scope: how large a team you have run, how you handled a low performer, how you set direction when the data was thin. "
+            "If you have not owned a hiring plan and a roadmap against real constraints, the conversation will expose that within the first twenty minutes. "
+            "Leadership roles do not train on the job the way individual-contributor roles do; the assumption is you have already done it at roughly this scale."
+        )
+    elif archetype == "advocacy":
+        parts.append(
+            "Who should honestly skip this? If your public body of work is thin — no talks, no articles, no open-source, no community answers you can point to — this is not the role to attempt as a stretch. "
+            "Developer advocacy is evaluated on artifacts, not on intent. Hiring managers will look at what you have already published, not what you plan to publish. "
+            "If you have never shipped something an external developer audience adopted, this role will not be the first place that happens."
+        )
+    elif archetype == "data":
+        parts.append(
+            "Who should honestly skip this? If you have not owned an analysis end to end — from question, to data pull, to model, to a decision that someone acted on — the screen here will surface that gap quickly. "
+            "The interview tests whether you can defend a modeling choice and whether you can explain its limits to a non-technical stakeholder. "
+            "If your work has been maintaining dashboards someone else designed, this role will feel like a leap."
+        )
+    elif archetype == "engineering" and must:
+        parts.append(
+            f"Who should honestly skip this? If your daily work has not included {must_phrase} in a production codebase, or you cannot point to a specific system you built, shipped, and maintained, this is not your role. "
+            "The screen is practical, not trivia — expect a coding or system-design round that tests whether the depth is real, and there is no way to mask a shallow background through interview patter. "
+            "If you would need six months of study to hold your own in that room, spend those six months on a different opening."
         )
     else:
         parts.append(
-            "Who should honestly skip this? If you cannot point to real production work that matches the role's core scope, move on."
+            "Who should honestly skip this? If you cannot point to real production work that matches the role's core scope, move on. "
+            "The interview will test depth, not familiarity, and there is no version of the process where you can talk your way past a practical assessment."
         )
 
-    # Resume strategy — role-specific, not generic
-    if must:
-        parts.append(
-            f"Here is your resume strategy. Do not just list {must_phrase} in a skills section — "
-            "that gets filtered. Surround each one with the operational context this team actually cares about. "
-            "Pair your stack with phrases like system ownership, scale, reliability and shipped outcomes, "
-            "and write bullets that show what you personally architected, not what your team used."
+    if archetype == "leadership":
+        strategy = (
+            "Here is your resume strategy. A leadership resume is read in thirty seconds by someone who has hired leaders before, and they scan for scope: team size, reporting lines, budget, and what changed under your tenure. "
+            "Lead every bullet with the org or function you owned, the before-state, and the after-state — 'grew the payments reliability team from six to fourteen, cut error-budget burn by forty percent in two quarters' beats 'responsible for engineering leadership.' "
+            "Do not list tools. Do not list every technology. Do not summarize the job description back at them. "
         )
+        if must:
+            strategy += f"If the role flags {must_phrase}, show a specific decision you made with those things in the room — a hiring plan, a re-org, a build-versus-buy call — not a bullet that says 'experience with' them. "
+        strategy += (
+            "Behavioral interviews at this level go deep on conflict, failure, and reversals of your own decisions. "
+            "Prepare two honest stories about being wrong, and be specific about what you changed afterward."
+        )
+    elif archetype == "advocacy":
+        strategy = (
+            "Here is your resume strategy. Developer advocacy is one of the few engineering-adjacent roles where a body of public work counts as much as a resume bullet. "
+            "Put your talks, articles, open-source projects, and community contributions at the top — actual links, not claims. The screen will click through, so if an artifact is weak, say so honestly or leave it off. "
+            "For each piece, write one line about the audience, the outcome, and what you learned — the way you would write a case study, not a portfolio blurb. "
+        )
+        if must:
+            strategy += f"When the role flags {must_phrase}, connect those skills to how you have helped external developers succeed: documentation you wrote, workshops you ran, answers you gave that unblocked someone. "
+        if soft_phrase:
+            strategy += f"With {soft_phrase} on the role, prepare stories that show you influencing without authority — advocacy roles rarely own the product but must shape how it is perceived."
+        else:
+            strategy += "Prepare stories that show you influencing without authority, because advocacy roles rarely own the product but must shape how it is perceived."
+    elif archetype == "data":
+        strategy = (
+            "Here is your resume strategy. Data roles are screened on one question: can you take an ambiguous business problem to a defensible answer? "
+            "Your resume should tell that story once, in detail, for one or two projects — not eight bullet points of dashboards. "
+            "For each project, state the business question, the data you used, the method you chose, the alternatives you rejected, and what changed when someone acted on your result. That structure is exactly what the interview will probe. "
+        )
+        if must:
+            strategy += f"If the role flags {must_phrase}, put them inside that narrative, not in a skills section. "
+        strategy += (
+            "Mention the tools only where they were the reason a result was possible — 'built this in dbt because the source system could not be joined directly in SQL' — otherwise tools read as vocabulary, not craft. "
+            "Prepare to be asked what you would do differently with better data or more time."
+        )
+    elif archetype == "engineering":
+        strategy = "Here is your resume strategy. Do not just list "
+        strategy += (must_phrase if must else "the core technologies")
+        strategy += (
+            " in a skills section — that gets filtered before a human ever sees it. The first screen is a keyword match; the second screen is a human asking whether you have actually done the work. "
+            "Write two or three bullets per must-have, each one showing the scale you worked at, the problem you personally owned, and the measurable outcome you shipped. "
+            "Quantify on whatever axis the role cares about — throughput, latency, revenue, team size, cost saved, incidents prevented. A bullet that says 'owned X, reduced Y by Z percent' beats a paragraph of adjectives every single time. "
+        )
+        if nice_phrase:
+            strategy += f"The team also flags {nice_phrase} as a differentiator. If you have real exposure there, surface it explicitly — at the margin, it is the difference between shortlisted and rejected. "
+        if soft_phrase:
+            strategy += f"On the behavioral side, expect signal checks around {soft_phrase}. Prepare one concrete story for each before the first call, and rehearse it out loud. "
+        strategy += (
+            "Mirror the role's language in your bullets: if the role says 'own' and 'scale', your bullets should say 'owned' and 'scaled', not 'participated in.' "
+            "Treat the salary band as a range, not a target — anchor your ask on the scope you can prove, then negotiate from evidence."
+        )
+    else:
+        strategy = (
+            "Here is your resume strategy. Match the role's own language in your bullets — if the description says 'own' and 'scale', your bullets should say 'owned' and 'scaled,' not 'participated in.' "
+            "Write two or three bullets per core requirement, each one showing the scale you worked at, the problem you personally owned, and the measurable outcome you shipped. Quantify wherever you can. "
+        )
+        if soft_phrase:
+            strategy += f"Expect behavioral signal checks around {soft_phrase}, and prepare one concrete story for each before the first call. "
+        strategy += "Treat the salary band as a range, not a target — anchor your ask on the scope you can prove."
+    parts.append(strategy)
 
-    # Application
     apply_url = str(job.get("application_url") or job.get("url") or "").strip()
     if apply_url:
         parts.append(
-            "Apply directly through the official posting linked in the description. "
+            "Apply directly through the official role page linked in the description. "
             "Do not rely on a repost or an aggregator link."
         )
 
@@ -3389,7 +3485,7 @@ def build_scenes(videos, rest, agg, date_label, total, channel, review_mode: boo
 
     intro_text = (
         "Look — if you're applying to remote roles from India right now, you know how exhausting the hunt has become. "
-        "You spend an hour polishing your resume for a posting tagged worldwide remote, only to find out three rounds in that they hire only within US time zones. "
+        "You spend an hour polishing your resume for a role tagged worldwide remote, only to find out three rounds in that they hire only within US time zones. "
         f"Welcome back to Road Beyond Roles. Today we're cutting through the noise with {n} roles that have verified, defensible salary figures on the public record: {intro_roles}. "
         "We are not just reading you the job descriptions. We are breaking down who should honestly skip these roles, "
         "what the cross-border reality looks like for applicants in India, and the exact resume keywords you need to survive the initial applicant tracking filters. "
@@ -3419,10 +3515,10 @@ def build_scenes(videos, rest, agg, date_label, total, channel, review_mode: boo
     list_phrase = human_list(rest_names, 5) if rest_names else ""
 
     outro_text = (
-        "If none of those three match your stack today, we've posted several more verified listings directly on the Road Beyond Roles site"
+        "If none of those three match your stack today, we've posted several more verified roles directly on the Road Beyond Roles site"
         + (f", including {list_phrase}" if list_phrase else "")
         + ". Here's the bottom line: mass-applying with a generic PDF does not work in this market. "
-        "The candidates landing international remote roles are the ones who dig into the posting, verify the legal realities, "
+        "The candidates landing international remote roles are the ones who dig into the role, verify the legal realities, "
         "and tailor their real project evidence directly to the employer's highest-priority keywords. "
         "All source links and evidence notes are in the pinned description. Check the requirements, protect your time, and submit with confidence. "
         "I'll see you in the next one."
