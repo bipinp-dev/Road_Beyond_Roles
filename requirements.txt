@@ -1,0 +1,6 @@
+requests>=2.31
+edge-tts>=6.1
+playwright>=1.44
+google-api-python-client>=2.120
+google-auth-oauthlib>=1.2
+google-auth-httplib2>=0.2

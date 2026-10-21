@@ -1,0 +1,6 @@
+{
+  "_note": "Add company board tokens here (the slug in their careers URL). Wrong/missing ones are skipped with a warning.",
+  "greenhouse": ["gitlab", "cloudflare", "databricks", "stripe", "elastic"],
+  "lever": ["palantir"],
+  "ashby": ["ramp", "notion"]
+}

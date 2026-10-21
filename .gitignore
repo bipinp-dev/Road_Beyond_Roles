@@ -1,0 +1,12 @@
+﻿__pycache__/
+*.pyc
+*.bak
+*.bak2
+.venv/
+output/
+build/
+*.tmp
+fix_review_card.py
+fix_review_card_v2.py
+repair_run_daily.py
+SYNTAX_CHECK.json

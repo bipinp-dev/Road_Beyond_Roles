@@ -1,0 +1,40 @@
+{
+  "channel_name": "India Jobs Daily",
+  "site_url": "",
+   "voice": "am_michael",
+  "rate": "+4%",
+  "video_jobs": 5,
+  "list_jobs": 12,
+  "max_per_company": 2,
+  "target_keywords": {
+    "python": 3,
+    "sql": 2,
+    "aws": 2,
+    "react": 2,
+    "java": 2,
+    "machine learning": 2,
+    "data": 1,
+    "kubernetes": 2,
+    "typescript": 2,
+    "docker": 1
+  },
+  "boost_title_words": [
+    "engineer",
+    "developer",
+    "analyst",
+    "data",
+    "software",
+    "devops",
+    "scientist",
+    "backend",
+    "frontend",
+    "full stack"
+  ],
+  "avoid_title_words": [
+    "intern",
+    "unpaid",
+    "commission only",
+    "volunteer"
+  ],
+  "boost_companies": []
+}
