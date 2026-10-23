@@ -246,6 +246,10 @@ def make_clip(
         ms = int(lead_pad * 1000)
         audio_chain += f",adelay={ms}|{ms}"
     audio_chain += f",apad=pad_dur={pad_value}"
+    # 20ms micro-fades at clip boundaries eliminate clicks from arbitrary cut points.
+    _fade_d = 0.020
+    _fade_out_st = max(0.0, dur - _fade_d)
+    audio_chain += f",afade=t=in:st=0:d={_fade_d},afade=t=out:st={_fade_out_st:.3f}:d={_fade_d}"
     vf = f"[0:v]{video_filter}[v];[1:a]{audio_chain}[a]"
     _scroll_flag = scroll_from is not None and scroll_to is not None and _h > 1100
     _input_fps = "24" if _scroll_flag else "60"
@@ -275,7 +279,10 @@ def concat(clips: list[Path], out: Path, music: Path | None = None, narration: P
     lst = out.with_suffix(".txt")
     lst.write_text("".join(f"file '{c.resolve().as_posix()}'\n" for c in clips), encoding="utf-8")
     raw = out.with_name("_video_only_concat.mp4")
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(raw)])
+    # Do not -c copy AAC: per-clip encoder priming survives concat and creates
+    # silent gaps at every boundary. Re-encode audio so priming is stripped once.
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lst),
+         "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-ac", "2", str(raw)])
     if narration and narration.exists():
         inputs = ["ffmpeg", "-y", "-i", str(raw), "-i", str(narration)]
         if music and music.exists():

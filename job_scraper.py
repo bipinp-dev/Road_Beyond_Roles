@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-India-eligible job scraper
---------------------------
+US-eligible job scraper
+------------------------
 Pulls fresh postings from public job feeds / company ATS APIs and keeps only
 jobs an applicant in India can realistically take:
-  * Tier A: job located in India (any city, on-site / hybrid / remote)
+  * Tier A: job located in the US (any city, on-site / hybrid / remote)
   * Tier B: remote and explicitly open to "worldwide / anywhere / APAC / Asia"
   * Tier C: remote, location not stated (verify before applying)
 Anything that mentions visa sponsorship, work permits, work authorisation,
@@ -150,15 +150,35 @@ INDIA_RE = re.compile(
     r"thiruvananthapuram|nagpur|lucknow|bhubaneswar|vadodara|surat|"
     r"visakhapatnam|mysuru|mysore)\b", re.I)
 
+US_RE = re.compile(
+    r"(?<![a-z])(?:united states|u\.?s\.?a?|usa|us)(?![a-z])|"
+    r"\b(?:new york|nyc|san francisco|sf bay area|bay area|seattle|"
+    r"los angeles|chicago|boston|austin|denver|atlanta|miami|"
+    r"dallas|houston|phoenix|san diego|portland|washington,?\s*d\.?c\.?|"
+    r"pittsburgh|philadelphia|minneapolis|detroit|nashville|"
+    r"raleigh|charlotte|california|texas)\b", re.I)
+
+# US-specific phrases that the old India filter treated as blockers,
+# but that are actually features for a US-targeted audience.
+US_FEATURE_RE = re.compile(
+    r"(?<!\w)(?:authori[sz]ed|eligible|permitted|legally (?:entitled|permitted|authori[sz]ed)) to work in (?:the )?(?:us|usa|u\.?s\.?a?|united states)\b|"
+    r"(?<!\w)must (?:currently )?(?:reside|live|be located|be based|be resident)s? in (?:the )?(?:us|usa|u\.?s\.?a?|united states)\b|"
+    r"(?<!\w)(?:us|usa|u\.?s\.?a?|united states)[- ]only\b|"
+    r"(?<!\w)(?:us|usa|u\.?s\.?a?|united states)[\s-]*(?:based|resident|located)\b|"
+    r"(?<!\w)(?:us|u\.?s\.?a?) citizens?\b|"
+    r"work authori[sz]ation|green card|"
+    r"(?<!\w)(?:w-?2|1099)\b",
+    re.I)
+
 STRONG_WORLD_RE = re.compile(
     r"\b(worldwide|world[- ]?wide|anywhere in the world|work from anywhere|"
-    r"global(ly)?|apac|asia|any location|all countries)\b", re.I)
+    r"global(ly)?|any location|all countries)\b", re.I)
 WEAK_WORLD_RE = re.compile(r"\banywhere\b", re.I)
 
-_REGIONS = (r"us|usa|u\.s\.a?\.?|united states|america|uk|united kingdom|canada|"
+_REGIONS = (r"uk|united kingdom|canada|"
             r"europe|european|eu|emea|latam|latin america|north america|americas|"
             r"australia|new zealand|germany|france|spain|poland|netherlands|"
-            r"ireland|brazil|mexico|argentina|portugal|romania")
+            r"ireland|brazil|mexico|argentina|portugal|romania|india")
 OTHER_REGION_RE = re.compile(rf"(?<!\w)({_REGIONS})(?!\w)", re.I)
 
 # Restrictions that make a job unsafe to publish as India-eligible.
@@ -218,14 +238,16 @@ def explicit_region_restriction(job: Job) -> str:
     )
     if match:
         region = match.group(1)
+        if region.upper() in {"UNITED STATES", "US", "U.S.", "USA"}:
+            return ""
         return f"vacancy explicitly labels location as {region}"
     patterns = (
-        (r"(?i)\bremote (?:anywhere )?within the united states\b", "United States"),
-        (r"(?i)\bremote (?:anywhere )?in the united states\b", "United States"),
-        (r"(?i)\bposition can be remote anywhere within the united states\b", "United States"),
-        (r"(?i)\b(?:united states|u\.?s\.?|usa) only\b", "United States"),
+        # US-only patterns removed for US-targeting: (r"(?i)\bremote (?:anywhere )?within the united states\b", "United States"),
+        # US-only patterns removed for US-targeting: (r"(?i)\bremote (?:anywhere )?in the united states\b", "United States"),
+        # US-only patterns removed for US-targeting: (r"(?i)\bposition can be remote anywhere within the united states\b", "United States"),
+        # US-only patterns removed for US-targeting: (r"(?i)\b(?:united states|u\.?s\.?|usa) only\b", "United States"),
         (r"(?i)\bremote (?:anywhere )?within (?:the )?emea\b", "EMEA"),
-        (r"(?i)\b(?:emea|europe|european union|uk|united kingdom|canada|australia) only\b", "restricted region"),
+        (r"(?i)\b(?:emea|europe|european union|uk|united kingdom|canada|australia|india) only\b", "restricted region"),
     )
     for pattern, region in patterns:
         if re.search(pattern, text):
@@ -234,7 +256,7 @@ def explicit_region_restriction(job: Job) -> str:
 
 
 def classify(job: Job) -> tuple[str, str] | None:
-    """Return (tier, note) if eligible for someone in India, else None."""
+    """Return (tier, note) if eligible for someone in the US, else None."""
     loc = (job.location or "").strip()
     text = f"{job.title} {job.description}"
 
@@ -245,12 +267,12 @@ def classify(job: Job) -> tuple[str, str] | None:
     # Apply explicit restrictions BEFORE accepting an India location.
     # A posting can say "India" in its location while still requiring foreign
     # work authorization, nationality, or a foreign professional license.
-    if BLOCK_RE.search(text) or BLOCK_RE.search(loc):
+    if (BLOCK_RE.search(text) or BLOCK_RE.search(loc)) and not (US_FEATURE_RE.search(text) or US_FEATURE_RE.search(loc)):
         return None
 
-    # Tier A: physically in India (office, hybrid or remote-in-India)
-    if INDIA_RE.search(loc):
-        return "A", "India location"
+    # Tier A: physically in US (office, hybrid or remote-in-US)
+    if US_RE.search(loc):
+        return "A", "US location"
 
     is_remote = bool(job.remote) or bool(re.search(r"\bremote\b", loc, re.I))
     if not is_remote:
@@ -301,7 +323,7 @@ def fetch_remotive(s):
 
 def fetch_jobicy(s):
     out = []
-    for params in ({"count": 100, "geo": "india"}, {"count": 100}):
+    for params in ({"count": 100, "geo": "usa"}, {"count": 100}):
         try:
             data = get(s, "https://jobicy.com/api/v2/remote-jobs", params=params).json()
         except Exception as e:
@@ -455,8 +477,8 @@ def write_outputs(jobs: list[Job], out_dir: Path, stamp: str):
     html_path.write_text(f"""<!doctype html><meta charset="utf-8"><title>Jobs {stamp}</title>
 <style>body{{font:14px system-ui;margin:24px}}table{{border-collapse:collapse;width:100%}}
 td,th{{border-bottom:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}}th{{background:#f6f8fa}}</style>
-<h2>{len(jobs)} new India-eligible jobs - {stamp}</h2>
-<p>A = located in India &nbsp; B = worldwide/APAC remote &nbsp; C = remote, location unstated (verify)</p>
+<h2>{len(jobs)} new US-eligible jobs - {stamp}</h2>
+<p>A = located in the US &nbsp; B = worldwide remote &nbsp; C = remote, location unstated (verify)</p>
 <table><tr><th>Tier</th><th>Title</th><th>Company</th><th>Location</th><th>Posted (IST)</th><th>Source</th><th>Note</th></tr>
 {rows}</table>""", encoding="utf-8")
     return csv_path, html_path
@@ -518,7 +540,7 @@ def _configure_console_encoding() -> None:
 
 def main():
     _configure_console_encoding()
-    ap = argparse.ArgumentParser(description="Daily India-eligible job scraper")
+    ap = argparse.ArgumentParser(description="Daily US-eligible job scraper")
     ap.add_argument("--hours", type=int, default=24, help="freshness window (default 24)")
     ap.add_argument("--today", action="store_true", help="only jobs posted since midnight IST")
     ap.add_argument("--all", action="store_true", help="don't hide jobs seen in earlier runs")

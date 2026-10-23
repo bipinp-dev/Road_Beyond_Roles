@@ -13,7 +13,7 @@ TAGLINE = "Helping You Build a Better Career."
 YOUTUBE_URL = "https://www.youtube.com/@roadbeyondrole"
 
 TIER = {
-    "A": ("India", "#166534"),
+    "A": ("Based in the US", "#166534"),
     "B": ("Worldwide remote", "#1d4ed8"),
     "C": ("Remote - verify", "#b45309"),
 }

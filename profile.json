@@ -1,7 +1,7 @@
 {
-  "channel_name": "India Jobs Daily",
+  "channel_name": "Road Beyond Roles",
   "site_url": "",
-   "voice": "am_michael",
+  "voice": "bm_george",
   "rate": "+4%",
   "video_jobs": 5,
   "list_jobs": 12,
@@ -36,5 +36,9 @@
     "commission only",
     "volunteer"
   ],
-  "boost_companies": []
+  "boost_companies": [],
+  "departments": [
+    "engineering",
+    "data"
+  ]
 }

@@ -694,13 +694,15 @@ def _india_eligibility_issue(j: dict[str, Any]) -> str:
 
         region = labelled.group(1).upper() if labelled.group(1).lower() in {"emea", "uk", "usa"} else labelled.group(1)
 
-        return f"source vacancy labels the role location as {region}; India eligibility is not established"
+        if region.upper() in {"UNITED STATES", "US", "U.S.", "USA"}:
+            return ""
+        return f"source vacancy labels the role location as {region}; US eligibility is not established"
 
-    if re.search(r"\b(?:emea|europe|european union|eu only|united kingdom only|uk only|canada only|australia only)\b", scoped):
+    if re.search(r"\b(?:emea|europe|european union|eu only|united kingdom only|uk only|canada only|australia only|india only|india)\b", scoped):
 
-        region = next((n for n in ("EMEA", "Europe", "European Union", "UK", "Canada", "Australia") if n.lower() in scoped), "restricted region")
+        region = next((n for n in ("EMEA", "Europe", "European Union", "UK", "Canada", "Australia", "India") if n.lower() in scoped), "restricted region")
 
-        return f"explicit location/eligibility is {region}, which does not establish India eligibility"
+        return f"explicit location/eligibility is {region}, which does not establish US eligibility"
 
     us_only_patterns = (
 
@@ -726,7 +728,7 @@ def _india_eligibility_issue(j: dict[str, Any]) -> str:
 
     if any(re.search(p, desc, re.I) for p in us_only_patterns):
 
-        return "source explicitly restricts the role to the United States"
+        return ""
 
     for pattern, region in (
 
@@ -735,6 +737,8 @@ def _india_eligibility_issue(j: dict[str, Any]) -> str:
         (r"\b(?:remote|based|located) (?:only )?(?:within|in) canada\b", "Canada"),
 
         (r"\b(?:remote|based|located) (?:only )?(?:within|in) australia\b", "Australia"),
+
+        (r"\b(?:remote|based|located) (?:only )?(?:within|in) india\b", "India"),
 
     ):
 
@@ -3296,6 +3300,22 @@ def _spoken_salary_for_narration(job: dict) -> str:
     return f"{spoken}{period_phrase}"
 
 
+def _job_department(job: dict) -> str:
+    """Classify a role into a department bucket for video filtering.
+    Data wins ties (Data Engineer -> data, not engineering).
+    'Software development' folds into engineering; the two are synonyms in job titles.
+    """
+    title = str(job.get("title") or "").lower()
+    must = " ".join(str(x).lower() for x in (job.get("must") or []))
+    text = f"{title} {must}"
+    import re as _re
+    if _re.search(r"\b(data|analyst|analytics|scientist|machine learning|\bml\b|\bai\b|statistician|business intelligence|\bbi\b|insights)\b", text):
+        return "data"
+    if _re.search(r"\b(engineer|engineering|swe|sde|developer|programmer|software|backend|frontend|full[- ]?stack|devops|\bsre\b|platform|mobile|architect|\bqa\b|test automation|sdet|security engineer|infosec|cyber ?security|penetration|pentest|infrastructure|cloud engineer|system administrator|sysadmin|solutions engineer|solutions consultant|sales engineer|presales|pre[- ]?sales|technical account|technical consultant|\bcto\b|chief technology|deployment strategist|solidity|blockchain|\brust\b)\b", text):
+        return "engineering"
+    return "other"
+
+
 def _role_archetype(job: dict) -> str:
     """Classify a role so per-role narration branches on role shape, not just field swaps."""
     import re as _re
@@ -3335,29 +3355,29 @@ def _job_monologue(job: dict, idx: int, total: int) -> str:
     parts = []
     if salary:
         parts.append(
-            f"Role number {idx}: {company} is hiring a {title}. "
+
             f"The verified compensation published on the source page sits at {salary}."
         )
     else:
         parts.append(
-            f"Role number {idx}: {company} is hiring a {title}. "
+
             "No verified salary range was published on the source, so treat compensation as an open question to raise with the recruiter."
         )
 
     if eligibility_note:
-        parts.append(f"For applicants in India, this is where it gets tricky: {eligibility_note}.")
-    elif "india" in location:
-        parts.append("This role is explicitly open to candidates based in India.")
+        parts.append(f"For US-based applicants, here is the eligibility catch: {eligibility_note}.")
+    elif re.search(r"\b(?:united states|us|usa|u\.s\.|us[- ]?based|us[- ]?remote)\b", location):
+        parts.append("This role is explicitly open to candidates based in the United States.")
     elif "worldwide" in location or "anywhere" in location:
         variants = [
-            "The role is tagged worldwide remote, but a worldwide label alone does not guarantee India payroll eligibility. "
+            "The role is tagged worldwide remote, but a worldwide label alone does not guarantee US payroll eligibility. "
             "Ask the recruiter about entity and tax-nexus coverage in your first message so you don't lose weeks to a role that can't hire you.",
             "The role is advertised as worldwide remote, but in practice that label often hides a US-only payroll boundary. "
-            "Ask two questions in your first reply: does the company already run payroll in India, and if not, will they hire through an employer-of-record or a contracting entity. "
+            "Ask two questions in your first reply: does the company already run US payroll in your state, and if not, will they hire through a PEO or an employer-of-record. "
             "The answer tells you in one email whether this is a real opportunity or a polite no.",
             "Worldwide remote on the role page does not mean worldwide payroll. "
-            "Before you invest in the process, confirm whether the company has a legal entity in India or works through an employer-of-record. "
-            "If neither, the honest answer is that this role will not convert for an India-based candidate, and it is better to know that now than after three interview rounds.",
+            "Before you invest in the process, confirm whether the company has a US legal entity or works through an employer-of-record. "
+            "If neither, the honest answer is that this role will not convert for a US-based candidate, and it is better to know that now than after three interview rounds.",
         ]
         parts.append(variants[(idx - 1) % len(variants)])
 
@@ -3484,11 +3504,11 @@ def build_scenes(videos, rest, agg, date_label, total, channel, review_mode: boo
     intro_roles = human_list(headlines, 3)
 
     intro_text = (
-        "Look — if you're applying to remote roles from India right now, you know how exhausting the hunt has become. "
+        "Look — if you're applying to US remote roles right now, you know how exhausting the hunt has become. "
         "You spend an hour polishing your resume for a role tagged worldwide remote, only to find out three rounds in that they hire only within US time zones. "
         f"Welcome back to Road Beyond Roles. Today we're cutting through the noise with {n} roles that have verified, defensible salary figures on the public record: {intro_roles}. "
         "We are not just reading you the job descriptions. We are breaking down who should honestly skip these roles, "
-        "what the cross-border reality looks like for applicants in India, and the exact resume keywords you need to survive the initial applicant tracking filters. "
+        "what the US hiring reality looks like for remote applicants, and the exact resume keywords you need to survive the initial applicant tracking filters. "
         "Let's get straight into it."
     )
 
@@ -3500,6 +3520,14 @@ def build_scenes(videos, rest, agg, date_label, total, channel, review_mode: boo
     for idx, job in enumerate(featured, 1):
         company = str(job.get("company") or "Employer")
         title = str(job.get("title") or "Open role")
+        scenes.append({
+            "kind": "job_title",
+            "chapter": f"{idx}. {company}",
+            "text": f"Role number {idx}: {company}, hiring a {title}.",
+            "job": job,
+            "idx": idx,
+            "framing": "visiq",
+        })
         scenes.append({
             "kind": "job_scroll",
             "chapter": f"{idx}. {company} — {title}"[:90],
@@ -3524,9 +3552,8 @@ def build_scenes(videos, rest, agg, date_label, total, channel, review_mode: boo
         "I'll see you in the next one."
     )
     _homepage_text = (
-        "Before you go, here are the other roles we have posted on the Road Beyond Roles site today. "
-        + (f"These include {list_phrase}. " if list_phrase else "")
-        + "Open each vacancy's page to check the full requirements and the original application link before deciding whether to apply. "
+        "Before you go, there are more roles posted on the Road Beyond Roles site today. "
+        "Open each vacancy's page to check the full requirements and the original application link before deciding whether to apply. "
         "If a role is not right for you, it may still be useful to someone you know."
     )
     scenes.append({"kind": "homepage", "chapter": "More roles on the site", "text": _homepage_text, "framing": "visiq"})

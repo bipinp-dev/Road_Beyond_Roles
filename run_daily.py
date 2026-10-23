@@ -163,6 +163,8 @@ def _scene_visual_description(scene: dict) -> str:
         "channel_intro": "Road Beyond Roles branded channel-introduction slide",
 
         "card": "Designed job-title card",
+        "job_title": "Designed job-title card (role opener)",
+        "job_scroll": "Live scroll through the role's original page",
 
         "shot": f"Real captured job-page screenshot{': ' + topic if topic else ''}",
 
@@ -420,11 +422,11 @@ function setAll(v){{document.querySelectorAll('input[name=keep]').forEach(x=>{{x
 
 function updateCount(){{const n=document.querySelectorAll('input[name=keep]:checked').length;document.getElementById('count').textContent=n+' scenes selected'}}
 
-document.querySelectorAll('input[name=keep]').forEach(x=>x.addEventListener('change',()=>{{if(x.dataset.kind==='card'&&!x.checked&&x.dataset.job){{document.querySelectorAll('input[name=keep][data-job="'+CSS.escape(x.dataset.job)+'"]').forEach(y=>y.checked=false)}}else if(x.dataset.kind==='card'&&x.checked&&x.dataset.job){{document.querySelectorAll('input[name=keep][data-job="'+CSS.escape(x.dataset.job)+'"]').forEach(y=>y.checked=true)}}updateCount()}}));
+document.querySelectorAll('input[name=keep]').forEach(x=>x.addEventListener('change',()=>{{if((x.dataset.kind==='card'||x.dataset.kind==='job_scroll'||x.dataset.kind==='job_title')&&!x.checked&&x.dataset.job){{document.querySelectorAll('input[name=keep][data-job="'+CSS.escape(x.dataset.job)+'"]').forEach(y=>y.checked=false)}}else if((x.dataset.kind==='card'||x.dataset.kind==='job_scroll'||x.dataset.kind==='job_title')&&x.checked&&x.dataset.job){{document.querySelectorAll('input[name=keep][data-job="'+CSS.escape(x.dataset.job)+'"]').forEach(y=>y.checked=true)}}updateCount()}}));
 
-document.querySelectorAll('input[name=keep][data-kind=card]:not(:checked)').forEach(x=>{{if(x.dataset.job)document.querySelectorAll('input[name=keep][data-job="'+CSS.escape(x.dataset.job)+'"]').forEach(y=>y.checked=false)}});
+document.querySelectorAll('input[name=keep][data-kind=card]:not(:checked),input[name=keep][data-kind=job_scroll]:not(:checked),input[name=keep][data-kind=job_title]:not(:checked)').forEach(x=>{{if(x.dataset.job)document.querySelectorAll('input[name=keep][data-job="'+CSS.escape(x.dataset.job)+'"]').forEach(y=>y.checked=false)}});
 
-document.getElementById('review').addEventListener('submit',e=>{{if(e.submitter&&e.submitter.value==='cancel')return;const cards=[...document.querySelectorAll('input[name=keep][data-kind=card]:checked')];if(cards.length===0){{e.preventDefault();alert('Keep at least one featured job card to produce a job video.');return}}}});updateCount();
+document.getElementById('review').addEventListener('submit',e=>{{if(e.submitter&&e.submitter.value==='cancel')return;const cards=[...document.querySelectorAll('input[name=keep][data-kind=card]:checked,input[name=keep][data-kind=job_scroll]:checked')];if(cards.length===0){{e.preventDefault();alert('Keep at least one featured job card to produce a job video.');return}}}});updateCount();
 
 </script></body></html>"""
 
@@ -578,7 +580,7 @@ document.getElementById('review').addEventListener('submit',e=>{{if(e.submitter&
 
         for index, scene in enumerate(scenes)
 
-        if str(scene.get("kind") or "") in {"card", "job_scroll"} and index not in selected_indices
+        if str(scene.get("kind") or "") in {"card", "job_scroll", "job_title"} and index not in selected_indices
 
         and all(_scene_job_key(scene))
 
@@ -704,7 +706,7 @@ def main():
 
     ap = argparse.ArgumentParser()
 
-    ap.add_argument("--hours", type=int, default=24, help="legacy window; daily mode always uses the India calendar day")
+    ap.add_argument("--hours", type=int, default=24, help="legacy window; daily mode always uses the current calendar day")
 
     ap.add_argument("--rescrape", action="store_true", help="ignore today's cached scrape")
 
@@ -751,7 +753,7 @@ def main():
 
     prof = analyze.load_profile(HERE / "profile.json")
 
-    channel = prof.get("channel_name", "India Jobs Daily")
+    channel = prof.get("channel_name", "Road Beyond Roles")
 
     now = datetime.now(IST)
 
@@ -1137,6 +1139,26 @@ def main():
 
     data_json.write_text(json.dumps(ranked, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    # Classify every job into a department, then restrict the video pool to the
+    # configured departments. The website still gets the full ranked list below;
+    # only the video featured-role selection is filtered.
+    step("Classifying jobs by department for video selection")
+    for _j in ranked:
+        _j["_department"] = narration._job_department(_j)
+    _dept_counts: dict[str, int] = {}
+    for _j in ranked:
+        _dept_counts[_j["_department"]] = _dept_counts.get(_j["_department"], 0) + 1
+    log.info("Department breakdown: %s", dict(sorted(_dept_counts.items(), key=lambda kv: -kv[1])))
+    _video_departments = set(prof.get("departments") or [])
+    if _video_departments:
+        _before = len(ranked)
+        _video_pool = [j for j in ranked if j.get("_department") in _video_departments]
+        log.info("Video pool restricted to %s: %d of %d jobs", sorted(_video_departments), len(_video_pool), _before)
+        if len(_video_pool) < 3:
+            log.warning("Video pool only has %d jobs in %s — featured selection may be short", len(_video_pool), sorted(_video_departments))
+    else:
+        _video_pool = list(ranked)
+
 
 
     # Select a distinct, company-diverse video shortlist from the fully enriched ranked
@@ -1151,9 +1173,9 @@ def main():
 
     selected_vacancy_keys: list[tuple[str, set[str], str]] = []
 
-    log.info("━━ Selecting %d featured roles from %d enriched website jobs", target_count, len(ranked))
+    log.info("━━ Selecting %d featured roles from %d enriched video-pool jobs", target_count, len(_video_pool))
 
-    for candidate_index, job in enumerate(ranked, start=1):
+    for candidate_index, job in enumerate(_video_pool, start=1):
 
         if len(eligible_for_episode) >= target_count:
 
@@ -1209,7 +1231,7 @@ def main():
 
     videos = eligible_for_episode
 
-    rest = [j for j in ranked if str(j.get("url") or j.get("original_url") or j.get("source_url") or j.get("title")) not in selected_urls]
+    rest = [j for j in _video_pool if str(j.get("url") or j.get("original_url") or j.get("source_url") or j.get("title")) not in selected_urls]
 
     log.info("Website jobs: %d; video roles with defensible pay: %d/%d", len(ranked), len(videos), target_count)
 
@@ -1826,7 +1848,7 @@ def main():
 
             frame_path = frame_dir / f"{scene_index:02}_episode.png"
 
-            if kind == "card" and job:
+            if kind in ("card", "job_title") and job:
                 body = visuals.t_job_title_light(job, int(scene.get("idx") or 0), ctx)
                 r.render_generated(body, frame_path)
                 scene["png"] = frame_path
@@ -2101,7 +2123,8 @@ def main():
 
     kw_line = " | ".join(f"{k} ({p}%)" for k, _, p in agg[:8])
 
-    video_title = f"{len(ranked)} New Jobs for Indians Today ({date_label}) | Remote + India | Resume Keywords"
+    _dept_label = " + ".join(sorted(_video_departments)).title() if _video_departments else "All"
+    video_title = f"{_dept_label} Jobs in the US ({date_label}) | Verified Pay | Resume Keywords"
 
     intro_description = f"{len(ranked)} fresh job listings for today's search ({date_label}). Check each vacancy's location and eligibility before applying."
 
@@ -2119,11 +2142,15 @@ def main():
 
             f"Always verify details and eligibility on the official posting. We are not affiliated with the "
 
-            f"companies listed. Narration uses an AI voice.\n\n#jobsinindia #remotejobs #hiring")
+            f"companies listed. Narration uses an AI voice.\n\n#jobsus #remotejobs #hiring")
 
-    tags = ( ["jobs in india", "remote jobs india", "work from home jobs", "it jobs india", "hiring today",
-
-              "resume keywords", "job search india"] + [k.lower() for k, _, p in agg[:8]] )
+    _dept_tags = {
+        "engineering": ["software engineer jobs us", "developer jobs us", "engineering jobs remote"],
+        "data":        ["data analyst jobs us", "data engineer jobs us", "data science jobs remote"],
+    }
+    tags = ( ["jobs in us", "remote jobs us", "hiring today", "resume keywords", "job search us"]
+             + [t for d in sorted(_video_departments) for t in _dept_tags.get(d, [])]
+             + [k.lower() for k, _, p in agg[:8]] )
 
     meta = {"title": video_title,
 
@@ -2223,7 +2250,7 @@ def wait_for_github_pages(base_url: str, date: str, timeout: int = 180) -> str:
 
                 body = response.read(200_000).decode("utf-8", "ignore")
 
-                if status == 200 and ("Road Beyond Roles" in body or "India Jobs Daily" in body):
+                if status == 200 and "Road Beyond Roles" in body:
 
                     log.info("GitHub Pages LIVE: %s", base_url)
 

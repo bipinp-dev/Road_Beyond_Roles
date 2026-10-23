@@ -10,3 +10,9 @@ fix_review_card.py
 fix_review_card_v2.py
 repair_run_daily.py
 SYNTAX_CHECK.json
+.venv-xtts/
+voice_previews/
+voice_refs/
+fix_*.py
+widen_*.py
+inspect_other.py

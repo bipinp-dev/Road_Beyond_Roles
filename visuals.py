@@ -17,7 +17,7 @@ BAD_TITLES = ("just a moment", "access denied", "attention required", "captcha",
               "403", "404", "not found", "robot", "blocked")
 COOKIE_BTN = re.compile(r"^(accept( all)?( cookies)?|agree|i agree|got it|allow all|ok|okay|close)$", re.I)
 
-TIER_LABEL = {"A": "Based in India", "B": "Remote - Worldwide", "C": "Remote - verify location"}
+TIER_LABEL = {"A": "Based in the US", "B": "Remote - Worldwide", "C": "Remote - verify location"}
 TIER_COLOR = {"A": "#22c55e", "B": "#3b82f6", "C": "#f59e0b"}
 
 CSS = """
@@ -146,7 +146,7 @@ def t_outro(ctx, featured=None):
 
 def t_thumb(n, agg, ctx):
     css = "body{padding:50px 60px}h1{font-size:150px;color:#fde047}.t{font-size:62px;font-weight:800;margin-top:10px}"
-    return page(f"<h1>{n} NEW JOBS</h1><div class='t'>APPLY FROM INDIA - NO VISA NEEDED</div>"
+    return page(f"<h1>{n} NEW JOBS</h1><div class='t'>APPLY FROM THE US - NO VISA NEEDED</div>"
                 f"<div style='margin-top:40px'>{chips([k for k, _, _ in agg[:3]], 'must')}</div>"
                 f"<div class='sub' style='position:absolute;bottom:40px'>{e(ctx['date'])}</div>", css)
 
